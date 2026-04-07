@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sagre in Liguria</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #faf7f2;
+      color: #2d2d2d;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #c0392b;
+      color: #fff;
+      padding: 1.5rem 1rem;
+      text-align: center;
+    }
+    header h1 { font-size: 2rem; letter-spacing: .02em; }
+    header p  { margin-top: .4rem; opacity: .88; font-size: .95rem; }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .75rem;
+      padding: 1.2rem 1rem;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .controls input, .controls select {
+      flex: 1 1 180px;
+      padding: .55rem .8rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: .95rem;
+      background: #fff;
+    }
+
+    #stats {
+      text-align: center;
+      font-size: .85rem;
+      color: #666;
+      padding-bottom: .5rem;
+    }
+
+    #grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1rem;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 1rem 2rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 1px 4px rgba(0,0,0,.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform .15s, box-shadow .15s;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,.15);
+    }
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      background: #e8e0d5;
+    }
+    .card .placeholder-img {
+      width: 100%;
+      height: 150px;
+      background: linear-gradient(135deg, #e8e0d5, #d4c9bb);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+    }
+    .card-body {
+      padding: .9rem 1rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: .4rem;
+    }
+    .card-body h2 { font-size: 1rem; line-height: 1.3; }
+    .card-meta { font-size: .82rem; color: #666; }
+    .card-dates { font-size: .85rem; color: #444; }
+    .card-desc {
+      font-size: .82rem;
+      color: #555;
+      flex: 1;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: .5rem;
+    }
+    .badge {
+      font-size: .72rem;
+      padding: .2rem .55rem;
+      border-radius: 20px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .badge-futuro   { background: #d4edff; color: #0066aa; }
+    .badge-in-corso { background: #d4edda; color: #155724; }
+    .badge-passato  { background: #f0f0f0; color: #888; }
+    .badge-sconosciuto { background: #f8f0d4; color: #7a5f00; }
+
+    .card-footer a {
+      font-size: .8rem;
+      color: #c0392b;
+      text-decoration: none;
+    }
+    .card-footer a:hover { text-decoration: underline; }
+
+    #empty {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: #888;
+      display: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: .78rem;
+      color: #aaa;
+      border-top: 1px solid #e8e0d5;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🎉 Sagre in Liguria</h1>
+  <p>Feste gastronomiche e tradizioni locali</p>
+</header>
+
+<div class="controls">
+  <input type="search" id="search" placeholder="Cerca per nome o comune…" />
+  <select id="filter-provincia">
+    <option value="">Tutte le province</option>
+    <option value="GE">Genova</option>
+    <option value="SV">Savona</option>
+    <option value="SP">La Spezia</option>
+    <option value="IM">Imperia</option>
+  </select>
+  <select id="filter-stato">
+    <option value="">Tutti gli stati</option>
+    <option value="in corso">In corso</option>
+    <option value="futuro">Future</option>
+    <option value="passato">Passate</option>
+  </select>
+</div>
+
+<p id="stats"></p>
+<div id="grid"></div>
+<p id="empty">Nessuna sagra trovata con i filtri selezionati.</p>
+
+<footer id="footer">Dati aggiornati automaticamente ogni notte.</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
