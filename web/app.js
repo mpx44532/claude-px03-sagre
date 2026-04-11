@@ -92,7 +92,7 @@ function applyFilters() {
 async function init() {
   try {
     // In GitHub Pages, sagre.json is at ../data/sagre.json relative to web/
-    const resp = await fetch("../data/sagre.json");
+    const resp = await fetch("/data/sagre.json");
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
     allSagre = data.sagre || [];
