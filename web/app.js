@@ -1,117 +1,226 @@
 "use strict";
 
-const PROVINCE_NAMES = { GE: "Genova", SV: "Savona", SP: "La Spezia", IM: "Imperia" };
+const DAY_L    = ["D","L","M","M","G","V","S"];
+const DAY_FULL = ["Domenica","Lunedì","Martedì","Mercoledì","Giovedì","Venerdì","Sabato"];
+const MON_S    = ["Gen","Feb","Mar","Apr","Mag","Giu","Lug","Ago","Set","Ott","Nov","Dic"];
+const MON_F    = ["Gennaio","Febbraio","Marzo","Aprile","Maggio","Giugno","Luglio","Agosto","Settembre","Ottobre","Novembre","Dicembre"];
+const PROV     = { GE:"Genova", SV:"Savona", SP:"La Spezia", IM:"Imperia" };
 
+// ── State ──────────────────────────────────────────────
 let allSagre = [];
+let sel      = today0();      // selected date
+let wkStart  = sundayOf(sel); // first day of displayed week
+let allMode  = false;
 
-function formatDate(iso) {
-  if (!iso) return "";
-  const [y, m, d] = iso.split("-");
-  return `${d}/${m}/${y}`;
+// ── Date helpers ───────────────────────────────────────
+function today0() {
+  const d = new Date();
+  d.setHours(0, 0, 0, 0);
+  return d;
 }
 
-function formatDateRange(inizio, fine) {
-  if (!inizio) return "Data non disponibile";
-  if (!fine || inizio === fine) return formatDate(inizio);
-  return `${formatDate(inizio)} – ${formatDate(fine)}`;
+function sundayOf(d) {
+  const day = new Date(d);
+  day.setDate(day.getDate() - day.getDay());
+  day.setHours(0, 0, 0, 0);
+  return day;
 }
 
-function badgeClass(stato) {
-  if (stato === "in corso") return "badge-in-corso";
-  if (stato === "futuro") return "badge-futuro";
-  if (stato === "passato") return "badge-passato";
-  return "badge-sconosciuto";
-}
+function iso(d) { return d.toISOString().slice(0, 10); }
+function sameDay(a, b) { return iso(a) === iso(b); }
 
-function badgeLabel(stato) {
-  if (stato === "in corso") return "In corso";
-  if (stato === "futuro") return "Prossima";
-  if (stato === "passato") return "Passata";
-  return "Sconosciuto";
-}
-
-function renderCard(s) {
-  const prov = PROVINCE_NAMES[s.provincia] ? `${PROVINCE_NAMES[s.provincia]} (${s.provincia})` : s.provincia || "";
-  const location = [s.comune, prov].filter(Boolean).join(" — ");
-  const imgHtml = s.immagine
-    ? `<img src="${escHtml(s.immagine)}" alt="${escHtml(s.nome)}" loading="lazy" onerror="this.parentNode.innerHTML='<div class=placeholder-img>🍽️</div>'">`
-    : `<div class="placeholder-img">🍽️</div>`;
-
-  return `
-    <div class="card">
-      ${imgHtml}
-      <div class="card-body">
-        <h2>${escHtml(s.nome)}</h2>
-        <p class="card-meta">${escHtml(location)}</p>
-        <p class="card-dates">📅 ${escHtml(formatDateRange(s.data_inizio, s.data_fine))}</p>
-        ${s.descrizione ? `<p class="card-desc">${escHtml(s.descrizione)}</p>` : ""}
-        <div class="card-footer">
-          <span class="badge ${badgeClass(s.stato)}">${badgeLabel(s.stato)}</span>
-          ${s.url ? `<a href="${escHtml(s.url)}" target="_blank" rel="noopener">Dettagli →</a>` : ""}
-        </div>
-      </div>
-    </div>`;
-}
-
-function escHtml(str) {
-  if (!str) return "";
-  return String(str)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
-}
-
-function applyFilters() {
-  const q = document.getElementById("search").value.toLowerCase().trim();
-  const prov = document.getElementById("filter-provincia").value;
-  const stato = document.getElementById("filter-stato").value;
-
-  const filtered = allSagre.filter(s => {
-    if (q && !s.nome?.toLowerCase().includes(q) && !s.comune?.toLowerCase().includes(q)) return false;
-    if (prov && s.provincia !== prov) return false;
-    if (stato && s.stato !== stato) return false;
-    return true;
+// ── Event helpers ──────────────────────────────────────
+function eventsOn(dateStr) {
+  return allSagre.filter(s => {
+    if (!s.data_inizio) return false;
+    return dateStr >= s.data_inizio && dateStr <= (s.data_fine || s.data_inizio);
   });
+}
 
-  const grid = document.getElementById("grid");
-  const empty = document.getElementById("empty");
-  const stats = document.getElementById("stats");
+function eventDateSet() {
+  const set = new Set();
+  allSagre.forEach(ev => {
+    if (!ev.data_inizio) return;
+    const d   = new Date(ev.data_inizio);
+    const end = new Date(ev.data_fine || ev.data_inizio);
+    while (d <= end) { set.add(iso(d)); d.setDate(d.getDate() + 1); }
+  });
+  return set;
+}
 
-  if (filtered.length === 0) {
-    grid.innerHTML = "";
-    empty.style.display = "block";
-    stats.textContent = "";
-  } else {
-    empty.style.display = "none";
-    grid.innerHTML = filtered.map(renderCard).join("");
-    stats.textContent = `${filtered.length} sagr${filtered.length === 1 ? "a" : "e"} trovat${filtered.length === 1 ? "a" : "e"}`;
+// ── Format helpers ─────────────────────────────────────
+function fmtShort(isoStr) {
+  if (!isoStr) return "";
+  const [, m, d] = isoStr.split("-");
+  return `${parseInt(d)} ${MON_S[parseInt(m) - 1]}`;
+}
+
+function fmtRange(start, end) {
+  if (!start) return "Data n.d.";
+  return (!end || end === start) ? fmtShort(start) : `${fmtShort(start)} – ${fmtShort(end)}`;
+}
+
+function esc(s) {
+  return String(s || "")
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
+// ── Render: header ─────────────────────────────────────
+function renderHeader() {
+  const d = allMode ? today0() : sel;
+  document.getElementById("hdr-num").textContent = d.getDate();
+  document.getElementById("hdr-day").textContent = DAY_FULL[d.getDay()];
+  document.getElementById("hdr-my").textContent  = `${MON_F[d.getMonth()]} ${d.getFullYear()}`;
+
+  document.getElementById("btn-all").classList.toggle("on", allMode);
+  document.getElementById("week-nav").classList.toggle("dim", allMode);
+
+  const lbl = document.getElementById("sec-lbl");
+  if (allMode)                  lbl.textContent = "Tutti gli eventi";
+  else if (sameDay(sel, today0())) lbl.textContent = "Oggi";
+  else lbl.textContent = `${sel.getDate()} ${MON_F[sel.getMonth()]}`;
+}
+
+// ── Render: week strip ─────────────────────────────────
+function renderWeek() {
+  const strip    = document.getElementById("week-strip");
+  strip.innerHTML = "";
+  const evDates  = eventDateSet();
+  const todayStr = iso(today0());
+
+  for (let i = 0; i < 7; i++) {
+    const d    = new Date(wkStart);
+    d.setDate(wkStart.getDate() + i);
+    const dStr = iso(d);
+
+    const el = document.createElement("div");
+    el.className = [
+      "wk-day",
+      sameDay(d, sel)     ? "is-sel"   : "",
+      dStr === todayStr   ? "is-today" : "",
+      evDates.has(dStr)   ? "has-ev"   : "",
+    ].join(" ").trim();
+
+    el.innerHTML =
+      `<span class="wk-ltr">${DAY_L[d.getDay()]}</span>` +
+      `<span class="wk-num">${d.getDate()}</span>`;
+
+    el.addEventListener("click", () => {
+      sel     = new Date(d);
+      allMode = false;
+      render();
+    });
+    strip.appendChild(el);
   }
 }
 
+// ── Render: events ─────────────────────────────────────
+function renderEvents() {
+  const list = document.getElementById("ev-list");
+
+  const events = allMode
+    ? [...allSagre].sort((a, b) =>
+        (b.data_inizio || "").localeCompare(a.data_inizio || ""))
+    : eventsOn(iso(sel));
+
+  if (!events.length) {
+    list.innerHTML = `
+      <div class="empty">
+        <div class="ei">🍽️</div>
+        <div class="et">${allMode ? "Nessun evento" : "Nessuna sagra"}</div>
+        <div class="es">${allMode
+          ? "I dati vengono aggiornati ogni notte dallo scraper."
+          : "Nessun evento gastronomico in questa data.<br>Prova un altro giorno o usa <b>All</b>."
+        }</div>
+      </div>`;
+    return;
+  }
+
+  list.innerHTML = events.map((s, i) => {
+    const active   = i === 0 && !allMode;
+    const provName = PROV[s.provincia] || s.provincia || "";
+    const locFull  = [s.comune, s.provincia ? `(${s.provincia})` : ""].filter(Boolean).join(" ");
+
+    return `
+      <div class="ev-row">
+        <div class="ev-loc">
+          <div class="city">${esc(s.comune || "–")}</div>
+          <div class="prov">${esc(provName)}</div>
+        </div>
+        <div class="ev-card${active ? " active" : ""}">
+          <div class="card-top">
+            <div class="card-title">${esc(s.nome)}</div>
+            ${s.url
+              ? `<a class="card-menu" href="${esc(s.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">⋮</a>`
+              : ""}
+          </div>
+          ${s.descrizione ? `<div class="card-sub">${esc(s.descrizione)}</div>` : ""}
+          <div class="card-rows">
+            <div class="card-row">
+              <span class="card-ico">📅</span>
+              <span>${esc(fmtRange(s.data_inizio, s.data_fine))}</span>
+            </div>
+            <div class="card-row">
+              <span class="card-ico">📍</span>
+              <span>${esc(locFull || s.fonte || "–")}</span>
+            </div>
+          </div>
+        </div>
+      </div>`;
+  }).join("");
+}
+
+// ── Render all ─────────────────────────────────────────
+function render() {
+  renderHeader();
+  renderWeek();
+  renderEvents();
+}
+
+// ── Button listeners ───────────────────────────────────
+document.getElementById("btn-today").addEventListener("click", () => {
+  sel     = today0();
+  wkStart = sundayOf(sel);
+  allMode = false;
+  render();
+});
+
+document.getElementById("btn-all").addEventListener("click", () => {
+  allMode = !allMode;
+  render();
+});
+
+document.getElementById("btn-prev").addEventListener("click", () => {
+  wkStart = new Date(wkStart);
+  wkStart.setDate(wkStart.getDate() - 7);
+  render();
+});
+
+document.getElementById("btn-next").addEventListener("click", () => {
+  wkStart = new Date(wkStart);
+  wkStart.setDate(wkStart.getDate() + 7);
+  render();
+});
+
+// ── Init ───────────────────────────────────────────────
 async function init() {
   try {
-    // In GitHub Pages, sagre.json is at ../data/sagre.json relative to web/
     const resp = await fetch("/data/sagre.json");
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
     allSagre = data.sagre || [];
-
-    if (data.meta?.scraped_at) {
-      const d = new Date(data.meta.scraped_at);
-      document.getElementById("footer").textContent =
-        `Ultimo aggiornamento: ${d.toLocaleDateString("it-IT", { day: "2-digit", month: "long", year: "numeric" })} — ${allSagre.length} sagre totali`;
-    }
-
-    applyFilters();
+    render();
   } catch (err) {
-    document.getElementById("grid").innerHTML =
-      `<p style="color:#c0392b;padding:2rem">Errore nel caricamento dei dati: ${escHtml(err.message)}</p>`;
+    document.getElementById("ev-list").innerHTML = `
+      <div class="empty">
+        <div class="ei">⚠️</div>
+        <div class="et">Errore caricamento</div>
+        <div class="es">${esc(err.message)}</div>
+      </div>`;
+    renderHeader();
+    renderWeek();
   }
 }
-
-document.getElementById("search").addEventListener("input", applyFilters);
-document.getElementById("filter-provincia").addEventListener("change", applyFilters);
-document.getElementById("filter-stato").addEventListener("change", applyFilters);
 
 init();

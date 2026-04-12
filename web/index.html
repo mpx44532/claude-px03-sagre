@@ -1,180 +1,388 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sagre in Liguria</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+    :root {
+      --g-dark:   #1B4332;
+      --g-mid:    #40916C;
+      --g-accent: #52B788;
+      --g-pale:   #D8F3DC;
+      --g-bg:     #F0FBF4;
+      --white:    #FFFFFF;
+      --text:     #1A1A2E;
+      --text-mid: #4A5568;
+      --text-soft:#9CA3AF;
+      --shadow:   0 2px 14px rgba(0,0,0,.07);
+      --r:        20px;
+    }
+
     body {
-      font-family: system-ui, -apple-system, sans-serif;
-      background: #faf7f2;
-      color: #2d2d2d;
-      min-height: 100vh;
-    }
-
-    header {
-      background: #c0392b;
-      color: #fff;
-      padding: 1.5rem 1rem;
-      text-align: center;
-    }
-    header h1 { font-size: 2rem; letter-spacing: .02em; }
-    header p  { margin-top: .4rem; opacity: .88; font-size: .95rem; }
-
-    .controls {
+      background: var(--g-bg);
+      font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+      min-height: 100dvh;
       display: flex;
-      flex-wrap: wrap;
-      gap: .75rem;
-      padding: 1.2rem 1rem;
-      max-width: 960px;
-      margin: 0 auto;
-    }
-    .controls input, .controls select {
-      flex: 1 1 180px;
-      padding: .55rem .8rem;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      font-size: .95rem;
-      background: #fff;
+      justify-content: center;
     }
 
-    #stats {
-      text-align: center;
-      font-size: .85rem;
-      color: #666;
-      padding-bottom: .5rem;
-    }
-
-    #grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 1rem;
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 0 1rem 2rem;
-    }
-
-    .card {
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 1px 4px rgba(0,0,0,.1);
-      overflow: hidden;
+    .app {
+      width: 100%;
+      max-width: 430px;
+      min-height: 100dvh;
+      background: var(--white);
       display: flex;
       flex-direction: column;
-      transition: transform .15s, box-shadow .15s;
+      box-shadow: 0 0 40px rgba(0,0,0,.08);
     }
-    .card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0,0,0,.15);
+
+    /* ── Header ─────────────────────────────────────── */
+    .app-hdr {
+      padding: 22px 24px 12px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
     }
-    .card img {
-      width: 100%;
-      height: 150px;
-      object-fit: cover;
-      background: #e8e0d5;
+
+    .hdr-date { display: flex; align-items: flex-end; gap: 10px; }
+
+    .hdr-num {
+      font-size: 58px;
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1;
+      letter-spacing: -2px;
     }
-    .card .placeholder-img {
-      width: 100%;
-      height: 150px;
-      background: linear-gradient(135deg, #e8e0d5, #d4c9bb);
+
+    .hdr-meta { padding-bottom: 7px; line-height: 1.5; }
+    .hdr-meta .dayname {
+      display: block;
+      font-size: .7rem;
+      font-weight: 700;
+      color: var(--text-soft);
+      text-transform: uppercase;
+      letter-spacing: .07em;
+    }
+    .hdr-meta .monthyr { font-size: .85rem; color: var(--text-mid); }
+
+    .hdr-actions { display: flex; gap: 8px; padding-top: 10px; }
+
+    .pill {
+      padding: 8px 17px;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+      font-size: .82rem;
+      font-weight: 600;
+      transition: all .18s;
+    }
+    #btn-today { background: var(--g-accent); color: var(--white); }
+    #btn-today:hover { background: var(--g-mid); }
+    #btn-all { background: var(--g-pale); color: var(--g-dark); }
+    #btn-all.on { background: var(--g-dark); color: var(--white); }
+
+    /* ── Week strip ──────────────────────────────────── */
+    .week-nav {
+      padding: 2px 18px 14px;
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      transition: opacity .2s;
+    }
+    .week-nav.dim { opacity: .3; pointer-events: none; }
+
+    .wk-arr {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--text-soft);
+      font-size: 1.35rem;
+      width: 24px;
+      text-align: center;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+
+    .week-strip {
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+    }
+
+    .wk-day {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 2px;
+      cursor: pointer;
+    }
+
+    .wk-ltr {
+      font-size: .62rem;
+      font-weight: 700;
+      color: var(--text-soft);
+      text-transform: uppercase;
+    }
+
+    .wk-num {
+      width: 30px; height: 30px;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 2.5rem;
+      border-radius: 50%;
+      font-size: .88rem;
+      font-weight: 600;
+      color: var(--text);
+      position: relative;
     }
-    .card-body {
-      padding: .9rem 1rem;
+
+    .wk-day.is-today .wk-num        { color: var(--g-mid); background: var(--g-pale); }
+    .wk-day.is-sel   .wk-num        { background: var(--g-dark); color: var(--white); }
+
+    .wk-day.has-ev:not(.is-sel) .wk-num::after {
+      content: '';
+      position: absolute;
+      width: 4px; height: 4px;
+      background: var(--g-accent);
+      border-radius: 50%;
+      bottom: 0; left: 50%;
+      transform: translateX(-50%);
+    }
+
+    /* ── Section label ───────────────────────────────── */
+    .sec-lbl {
+      padding: 0 24px 10px;
+      font-size: .7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .09em;
+      color: var(--text-soft);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .sec-lbl::after { content:''; flex:1; height:1px; background:#EEF1EF; }
+
+    /* ── Events list ─────────────────────────────────── */
+    .ev-list {
+      flex: 1;
+      padding: 0 24px 96px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .ev-list::-webkit-scrollbar { width: 2px; }
+    .ev-list::-webkit-scrollbar-thumb { background: var(--g-pale); border-radius: 4px; }
+
+    /* Row = location + card */
+    .ev-row { display: flex; gap: 14px; align-items: flex-start; }
+
+    .ev-loc {
+      width: 52px;
+      flex-shrink: 0;
+      padding-top: 18px;
+      text-align: right;
+    }
+    .ev-loc .city {
+      font-size: .76rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.2;
+      word-break: break-word;
+    }
+    .ev-loc .prov {
+      font-size: .65rem;
+      color: var(--text-soft);
+      margin-top: 3px;
+    }
+
+    /* Card */
+    .ev-card {
+      flex: 1;
+      background: var(--white);
+      border-radius: var(--r);
+      padding: 15px 16px;
+      box-shadow: var(--shadow);
+      border: 1px solid #EDF1EF;
+      cursor: pointer;
+      transition: transform .15s, box-shadow .15s;
+    }
+    .ev-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,.10); }
+    .ev-card.active { background: var(--g-accent); border-color: var(--g-accent); }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 3px;
+    }
+    .card-title { font-size: .96rem; font-weight: 700; color: var(--text); line-height: 1.3; flex: 1; }
+    .ev-card.active .card-title { color: var(--white); }
+
+    .card-menu {
+      color: var(--text-soft);
+      font-size: 1.1rem;
+      text-decoration: none;
+      padding-left: 8px;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+    .ev-card.active .card-menu { color: rgba(255,255,255,.6); }
+
+    .card-sub {
+      font-size: .75rem;
+      color: var(--text-mid);
+      margin-bottom: 12px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      line-height: 1.45;
+    }
+    .ev-card.active .card-sub { color: rgba(255,255,255,.82); }
+
+    .card-rows { display: flex; flex-direction: column; gap: 7px; }
+    .card-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: .73rem;
+      color: var(--text-mid);
+    }
+    .ev-card.active .card-row { color: rgba(255,255,255,.9); }
+
+    .card-ico {
+      width: 20px; height: 20px;
+      border-radius: 50%;
+      background: var(--g-pale);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: .6rem;
+      flex-shrink: 0;
+    }
+    .ev-card.active .card-ico { background: rgba(255,255,255,.22); }
+
+    /* ── Empty / error ───────────────────────────────── */
+    .empty {
       flex: 1;
       display: flex;
       flex-direction: column;
-      gap: .4rem;
-    }
-    .card-body h2 { font-size: 1rem; line-height: 1.3; }
-    .card-meta { font-size: .82rem; color: #666; }
-    .card-dates { font-size: .85rem; color: #444; }
-    .card-desc {
-      font-size: .82rem;
-      color: #555;
-      flex: 1;
-      display: -webkit-box;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-    .card-footer {
-      display: flex;
-      justify-content: space-between;
       align-items: center;
-      margin-top: .5rem;
+      justify-content: center;
+      gap: 10px;
+      padding: 60px 28px;
+      text-align: center;
+      color: var(--text-soft);
     }
-    .badge {
-      font-size: .72rem;
-      padding: .2rem .55rem;
-      border-radius: 20px;
-      font-weight: 600;
+    .empty .ei { font-size: 2.8rem; }
+    .empty .et { font-size: .95rem; font-weight: 600; color: var(--text-mid); }
+    .empty .es { font-size: .82rem; line-height: 1.5; }
+
+    /* ── Bottom nav ──────────────────────────────────── */
+    .btm-nav {
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      max-width: 430px;
+      background: var(--white);
+      border-top: 1px solid #EEF1EF;
+      padding: 10px 0 env(safe-area-inset-bottom, 14px);
+      display: flex;
+      justify-content: space-around;
+      z-index: 100;
+    }
+
+    .nav-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+      padding: 4px 16px;
+      color: var(--text-soft);
+      font-size: .58rem;
+      font-weight: 700;
       text-transform: uppercase;
       letter-spacing: .04em;
     }
-    .badge-futuro   { background: #d4edff; color: #0066aa; }
-    .badge-in-corso { background: #d4edda; color: #155724; }
-    .badge-passato  { background: #f0f0f0; color: #888; }
-    .badge-sconosciuto { background: #f8f0d4; color: #7a5f00; }
-
-    .card-footer a {
-      font-size: .8rem;
-      color: #c0392b;
-      text-decoration: none;
-    }
-    .card-footer a:hover { text-decoration: underline; }
-
-    #empty {
-      text-align: center;
-      padding: 3rem 1rem;
-      color: #888;
-      display: none;
-    }
-
-    footer {
-      text-align: center;
-      padding: 1rem;
-      font-size: .78rem;
-      color: #aaa;
-      border-top: 1px solid #e8e0d5;
+    .nav-btn.active { color: var(--g-mid); }
+    .nav-btn svg {
+      width: 22px; height: 22px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
     }
   </style>
 </head>
 <body>
+<div class="app">
 
-<header>
-  <h1>🎉 Sagre in Liguria</h1>
-  <p>Feste gastronomiche e tradizioni locali</p>
-</header>
+  <!-- HEADER -->
+  <header class="app-hdr">
+    <div class="hdr-date">
+      <div class="hdr-num" id="hdr-num">--</div>
+      <div class="hdr-meta">
+        <span class="dayname"  id="hdr-day"></span>
+        <span class="monthyr" id="hdr-my"></span>
+      </div>
+    </div>
+    <div class="hdr-actions">
+      <button class="pill" id="btn-today">Today</button>
+      <button class="pill" id="btn-all">All</button>
+    </div>
+  </header>
 
-<div class="controls">
-  <input type="search" id="search" placeholder="Cerca per nome o comune…" />
-  <select id="filter-provincia">
-    <option value="">Tutte le province</option>
-    <option value="GE">Genova</option>
-    <option value="SV">Savona</option>
-    <option value="SP">La Spezia</option>
-    <option value="IM">Imperia</option>
-  </select>
-  <select id="filter-stato">
-    <option value="">Tutti gli stati</option>
-    <option value="in corso">In corso</option>
-    <option value="futuro">Future</option>
-    <option value="passato">Passate</option>
-  </select>
+  <!-- WEEK STRIP -->
+  <div class="week-nav" id="week-nav">
+    <button class="wk-arr" id="btn-prev">‹</button>
+    <div class="week-strip" id="week-strip"></div>
+    <button class="wk-arr" id="btn-next">›</button>
+  </div>
+
+  <!-- LABEL -->
+  <div class="sec-lbl" id="sec-lbl">Oggi</div>
+
+  <!-- EVENTS -->
+  <div class="ev-list" id="ev-list">
+    <div class="empty">
+      <div class="ei">🍃</div>
+      <div class="et">Caricamento…</div>
+    </div>
+  </div>
+
+  <!-- BOTTOM NAV -->
+  <nav class="btm-nav">
+    <button class="nav-btn active">
+      <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      Home
+    </button>
+    <button class="nav-btn">
+      <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      Calendario
+    </button>
+    <button class="nav-btn">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      Cerca
+    </button>
+    <button class="nav-btn">
+      <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      Profilo
+    </button>
+  </nav>
+
 </div>
-
-<p id="stats"></p>
-<div id="grid"></div>
-<p id="empty">Nessuna sagra trovata con i filtri selezionati.</p>
-
-<footer id="footer">Dati aggiornati automaticamente ogni notte.</footer>
-
 <script src="app.js"></script>
 </body>
 </html>
