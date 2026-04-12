@@ -18,12 +18,10 @@
       --text:     #1A1A2E;
       --text-mid: #4A5568;
       --text-soft:#9CA3AF;
-      --shadow:   0 2px 14px rgba(0,0,0,.07);
       --r:        20px;
     }
 
     html { scroll-behavior: smooth; }
-
     body {
       background: var(--g-bg);
       font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
@@ -39,11 +37,18 @@
       box-shadow: 0 0 40px rgba(0,0,0,.08);
     }
 
-    /* ── Hero ───────────────────────────────────────────── */
-    #hero {
+    /* ── Views ──────────────────────────────────────────── */
+    .view { display: none; }
+    .view.active { display: block; }
+
+    /* ════════════════════════════════════════════════════
+       HOME VIEW
+    ═══════════════════════════════════════════════════════ */
+
+    /* Hero */
+    .hero {
       background: var(--g-dark);
       padding: 28px 24px 0;
-      position: relative;
     }
 
     .hero-top {
@@ -53,445 +58,398 @@
       margin-bottom: 12px;
     }
 
-    .hero-search {
+    .hero-srch {
       width: 40px; height: 40px;
       background: rgba(255,255,255,.12);
-      border: none;
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      border: none; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
       cursor: pointer;
     }
-    .hero-search svg {
+    .hero-srch svg {
       width: 18px; height: 18px;
-      stroke: var(--white);
-      fill: none;
-      stroke-width: 2;
-      stroke-linecap: round;
+      stroke: var(--white); fill: none;
+      stroke-width: 2; stroke-linecap: round;
     }
 
-    /* Decorative illustration */
     .hero-art {
       position: relative;
-      height: 180px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      height: 170px;
+      display: flex; align-items: center; justify-content: center;
     }
-
     .ha-ring {
-      position: absolute;
-      border-radius: 50%;
-      border: none;
+      position: absolute; border-radius: 50%;
     }
-    .ha-ring.r1 {
-      width: 170px; height: 170px;
-      background: rgba(255,255,255,.06);
-    }
-    .ha-ring.r2 {
-      width: 130px; height: 130px;
-      background: rgba(255,255,255,.08);
-    }
-    .ha-ring.r3 {
-      width: 96px; height: 96px;
-      background: rgba(255,255,255,.12);
-    }
+    .ha-ring.r1 { width: 160px; height: 160px; background: rgba(255,255,255,.06); }
+    .ha-ring.r2 { width: 120px; height: 120px; background: rgba(255,255,255,.09); }
+    .ha-ring.r3 { width:  88px; height:  88px; background: rgba(255,255,255,.13); }
+    .ha-main { position: relative; font-size: 60px; filter: drop-shadow(0 6px 16px rgba(0,0,0,.35)); z-index: 1; }
+    .ha-fl { position: absolute; font-size: 20px; z-index: 2; }
+    .ha-fl.f1 { top: 16px;  left:  28px; }
+    .ha-fl.f2 { top: 12px;  right: 22px; }
+    .ha-fl.f3 { bottom: 22px; left: 18px; }
+    .ha-fl.f4 { bottom: 16px; right: 28px; }
 
-    .ha-main {
-      position: relative;
-      font-size: 64px;
-      filter: drop-shadow(0 6px 16px rgba(0,0,0,.35));
-      z-index: 1;
-    }
+    .hero-title { padding: 14px 0 0; color: var(--white); }
+    .hero-title h1 { font-size: 1.5rem; font-weight: 800; letter-spacing: -.02em; }
+    .hero-title p  { font-size: .82rem; opacity: .72; margin-top: 2px; }
 
-    .ha-float {
-      position: absolute;
-      font-size: 22px;
-      z-index: 2;
-    }
-    .ha-float.f1 { top: 14px;  left:  30px; }
-    .ha-float.f2 { top: 10px;  right: 24px; }
-    .ha-float.f3 { bottom: 20px; left: 20px; }
-    .ha-float.f4 { bottom: 14px; right: 30px; }
-
-    .hero-title {
-      position: relative;
-      z-index: 2;
-      padding: 16px 0 0;
-      color: var(--white);
-    }
-    .hero-title h1 {
-      font-size: 1.5rem;
-      font-weight: 800;
-      letter-spacing: -.02em;
-    }
-    .hero-title p {
-      font-size: .82rem;
-      opacity: .72;
-      margin-top: 2px;
-    }
-
-    /* White rounded overlap */
     .hero-shelf {
-      height: 32px;
+      height: 30px;
       background: var(--white);
-      border-radius: 28px 28px 0 0;
-      margin-top: 20px;
+      border-radius: 26px 26px 0 0;
+      margin-top: 18px;
     }
 
-    /* ── Sticky date+week area ───────────────────────────── */
-    .sticky-hdr {
-      position: sticky;
-      top: 0;
-      background: var(--white);
-      z-index: 50;
-      padding-top: 2px;
+    /* Home body */
+    .home-body { padding: 0 24px 96px; }
+
+    .sec-hd { padding: 18px 0 4px; }
+    .sec-hd h2 { font-size: 1.25rem; font-weight: 800; color: var(--text); }
+    .sec-hd p  { font-size: .8rem;  color: var(--text-soft); margin-top: 2px; }
+
+    /* Candidate cards */
+    .cand-list { display: flex; flex-direction: column; gap: 12px; margin-top: 14px; }
+
+    .cand-card {
+      background: var(--g-accent);
+      border-radius: var(--r);
+      padding: 16px;
+      position: relative;
+      overflow: hidden;
+    }
+    /* decorative blob */
+    .cand-card::before {
+      content: '';
+      position: absolute;
+      right: -24px; top: -24px;
+      width: 96px; height: 96px;
+      border-radius: 50%;
+      background: rgba(255,255,255,.1);
+    }
+    .cand-card::after {
+      content: '';
+      position: absolute;
+      right: 20px; bottom: -30px;
+      width: 70px; height: 70px;
+      border-radius: 50%;
+      background: rgba(255,255,255,.07);
     }
 
-    /* ── Header ─────────────────────────────────────────── */
-    .app-hdr {
-      padding: 4px 24px 12px;
+    .cand-top {
       display: flex;
-      align-items: flex-start;
       justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 4px;
+      position: relative; z-index: 1;
+    }
+    .cand-title {
+      font-size: 1rem; font-weight: 700; color: var(--white);
+      line-height: 1.3; flex: 1;
+    }
+    .btn-rm {
+      width: 24px; height: 24px;
+      background: rgba(255,255,255,.22);
+      border: none; border-radius: 50%;
+      color: var(--white); font-size: .85rem; font-weight: 700;
+      cursor: pointer; display: flex;
+      align-items: center; justify-content: center;
+      flex-shrink: 0; margin-left: 8px;
+      transition: background .15s;
+    }
+    .btn-rm:hover { background: rgba(255,255,255,.38); }
+
+    .cand-sub {
+      font-size: .75rem; color: rgba(255,255,255,.82);
+      margin-bottom: 10px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+      line-height: 1.45; position: relative; z-index: 1;
+    }
+
+    .cand-rows { display: flex; flex-direction: column; gap: 6px; position: relative; z-index: 1; }
+    .cand-row {
+      display: flex; align-items: center; gap: 7px;
+      font-size: .72rem; color: rgba(255,255,255,.92);
+    }
+    .cand-ico {
+      width: 18px; height: 18px; border-radius: 50%;
+      background: rgba(255,255,255,.2);
+      display: flex; align-items: center; justify-content: center;
+      font-size: .55rem; flex-shrink: 0;
+    }
+
+    /* ════════════════════════════════════════════════════
+       CALENDAR / EXPLORER VIEW
+    ═══════════════════════════════════════════════════════ */
+
+    .sticky-hdr {
+      position: sticky; top: 0;
+      background: var(--white); z-index: 50;
+    }
+
+    .app-hdr {
+      padding: 18px 24px 10px;
+      display: flex; align-items: flex-start; justify-content: space-between;
     }
 
     .hdr-date { display: flex; align-items: flex-end; gap: 10px; }
-
     .hdr-num {
-      font-size: 56px;
-      font-weight: 800;
-      color: var(--text);
-      line-height: 1;
-      letter-spacing: -2px;
+      font-size: 54px; font-weight: 800; color: var(--text);
+      line-height: 1; letter-spacing: -2px;
     }
-
     .hdr-meta { padding-bottom: 6px; line-height: 1.5; }
     .hdr-meta .dayname {
-      display: block;
-      font-size: .68rem;
-      font-weight: 700;
-      color: var(--text-soft);
-      text-transform: uppercase;
-      letter-spacing: .07em;
+      display: block; font-size: .68rem; font-weight: 700;
+      color: var(--text-soft); text-transform: uppercase; letter-spacing: .07em;
     }
     .hdr-meta .monthyr { font-size: .83rem; color: var(--text-mid); }
 
     .hdr-actions { display: flex; gap: 8px; padding-top: 8px; }
-
     .pill {
-      padding: 8px 17px;
-      border-radius: 30px;
-      border: none;
-      cursor: pointer;
-      font-size: .82rem;
-      font-weight: 600;
-      transition: all .18s;
+      padding: 8px 17px; border-radius: 30px; border: none;
+      cursor: pointer; font-size: .82rem; font-weight: 600; transition: all .18s;
     }
     #btn-today { background: var(--g-accent); color: var(--white); }
     #btn-today:hover { background: var(--g-mid); }
     #btn-all { background: var(--g-pale); color: var(--g-dark); }
     #btn-all.on { background: var(--g-dark); color: var(--white); }
 
-    /* ── Week strip ──────────────────────────────────────── */
+    /* Week strip */
     .week-nav {
-      padding: 0 18px 14px;
-      display: flex;
-      align-items: center;
-      gap: 2px;
+      padding: 0 18px 12px;
+      display: flex; align-items: center; gap: 2px;
       transition: opacity .2s;
     }
     .week-nav.dim { opacity: .3; pointer-events: none; }
 
     .wk-arr {
-      background: none;
-      border: none;
-      cursor: pointer;
-      color: var(--text-soft);
-      font-size: 1.35rem;
-      width: 28px;
-      text-align: center;
-      flex-shrink: 0;
-      line-height: 1;
-      padding: 4px 0;
+      background: none; border: none; cursor: pointer;
+      color: var(--text-soft); font-size: 1.35rem;
+      width: 28px; text-align: center; flex-shrink: 0; padding: 4px 0;
     }
 
-    .week-strip {
-      flex: 1;
-      display: grid;
-      grid-template-columns: repeat(7, 1fr);
-    }
+    .week-strip { flex: 1; display: grid; grid-template-columns: repeat(7, 1fr); }
 
     .wk-day {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 5px;
-      padding: 5px 2px;
-      cursor: pointer;
+      display: flex; flex-direction: column;
+      align-items: center; gap: 5px; padding: 5px 2px; cursor: pointer;
     }
-
-    .wk-ltr {
-      font-size: .62rem;
-      font-weight: 700;
-      color: var(--text-soft);
-      text-transform: uppercase;
-    }
-
+    .wk-ltr { font-size: .62rem; font-weight: 700; color: var(--text-soft); text-transform: uppercase; }
     .wk-num {
       width: 30px; height: 30px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-      font-size: .88rem;
-      font-weight: 600;
-      color: var(--text);
-      position: relative;
+      display: flex; align-items: center; justify-content: center;
+      border-radius: 50%; font-size: .88rem; font-weight: 600;
+      color: var(--text); position: relative;
     }
-
-    .wk-day.is-today .wk-num  { color: var(--g-mid);  background: var(--g-pale); }
-    .wk-day.is-sel   .wk-num  { background: var(--g-dark); color: var(--white); }
-
+    .wk-day.is-today .wk-num { color: var(--g-mid);  background: var(--g-pale); }
+    .wk-day.is-sel   .wk-num { background: var(--g-dark); color: var(--white); }
     .wk-day.has-ev:not(.is-sel) .wk-num::after {
-      content: '';
-      position: absolute;
-      width: 4px; height: 4px;
-      background: var(--g-accent);
-      border-radius: 50%;
-      bottom: 0; left: 50%;
-      transform: translateX(-50%);
+      content: ''; position: absolute;
+      width: 4px; height: 4px; background: var(--g-accent);
+      border-radius: 50%; bottom: 0; left: 50%; transform: translateX(-50%);
     }
 
-    /* ── Section label ───────────────────────────────────── */
+    /* Section label */
     .sec-lbl {
-      padding: 0 24px 10px;
-      font-size: .7rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: .09em;
-      color: var(--text-soft);
-      display: flex;
-      align-items: center;
-      gap: 10px;
+      padding: 0 24px 10px; font-size: .7rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: .09em; color: var(--text-soft);
+      display: flex; align-items: center; gap: 10px;
     }
     .sec-lbl::after { content:''; flex:1; height:1px; background:#EEF1EF; }
 
-    /* ── Events list ─────────────────────────────────────── */
-    .ev-list {
-      padding: 0 24px 96px;
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-    }
+    /* Events list (explorer) */
+    .ev-list { padding: 0 24px 96px; display: flex; flex-direction: column; gap: 14px; }
 
     .ev-row { display: flex; gap: 14px; align-items: flex-start; }
 
-    .ev-loc {
-      width: 52px;
-      flex-shrink: 0;
-      padding-top: 18px;
-      text-align: right;
-    }
-    .ev-loc .city {
-      font-size: .8rem;
-      font-weight: 700;
-      color: var(--text);
-      line-height: 1.3;
-      word-break: break-word;
-    }
+    .ev-loc { width: 52px; flex-shrink: 0; padding-top: 18px; text-align: right; }
+    .ev-loc .city { font-size: .8rem; font-weight: 700; color: var(--text); line-height: 1.3; word-break: break-word; }
 
-    /* Card — green background for all */
+    /* Explorer card */
     .ev-card {
-      flex: 1;
-      background: var(--g-card);
-      border-radius: var(--r);
-      padding: 15px 16px;
-      border: 1px solid #C3E6D0;
-      cursor: pointer;
+      flex: 1; background: var(--g-card);
+      border-radius: var(--r); padding: 15px 16px;
+      border: 1px solid #C3E6D0; cursor: pointer;
       transition: transform .15s, box-shadow .15s;
     }
-    .ev-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(82,183,136,.2); }
+    .ev-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(82,183,136,.18); }
     .ev-card.active { background: var(--g-accent); border-color: var(--g-accent); }
 
     .card-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 3px;
+      display: flex; justify-content: space-between;
+      align-items: flex-start; margin-bottom: 3px;
     }
     .card-title { font-size: .96rem; font-weight: 700; color: var(--text); line-height: 1.3; flex: 1; }
     .ev-card.active .card-title { color: var(--white); }
 
-    .card-menu {
-      color: var(--text-soft);
-      font-size: 1.1rem;
-      text-decoration: none;
-      padding-left: 8px;
-      line-height: 1;
-      flex-shrink: 0;
+    /* Bookmark button */
+    .card-bm {
+      width: 26px; height: 26px; border-radius: 50%; border: none;
+      cursor: pointer; font-size: .8rem; font-weight: 700;
+      background: rgba(255,255,255,.7); color: var(--g-dark);
+      display: flex; align-items: center; justify-content: center;
+      transition: all .15s; flex-shrink: 0; margin-left: 8px;
     }
-    .ev-card.active .card-menu { color: rgba(255,255,255,.6); }
+    .card-bm:hover { background: var(--white); }
+    .card-bm.saved { background: var(--g-dark); color: var(--white); }
+    .ev-card.active .card-bm          { background: rgba(255,255,255,.25); color: var(--white); }
+    .ev-card.active .card-bm.saved    { background: var(--white); color: var(--g-dark); }
 
     .card-sub {
-      font-size: .75rem;
-      color: var(--text-mid);
-      margin-bottom: 12px;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      line-height: 1.45;
+      font-size: .75rem; color: var(--text-mid); margin-bottom: 10px;
+      display: -webkit-box; -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical; overflow: hidden; line-height: 1.45;
     }
     .ev-card.active .card-sub { color: rgba(255,255,255,.82); }
 
-    .card-rows { display: flex; flex-direction: column; gap: 7px; }
-    .card-row {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: .73rem;
-      color: var(--text-mid);
-    }
+    .card-rows { display: flex; flex-direction: column; gap: 6px; }
+    .card-row { display: flex; align-items: center; gap: 8px; font-size: .73rem; color: var(--text-mid); }
     .ev-card.active .card-row { color: rgba(255,255,255,.9); }
 
     .card-ico {
-      width: 20px; height: 20px;
-      border-radius: 50%;
+      width: 20px; height: 20px; border-radius: 50%;
       background: rgba(255,255,255,.6);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: .6rem;
-      flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: .6rem; flex-shrink: 0;
     }
     .ev-card.active .card-ico { background: rgba(255,255,255,.22); }
 
-    /* ── Empty / error ───────────────────────────────────── */
+    .card-link {
+      color: inherit; text-decoration: underline; text-underline-offset: 2px;
+      opacity: .75;
+    }
+    .card-link:hover { opacity: 1; }
+
+    /* Empty states */
     .empty {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      padding: 60px 28px;
-      text-align: center;
-      color: var(--text-soft);
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      gap: 10px; padding: 60px 28px;
+      text-align: center; color: var(--text-soft);
     }
     .empty .ei { font-size: 2.8rem; }
     .empty .et { font-size: .95rem; font-weight: 600; color: var(--text-mid); }
     .empty .es { font-size: .82rem; line-height: 1.5; }
+    .btn-explore {
+      margin-top: 8px; padding: 10px 22px;
+      background: var(--g-accent); color: var(--white);
+      border: none; border-radius: 30px;
+      font-size: .85rem; font-weight: 600; cursor: pointer;
+    }
 
     /* ── Bottom nav ──────────────────────────────────────── */
     .btm-nav {
-      position: fixed;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 100%;
-      max-width: 430px;
-      background: var(--white);
-      border-top: 1px solid #EEF1EF;
+      position: fixed; bottom: 0;
+      left: 50%; transform: translateX(-50%);
+      width: 100%; max-width: 430px;
+      background: var(--white); border-top: 1px solid #EEF1EF;
       padding: 10px 0 env(safe-area-inset-bottom, 14px);
-      display: flex;
-      justify-content: space-around;
-      z-index: 100;
+      display: flex; justify-content: space-around; z-index: 100;
     }
-
     .nav-btn {
-      background: none;
-      border: none;
-      cursor: pointer;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 3px;
-      padding: 4px 16px;
-      color: var(--text-soft);
-      font-size: .58rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: .04em;
+      background: none; border: none; cursor: pointer;
+      display: flex; flex-direction: column;
+      align-items: center; gap: 3px; padding: 4px 16px;
+      color: var(--text-soft); font-size: .58rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: .04em;
     }
     .nav-btn.active { color: var(--g-mid); }
     .nav-btn svg {
-      width: 22px; height: 22px;
-      fill: none;
-      stroke: currentColor;
-      stroke-width: 2;
-      stroke-linecap: round;
-      stroke-linejoin: round;
+      width: 22px; height: 22px; fill: none;
+      stroke: currentColor; stroke-width: 2;
+      stroke-linecap: round; stroke-linejoin: round;
     }
+    /* badge on home icon */
+    .nav-btn .badge {
+      position: absolute; top: -4px; right: -4px;
+      width: 16px; height: 16px; border-radius: 50%;
+      background: var(--g-accent); color: var(--white);
+      font-size: .55rem; font-weight: 700;
+      display: flex; align-items: center; justify-content: center;
+      display: none;
+    }
+    .nav-btn .badge.show { display: flex; }
+    .nav-icon-wrap { position: relative; }
   </style>
 </head>
 <body>
 <div class="app">
 
-  <!-- HERO -->
-  <section id="hero">
-    <div class="hero-top">
-      <button class="hero-search" aria-label="Cerca">
-        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      </button>
-    </div>
-    <div class="hero-art">
-      <div class="ha-ring r1"></div>
-      <div class="ha-ring r2"></div>
-      <div class="ha-ring r3"></div>
-      <div class="ha-main">🍽️</div>
-      <div class="ha-float f1">🌿</div>
-      <div class="ha-float f2">🫒</div>
-      <div class="ha-float f3">🥂</div>
-      <div class="ha-float f4">🌊</div>
-    </div>
-    <div class="hero-title">
-      <h1>Sagre in Liguria</h1>
-      <p>Feste gastronomiche locali</p>
-    </div>
-    <div class="hero-shelf"></div>
-  </section>
+  <!-- ══════════ HOME VIEW ══════════ -->
+  <div id="view-home" class="view active">
 
-  <!-- STICKY DATE + WEEK -->
-  <div class="sticky-hdr">
-    <header class="app-hdr">
-      <div class="hdr-date">
-        <div class="hdr-num" id="hdr-num">--</div>
-        <div class="hdr-meta">
-          <span class="dayname" id="hdr-day"></span>
-          <span class="monthyr" id="hdr-my"></span>
-        </div>
+    <section class="hero">
+      <div class="hero-top">
+        <button class="hero-srch" aria-label="Cerca">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
       </div>
-      <div class="hdr-actions">
-        <button class="pill" id="btn-today">Today</button>
-        <button class="pill" id="btn-all">All</button>
+      <div class="hero-art">
+        <div class="ha-ring r1"></div>
+        <div class="ha-ring r2"></div>
+        <div class="ha-ring r3"></div>
+        <div class="ha-main">🍽️</div>
+        <div class="ha-fl f1">🌿</div>
+        <div class="ha-fl f2">🫒</div>
+        <div class="ha-fl f3">🥂</div>
+        <div class="ha-fl f4">🌊</div>
       </div>
-    </header>
-    <div class="week-nav" id="week-nav">
-      <button class="wk-arr" id="btn-prev">‹</button>
-      <div class="week-strip" id="week-strip"></div>
-      <button class="wk-arr" id="btn-next">›</button>
+      <div class="hero-title">
+        <h1>Sagre in Liguria</h1>
+        <p>Le feste gastronomiche selezionate per te</p>
+      </div>
+      <div class="hero-shelf"></div>
+    </section>
+
+    <div class="home-body">
+      <div class="sec-hd">
+        <h2>Le mie sagre</h2>
+        <p>Selezionate per partecipare</p>
+      </div>
+      <div id="cand-list" class="cand-list"></div>
     </div>
-    <div class="sec-lbl" id="sec-lbl">Oggi</div>
   </div>
 
-  <!-- EVENTS -->
-  <div class="ev-list" id="ev-list">
-    <div class="empty">
-      <div class="ei">🍃</div>
-      <div class="et">Caricamento…</div>
+  <!-- ══════════ CALENDAR / EXPLORER VIEW ══════════ -->
+  <div id="view-cal" class="view">
+    <div class="sticky-hdr">
+      <header class="app-hdr">
+        <div class="hdr-date">
+          <div class="hdr-num" id="hdr-num">--</div>
+          <div class="hdr-meta">
+            <span class="dayname" id="hdr-day"></span>
+            <span class="monthyr" id="hdr-my"></span>
+          </div>
+        </div>
+        <div class="hdr-actions">
+          <button class="pill" id="btn-today">Today</button>
+          <button class="pill" id="btn-all">All</button>
+        </div>
+      </header>
+      <div class="week-nav" id="week-nav">
+        <button class="wk-arr" id="btn-prev">‹</button>
+        <div class="week-strip" id="week-strip"></div>
+        <button class="wk-arr" id="btn-next">›</button>
+      </div>
+      <div class="sec-lbl" id="sec-lbl">Oggi</div>
+    </div>
+    <div class="ev-list" id="ev-list">
+      <div class="empty"><div class="ei">🍃</div><div class="et">Caricamento…</div></div>
     </div>
   </div>
 
   <!-- BOTTOM NAV -->
   <nav class="btm-nav">
     <button class="nav-btn active" id="nav-home">
-      <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      <div class="nav-icon-wrap">
+        <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        <span class="badge" id="cand-badge">0</span>
+      </div>
       Home
     </button>
     <button class="nav-btn" id="nav-cal">
       <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-      Calendario
+      Esplora
     </button>
     <button class="nav-btn">
       <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
