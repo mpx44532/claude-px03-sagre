@@ -37,6 +37,21 @@ function eventsOn(dateStr) {
   });
 }
 
+// Events visible in "All" mode: ongoing or upcoming within next 2 months
+function eventsWindow() {
+  const startD = today0();
+  const endD   = new Date(startD);
+  endD.setMonth(endD.getMonth() + 2);
+  const s0 = iso(startD);
+  const s1 = iso(endD);
+  return allSagre
+    .filter(ev => {
+      if (!ev.data_inizio) return false;
+      return (ev.data_fine || ev.data_inizio) >= s0 && ev.data_inizio <= s1;
+    })
+    .sort((a, b) => a.data_inizio.localeCompare(b.data_inizio));
+}
+
 function eventDateSet() {
   const set = new Set();
   allSagre.forEach(ev => {
@@ -119,34 +134,29 @@ function renderWeek() {
 function renderEvents() {
   const list = document.getElementById("ev-list");
 
-  const events = allMode
-    ? [...allSagre].sort((a, b) =>
-        (b.data_inizio || "").localeCompare(a.data_inizio || ""))
-    : eventsOn(iso(sel));
+  const events = allMode ? eventsWindow() : eventsOn(iso(sel));
 
   if (!events.length) {
     list.innerHTML = `
       <div class="empty">
         <div class="ei">🍽️</div>
-        <div class="et">${allMode ? "Nessun evento" : "Nessuna sagra"}</div>
+        <div class="et">${allMode ? "Nessun evento nei prossimi 2 mesi" : "Nessuna sagra"}</div>
         <div class="es">${allMode
           ? "I dati vengono aggiornati ogni notte dallo scraper."
-          : "Nessun evento gastronomico in questa data.<br>Prova un altro giorno o usa <b>All</b>."
+          : "Nessun evento in questa data.<br>Prova un altro giorno o usa <b>All</b>."
         }</div>
       </div>`;
     return;
   }
 
   list.innerHTML = events.map((s, i) => {
-    const active   = i === 0 && !allMode;
-    const provName = PROV[s.provincia] || s.provincia || "";
-    const locFull  = [s.comune, s.provincia ? `(${s.provincia})` : ""].filter(Boolean).join(" ");
+    const active  = i === 0 && !allMode;
+    const locFull = [s.comune, s.provincia ? `(${s.provincia})` : ""].filter(Boolean).join(" ");
 
     return `
       <div class="ev-row">
         <div class="ev-loc">
           <div class="city">${esc(s.comune || "–")}</div>
-          <div class="prov">${esc(provName)}</div>
         </div>
         <div class="ev-card${active ? " active" : ""}">
           <div class="card-top">
@@ -191,17 +201,19 @@ document.getElementById("btn-all").addEventListener("click", () => {
   render();
 });
 
-document.getElementById("btn-prev").addEventListener("click", () => {
+function shiftWeek(delta) {
+  // Move wkStart by ±7 days; keep sel on the same weekday in the new week
+  const dow = sel.getDay();
   wkStart = new Date(wkStart);
-  wkStart.setDate(wkStart.getDate() - 7);
+  wkStart.setDate(wkStart.getDate() + delta * 7);
+  sel = new Date(wkStart);
+  sel.setDate(wkStart.getDate() + dow);
+  allMode = false;
   render();
-});
+}
 
-document.getElementById("btn-next").addEventListener("click", () => {
-  wkStart = new Date(wkStart);
-  wkStart.setDate(wkStart.getDate() + 7);
-  render();
-});
+document.getElementById("btn-prev").addEventListener("click", () => shiftWeek(-1));
+document.getElementById("btn-next").addEventListener("click", () => shiftWeek(+1));
 
 // ── Init ───────────────────────────────────────────────
 async function init() {
