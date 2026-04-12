@@ -26,7 +26,14 @@ function sundayOf(d) {
   return day;
 }
 
-function iso(d) { return d.toISOString().slice(0, 10); }
+// iso() uses LOCAL date parts — avoids UTC offset shifting the date backward
+// (e.g. Italy UTC+2: midnight local = 22:00 UTC prev day → toISOString() wrong)
+function iso(d) {
+  const y  = d.getFullYear();
+  const m  = String(d.getMonth() + 1).padStart(2, '0');
+  const dd = String(d.getDate()).padStart(2, '0');
+  return `${y}-${m}-${dd}`;
+}
 function sameDay(a, b) { return iso(a) === iso(b); }
 
 // ── Event helpers ──────────────────────────────────────
@@ -187,6 +194,19 @@ function render() {
   renderWeek();
   renderEvents();
 }
+
+// ── Nav listeners ──────────────────────────────────────
+document.getElementById("nav-home").addEventListener("click", () => {
+  document.getElementById("hero").scrollIntoView({ behavior: "smooth" });
+  document.querySelectorAll(".nav-btn").forEach(b => b.classList.remove("active"));
+  document.getElementById("nav-home").classList.add("active");
+});
+
+document.getElementById("nav-cal").addEventListener("click", () => {
+  document.querySelector(".sticky-hdr").scrollIntoView({ behavior: "smooth" });
+  document.querySelectorAll(".nav-btn").forEach(b => b.classList.remove("active"));
+  document.getElementById("nav-cal").classList.add("active");
+});
 
 // ── Button listeners ───────────────────────────────────
 document.getElementById("btn-today").addEventListener("click", () => {
