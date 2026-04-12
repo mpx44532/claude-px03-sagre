@@ -1,7 +1,55 @@
-"""Deduplication logic for scraped sagre entries."""
+"""Deduplication and food-event filtering for scraped sagre entries."""
 
 import re
 import unicodedata
+
+# Keywords that confirm a food/drink event
+_FOOD_KEYWORDS = re.compile(
+    r"\b("
+    r"sagra|gastronomic[ao]|enogastronomic[ao]|degustazion[ei]|assaggio|"
+    r"cucina|ricett[ae]|piatt[oi]|sapor[ei]|gusto|"
+    r"pesce|frutti? di mare|acciugh[ae]|baccala|polpo|calamari?|gamberi?|"
+    r"focaccia|farinata|pesto|trofie|trenette|pasta|risotto|minestra|zuppa|"
+    r"vino|birra|grappa|liquore|prosecco|sciacchetra|vermentino|"
+    r"olio|olive|basilico|aglio|cipolla|pomodor[oi]|funghi|tartufo|"
+    r"formaggio|salumi|prosciutto|cinghiale|agnello|coniglio|lumach[ae]|"
+    r"castagne|farro|ceci|fagioli|lenticchie|"
+    r"fritto|arrosto|grigliata|polenta|torta|dolci?|gelato|miele|"
+    r"carne|maiale|vitello|pollo|selvaggina|"
+    r"frutta|verdura|ortaggi|limone|arancio|ciliegia|fragola|fico|"
+    r"street.?food|food.?festival|mercato.?contadin[oi]"
+    r")\b",
+    re.IGNORECASE,
+)
+
+# Keywords that signal clearly non-food events (only used when no food keyword found)
+_NONFOOD_KEYWORDS = re.compile(
+    r"\b("
+    r"concerto|concerti|musica[le]*|band|orchestra|jazz|rock|pop|"
+    r"teatro|spettacolo|rappresentazion[ei]|balletto|danza|coreografi[ae]|"
+    r"mostra|esposizion[ei]|arte|pittura|scultura|fotografi[ae]|cinema|film|"
+    r"maratona|corsa|gara|ciclismo|regata|torneo|campionato|sport|"
+    r"processione|pellegrinaggio|preghiera|"
+    r"mercatino.?natale|antiquariato|vintage.?market|collezionismo"
+    r")\b",
+    re.IGNORECASE,
+)
+
+
+def _is_food_event(entry: dict) -> bool:
+    """Return True if the entry is a food/drink event."""
+    text = " ".join([
+        entry.get("nome", ""),
+        entry.get("descrizione", ""),
+    ])
+    norm = _normalize(text)
+    if _FOOD_KEYWORDS.search(norm):
+        return True
+    # If no food keyword found but clear non-food signals present → exclude
+    if _NONFOOD_KEYWORDS.search(norm):
+        return False
+    # Default: keep (sources are food-focused, so unknown = likely food)
+    return True
 
 
 def _normalize(text: str) -> str:
@@ -37,13 +85,17 @@ def _make_id(entry: dict) -> str:
 
 def merge(entries: list[dict]) -> list[dict]:
     """
-    Deduplicate entries by (nome, comune, data_inizio).
-    When duplicates exist, prefer the entry with more filled fields.
-    Returns list sorted by data_inizio ascending (nulls last).
+    Filter to food events, deduplicate by (nome, comune, data_inizio),
+    and return sorted by data_inizio ascending (nulls last).
     """
+    food_only = [e for e in entries if _is_food_event(e)]
+    skipped = len(entries) - len(food_only)
+    if skipped:
+        print(f"[merge] filtered out {skipped} non-food event(s)")
+
     seen: dict[str, dict] = {}
 
-    for entry in entries:
+    for entry in food_only:
         key = _dedup_key(entry)
         if key not in seen:
             seen[key] = entry
