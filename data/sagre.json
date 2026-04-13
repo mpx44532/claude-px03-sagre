@@ -1,26 +1,12 @@
 {
   "meta": {
-    "scraped_at": "2026-04-12T04:39:37Z",
-    "total": 8,
+    "scraped_at": "2026-04-13T04:51:04Z",
+    "total": 5,
     "sources": [
       "scraper.sources.mangiareinliguria"
     ]
   },
   "sagre": [
-    {
-      "nome": "Trekking, Escursioni ed Eventi Outdoor",
-      "comune": "Mtb enduro",
-      "provincia": "IM",
-      "regione": "Liguria",
-      "data_inizio": "2026-03-31",
-      "data_fine": "2026-03-31",
-      "descrizione": "Ariston Tour SanremoOgni venerdì sabato e domenica, ore 11.00 e 15.30.Ingresso dalla hall del Teatro AristonUn percorso guidato nei camerini, nei corridoi e nelle sale da cui sono passati i più importanti artisti del mondo alla scoperta dei segreti e delle curiosità di questo luogo magico (durata 60 minuti, escluso i giorni dello spettacolo teatrale). Apertura cassa mezz’ora prima del tour.Info Apertura del Museo Etnografico e della StregoneriaTutti i giorni, sabato, domenica e festivi.Anche al mattino dalle h 10.30/12, fino al 31 marzo 2026, ore 14.30-18.00.Nelle 15 sale viene ricordato il processo alla stregoneria tra il 1587 e il 1589. Museo Etnografico, corso Italia 1 (Info)",
-      "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
-      "immagine": "",
-      "stato": "passato",
-      "fonte": "mangiareinliguria",
-      "id": "trekking-escursioni-ed-eventi-outdoor-mtb-enduro-2026-03-31"
-    },
     {
       "nome": "La Sagra delle Focaccette di Megli",
       "comune": "Recco",
@@ -31,7 +17,7 @@
       "descrizione": "A Megli, sulle alture di Recco,domenica 12 aprile 2026la Sagra delle focaccette, un appuntamento che ogni anno richiama un numero incredibile di visitatori e turisti da ogni parte del mondo. Una manifestazione da guinness dei primati: 3500 focaccette servite, per oltre 400 kg di farina e 200 kg di stracchino.Questa la ricetta ma a Megli conoscono bene la formula della bontà ed è meglio andare a mangiarle li! Le focaccette sono, peraltro, le antesignane della nobile focaccia col formaggio igp, nata proprio a Recco. Per chi avesse voglia di assaggiare una di queste prelibatezze, la data giusta è quella di Pasquetta, lunedì 6 aprile con frittura a partire da mezzogiorno, ma il successo della manifestazione ha portato a preparare focaccette anche il weekend successivo, domenica 12 aprile, con frittura dalle 15.30. Website:Prolocorecco.it",
       "url": "https://www.prolocorecco.it",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "la-sagra-delle-focaccette-di-megli-recco-2026-04-12"
     },
@@ -45,23 +31,9 @@
       "descrizione": "Dal 10 al 12 aprile 2026, alla Fiera di Genova al Waterfront di Levante, torna il Festival dell’Oriente. Dopo anni di assenza, l’evento riporta nel capoluogo ligure il fascino delle culture millenarie asiatiche, con tre giorni immersivi tra spettacoli, workshop, esperienze gastronomiche e tradizioni da vivere in prima persona.Cosa vedere e cosa fare al Festival dell’OrienteIl Festival dell’Oriente è molto più di una fiera: è un’esperienza che celebra l’incontro tra culture, tradizioni e discipline provenienti da tutta l’Asia. Durante l’evento si può assistere a spettacoli continui, partecipare a workshop e scoprire usi e costumi di Paesi come Giappone, Cina, India, Corea del Sud e Thailandia. Il tutto immersi in un’atmosfera vivace e colorata, resa ancora più intensa dai profumi di spezie, incensi e piatti appena preparati, che raccontano un’anima profondamente multietnica.Il programmaTra gli eventi più suggestivi ci sono la Bhangra indiana, le eleganti danze coreane, il celebre Face Mask Changing dell’Opera del Sichuan e spettacoli di illusionismo giapponese. Ampio spazio è dedicato anche alle arti marziali con dimostrazioni e lezioni aperte di Kung Fu, Karate, Tai Chi e Aikido. Accanto a queste, l’area benessere e spiritualità propone mandala tibetani, rituali, yoga e meditazione. A completare l’esperienza, una vasta offerta gastronomica accompagna i visitatori in un viaggio tra i sapori dell’Asia, dal sushi giapponese al pho vietnamita fino alla cucina indiana e thailandese. Un evento immersivo che non si limita a raccontare culture diverse ma invita a viverle in prima persona, diventando un vero ponte tra Oriente e Occidente. Per maggiori informazioni:Festivaldelloriente.it",
       "url": "https://www.festivaldelloriente.it/",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "festival-dell-oriente-genova-2026-genova-al-waterfront-di-levante-2026-04-12"
-    },
-    {
-      "nome": "Il grande beach volley conquista il borgo di Laigueglia",
-      "comune": "Laigueglia",
-      "provincia": "SV",
-      "regione": "Liguria",
-      "data_inizio": "2026-04-19",
-      "data_fine": "2026-04-19",
-      "descrizione": "Sabato 18 e domenica 19 aprile 2026, lo spettacolo della Coppa Italia per società di beach volley va in scena sulla spiaggia di Laigueglia. Le squadre del campionato italiano di beach volley si affronteranno infatti fino all’ultima schiacciata, regalando al pubblico uno spettacolo unico in una cornice d’eccezione. La tappa ligure, organizzata dal Riviera Beach Volley prevede dunque sfide dall’elevato coefficiente tecnico su 40 campi da gioco predisposti sul litorale per le categorie Gold, Silver e Bronze.",
-      "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "mangiareinliguria",
-      "id": "il-grande-beach-volley-conquista-il-borgo-di-laigueglia-laigueglia-2026-04-19"
     },
     {
       "nome": "La Mangialonga: golosi in marcia nel Golfo Paradiso",
@@ -76,20 +48,6 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "la-mangialonga-golosi-in-marcia-nel-golfo-paradiso-recco-2026-04-25"
-    },
-    {
-      "nome": "Fior d’Albenga. Un viaggio nella magia della primavera",
-      "comune": "Albenga",
-      "provincia": "SV",
-      "regione": "Liguria",
-      "data_inizio": "2026-05-03",
-      "data_fine": "2026-05-03",
-      "descrizione": "Fior d’Albenga torna anche nel 2026 con un mese di colori, profumi e creatività nel cuore della città ligure.fino al 3 maggio 2026, il centro storico si trasforma in un suggestivo percorso tra installazioni floreali e aiuole artistiche, offrendo un’esperienza immersiva tra natura, arte e immaginazione.Che cos’è Fior d’AlbengaFior d’Albenga è una manifestazione dedicata ai fiori e alle piante ornamentali che ogni primavera anima il centro storico medievale di Albenga. Tutte da scoprire le installazioni floreali tra vicoli e piazze, dove colori, profumi e dettagli trasformano la città in un percorso suggestivo da ammirare con lentezza. Accanto al concorso che premia l’aiuola più bella, il programma include talk sulla floricoltura ingauna, laboratori per bambini ed eventi realizzati con realtà locali. L’edizione 2026, dal 4 aprile al 3 maggio, segue il tema “Il gioco fiorisce. Dai spazio alla tua immaginazione”, offrendo un’esperienza immersiva e coinvolgente per tutte le età.Il Flowers Market  e Cip&VipNel centro storico sarà presente il Flowers Market e Cip&Vip, la nuova mostra mercato dove poter acquistare fiori, piante, accessori e prodotti tipici oppure semplicemente ricevere maggiori informazioni sulle realtà locali esistenti. Website:Scoprialbenga.it",
-      "url": "https://www.scoprialbenga.it/fior-d-albenga.htm",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "mangiareinliguria",
-      "id": "fior-d-albenga-un-viaggio-nella-magia-della-primavera-albenga-2026-05-03"
     },
     {
       "nome": "Salta nella località di tuo interesse:",
