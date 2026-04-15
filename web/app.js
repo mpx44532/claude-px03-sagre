@@ -313,6 +313,14 @@ async function init() {
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
     allSagre = data.sagre || [];
+    if (data.meta?.scraped_at) {
+      const d = new Date(data.meta.scraped_at);
+      const dd  = String(d.getDate()).padStart(2, "0");
+      const mon = MON_S[d.getMonth()];
+      const hh  = String(d.getHours()).padStart(2, "0");
+      const mm  = String(d.getMinutes()).padStart(2, "0");
+      document.getElementById("last-update").textContent = `↻ ${dd} ${mon} ${hh}:${mm}`;
+    }
     renderHome(); // home is the initial view
   } catch (err) {
     document.getElementById("cand-list").innerHTML = `

@@ -370,6 +370,18 @@
     }
     .nav-btn .badge.show { display: flex; }
     .nav-icon-wrap { position: relative; }
+
+    /* Last-update timestamp */
+    .last-update {
+      position: absolute;
+      bottom: env(safe-area-inset-bottom, 6px);
+      right: 10px;
+      font-size: .52rem;
+      color: var(--text-soft);
+      pointer-events: none;
+      white-space: nowrap;
+      line-height: 1;
+    }
   </style>
 </head>
 <body>
@@ -440,6 +452,7 @@
 
   <!-- BOTTOM NAV -->
   <nav class="btm-nav">
+    <span class="last-update" id="last-update"></span>
     <button class="nav-btn active" id="nav-home">
       <div class="nav-icon-wrap">
         <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
