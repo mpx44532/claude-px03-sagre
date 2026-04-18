@@ -158,6 +158,7 @@ function renderHome() {
           <a class="card-link" href="${esc(s.url)}" target="_blank" rel="noopener">Dettagli</a>
         </div>` : ""}
       </div>
+      ${s.autentico ? `<div class="badge-auth">★ Evento Autentico</div>` : ""}
     </div>`).join("");
 }
 
@@ -259,6 +260,7 @@ function renderExplorer() {
                 onclick="event.stopPropagation()">Dettagli</a>
             </div>` : ""}
           </div>
+          ${s.autentico ? `<div class="badge-auth">★ Evento Autentico</div>` : ""}
         </div>
       </div>`;
   }).join("");

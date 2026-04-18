@@ -320,6 +320,17 @@
     }
     .card-link:hover { opacity: 1; }
 
+    /* Autentico badge */
+    .badge-auth {
+      display: inline-flex; align-items: center; gap: 3px;
+      padding: 3px 8px; border-radius: 20px;
+      font-size: .6rem; font-weight: 700; letter-spacing: .03em;
+      background: var(--g-pale); color: var(--g-dark);
+      margin-top: 8px;
+    }
+    .ev-card.active   .badge-auth { background: rgba(255,255,255,.25); color: var(--white); }
+    .cand-card .badge-auth        { background: rgba(255,255,255,.22); color: var(--white); }
+
     /* Empty states */
     .empty {
       display: flex; flex-direction: column;
