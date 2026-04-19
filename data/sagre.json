@@ -1,8 +1,9 @@
 {
   "meta": {
-    "scraped_at": "2026-04-18T04:24:20Z",
+    "scraped_at": "2026-04-19T04:44:10Z",
     "total": 6,
     "sources": [
+      "scraper.sources.llm_liguria",
       "scraper.sources.mangiareinliguria"
     ]
   },
