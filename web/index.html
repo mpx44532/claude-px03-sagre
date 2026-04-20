@@ -382,6 +382,25 @@
     .nav-btn .badge.show { display: flex; }
     .nav-icon-wrap { position: relative; }
 
+    /* ── LLM blue theme (applied to html element) ────────── */
+    html.theme-llm {
+      --g-dark:   #1B3A5C;
+      --g-mid:    #2B6CB0;
+      --g-accent: #4299E1;
+      --g-pale:   #BEE3F8;
+      --g-card:   #EBF8FF;
+      --g-bg:     #EFF7FF;
+    }
+
+    /* ── New-event golden border ──────────────────────────── */
+    .ev-card.is-new {
+      border-color: #C9A227;
+      box-shadow: 0 0 0 1px rgba(201,162,39,.25);
+    }
+    .cand-card.is-new {
+      box-shadow: 0 0 0 3px #C9A227;
+    }
+
     /* Last-update timestamp */
     .last-update {
       position: absolute;

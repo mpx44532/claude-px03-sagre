@@ -18,6 +18,9 @@ let candidates = new Set(
   JSON.parse(localStorage.getItem("sagre-candidates") || "[]")
 );
 
+// New-event IDs (events not seen in previous load)
+let newEventIds = new Set();
+
 // ── Date helpers ───────────────────────────────────────
 function today0() {
   const d = new Date();
@@ -136,7 +139,7 @@ function renderHome() {
   }
 
   list.innerHTML = candEvents.map(s => `
-    <div class="cand-card">
+    <div class="cand-card${newEventIds.has(s.id) ? " is-new" : ""}">
       <div class="cand-top">
         <div class="cand-title">${esc(s.nome)}</div>
         <button class="btn-rm"
@@ -229,13 +232,14 @@ function renderExplorer() {
   list.innerHTML = events.map((s, i) => {
     const active  = i === 0 && !allMode;
     const saved   = candidates.has(s.id);
+    const isNew   = newEventIds.has(s.id);
 
     return `
       <div class="ev-row">
         <div class="ev-loc">
           <div class="city">${esc(s.comune || "–")}</div>
         </div>
-        <div class="ev-card${active ? " active" : ""}">
+        <div class="ev-card${active ? " active" : ""}${isNew ? " is-new" : ""}">
           <div class="card-top">
             <div class="card-title">${esc(s.nome)}</div>
             <button class="card-bm${saved ? " saved" : ""}"
@@ -323,6 +327,20 @@ async function init() {
       const mm  = String(d.getMinutes()).padStart(2, "0");
       document.getElementById("last-update").textContent = `↻ ${dd} ${mon} ${hh}:${mm}`;
     }
+
+    // Blue theme if LLM source contributed events
+    if (allSagre.some(ev => ev.fonte === "llm_liguria")) {
+      document.documentElement.classList.add("theme-llm");
+    }
+
+    // Detect new events vs previous load
+    const prevIds = new Set(JSON.parse(localStorage.getItem("sagre-seen-ids") || "[]"));
+    const currentIds = allSagre.map(ev => ev.id).filter(Boolean);
+    if (prevIds.size > 0) {
+      newEventIds = new Set(currentIds.filter(id => !prevIds.has(id)));
+    }
+    localStorage.setItem("sagre-seen-ids", JSON.stringify(currentIds));
+
     renderHome(); // home is the initial view
   } catch (err) {
     document.getElementById("cand-list").innerHTML = `
