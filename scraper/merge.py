@@ -28,7 +28,8 @@ _NONFOOD_KEYWORDS = re.compile(
     r"concerto|concerti|musica[le]*|band|orchestra|jazz|rock|pop|"
     r"teatro|spettacolo|rappresentazion[ei]|balletto|danza|coreografi[ae]|"
     r"mostra|esposizion[ei]|arte|pittura|scultura|fotografi[ae]|cinema|film|"
-    r"maratona|corsa|gara|ciclismo|regata|torneo|campionato|sport|"
+    r"maratona|corsa|gara|ciclismo|ciclistic[ao]|gran.?fondo|granfondo|biciclett[ae]|"
+    r"regata|torneo|campionato|sport|podistica|trail.?running|triathlon|"
     r"processione|pellegrinaggio|preghiera|"
     r"mercatino.?natale|antiquariato|vintage.?market|collezionismo"
     r")\b",
