@@ -1,41 +1,27 @@
 "use strict";
 
-const DAY_L    = ["D","L","M","M","G","V","S"];
-const DAY_FULL = ["Domenica","Lunedì","Martedì","Mercoledì","Giovedì","Venerdì","Sabato"];
-const MON_S    = ["Gen","Feb","Mar","Apr","Mag","Giu","Lug","Ago","Set","Ott","Nov","Dic"];
-const MON_F    = ["Gennaio","Febbraio","Marzo","Aprile","Maggio","Giugno","Luglio","Agosto","Settembre","Ottobre","Novembre","Dicembre"];
-const PROV     = { GE:"Genova", SV:"Savona", SP:"La Spezia", IM:"Imperia" };
+const MON_S = ["Gen","Feb","Mar","Apr","Mag","Giu","Lug","Ago","Set","Ott","Nov","Dic"];
+const MON_F = ["Gennaio","Febbraio","Marzo","Aprile","Maggio","Giugno",
+               "Luglio","Agosto","Settembre","Ottobre","Novembre","Dicembre"];
+const WD_IT = ["L","M","M","G","V","S","D"]; // Mon-first display
 
 // ── State ──────────────────────────────────────────────
-let allSagre   = [];
-let sel        = today0();
-let wkStart    = sundayOf(sel);
-let allMode    = false;
-let currentView = "home"; // "home" | "cal"
-
-// Candidates persisted in localStorage
-let candidates = new Set(
-  JSON.parse(localStorage.getItem("sagre-candidates") || "[]")
-);
-
-// New-event IDs (events not seen in previous load)
+let allSagre    = [];
+let candidates  = new Set(JSON.parse(localStorage.getItem("sagre-candidates") || "[]"));
+let diary       = JSON.parse(localStorage.getItem("sagre-diary") || "[]");
 let newEventIds = new Set();
 
+let currentView  = "agenda"; // agenda | cal | detail | diary
+let prevView     = "agenda"; // for back-nav from detail
+let detailId     = null;     // event id shown in detail
+let openDiaryId  = null;     // diary entry id currently open
+
+let calMonth   = (() => { const d = new Date(); d.setDate(1); d.setHours(0,0,0,0); return d; })();
+let calSelDay  = null; // YYYY-MM-DD selected in month grid
+
 // ── Date helpers ───────────────────────────────────────
-function today0() {
-  const d = new Date();
-  d.setHours(0, 0, 0, 0);
-  return d;
-}
+function today0() { const d = new Date(); d.setHours(0,0,0,0); return d; }
 
-function sundayOf(d) {
-  const day = new Date(d);
-  day.setDate(day.getDate() - day.getDay());
-  day.setHours(0, 0, 0, 0);
-  return day;
-}
-
-// Use local date parts — toISOString() shifts to UTC which breaks Italian timezone
 function iso(d) {
   const y  = d.getFullYear();
   const m  = String(d.getMonth() + 1).padStart(2, "0");
@@ -43,68 +29,19 @@ function iso(d) {
   return `${y}-${m}-${dd}`;
 }
 
-function sameDay(a, b) { return iso(a) === iso(b); }
-
-// ── Candidate helpers ──────────────────────────────────
-function saveCands() {
-  localStorage.setItem("sagre-candidates", JSON.stringify([...candidates]));
-}
-
-// Called from onclick attributes on cards — must be global
-window.toggleCandidate = function(id) {
-  if (candidates.has(id)) candidates.delete(id);
-  else candidates.add(id);
-  saveCands();
-  renderBadge();
-  if (currentView === "home") renderHome();
-  else renderExplorer();
-};
-
-function renderBadge() {
-  const badge = document.getElementById("cand-badge");
-  const n = candidates.size;
-  badge.textContent = n;
-  badge.classList.toggle("show", n > 0);
-}
-
-// ── Event helpers ──────────────────────────────────────
-function eventsOn(dateStr) {
-  return allSagre.filter(s => {
-    if (!s.data_inizio) return false;
-    return dateStr >= s.data_inizio && dateStr <= (s.data_fine || s.data_inizio);
-  });
-}
-
-function eventsWindow() {
-  const startD = today0();
-  const endD   = new Date(startD);
-  endD.setMonth(endD.getMonth() + 2);
-  const s0 = iso(startD), s1 = iso(endD);
-  return allSagre
-    .filter(ev => ev.data_inizio && (ev.data_fine || ev.data_inizio) >= s0 && ev.data_inizio <= s1)
-    .sort((a, b) => a.data_inizio.localeCompare(b.data_inizio));
-}
-
-function eventDateSet() {
-  const set = new Set();
-  allSagre.forEach(ev => {
-    if (!ev.data_inizio) return;
-    const d = new Date(ev.data_inizio), end = new Date(ev.data_fine || ev.data_inizio);
-    while (d <= end) { set.add(iso(d)); d.setDate(d.getDate() + 1); }
-  });
-  return set;
-}
-
-// ── Format helpers ─────────────────────────────────────
-function fmtShort(isoStr) {
-  if (!isoStr) return "";
-  const [, m, d] = isoStr.split("-");
+function fmtShort(s) {
+  if (!s) return "";
+  const [, m, d] = s.split("-");
   return `${parseInt(d)} ${MON_S[parseInt(m) - 1]}`;
 }
 
-function fmtRange(start, end) {
-  if (!start) return "Data n.d.";
-  return (!end || end === start) ? fmtShort(start) : `${fmtShort(start)} – ${fmtShort(end)}`;
+function fmtRange(a, b) {
+  if (!a) return "Data n.d.";
+  return (!b || b === a) ? fmtShort(a) : `${fmtShort(a)} – ${fmtShort(b)}`;
+}
+
+function fmtMonthYear(d) {
+  return `${MON_F[d.getMonth()]} ${d.getFullYear()}`;
 }
 
 function esc(s) {
@@ -114,213 +51,480 @@ function esc(s) {
 }
 
 function locStr(s) {
-  return [s.comune, s.provincia ? `(${s.provincia})` : ""].filter(Boolean).join(" ") || s.fonte || "–";
+  return [s.comune, s.provincia ? `(${s.provincia})` : ""].filter(Boolean).join(" ") || "–";
 }
 
-// ══════════════════════════════════════════════════════
-// HOME VIEW — candidate list
-// ══════════════════════════════════════════════════════
-function renderHome() {
-  const list = document.getElementById("cand-list");
-  const candEvents = allSagre.filter(s => candidates.has(s.id))
-    .sort((a, b) => (a.data_inizio || "").localeCompare(b.data_inizio || ""));
+function dayParts(isoStr) {
+  const [, m, d] = isoStr.split("-");
+  return { day: parseInt(d), mon: MON_S[parseInt(m) - 1] };
+}
 
-  if (!candEvents.length) {
-    list.innerHTML = `
-      <div class="empty">
-        <div class="ei">🔖</div>
-        <div class="et">Nessuna sagra selezionata</div>
-        <div class="es">Esplora gli eventi e salva quelli a cui vuoi partecipare</div>
-        <button class="btn-explore" id="btn-go-explore">Esplora eventi →</button>
-      </div>`;
-    document.getElementById("btn-go-explore")
-      ?.addEventListener("click", () => showView("cal"));
-    return;
+// ── Storage ─────────────────────────────────────────────
+function saveCands() {
+  localStorage.setItem("sagre-candidates", JSON.stringify([...candidates]));
+}
+function saveDiaryStore() {
+  localStorage.setItem("sagre-diary", JSON.stringify(diary));
+}
+
+// ── Event helpers ──────────────────────────────────────
+function eventsOn(dayStr) {
+  return allSagre.filter(s =>
+    s.data_inizio && dayStr >= s.data_inizio && dayStr <= (s.data_fine || s.data_inizio)
+  );
+}
+
+function upcomingSaved() {
+  const todayStr = iso(today0());
+  return allSagre
+    .filter(s => candidates.has(s.id) && s.data_inizio && (s.data_fine || s.data_inizio) >= todayStr)
+    .sort((a, b) => (a.data_inizio || "").localeCompare(b.data_inizio || ""));
+}
+
+function upcomingNew() {
+  const todayStr = iso(today0());
+  const end = new Date(today0()); end.setMonth(end.getMonth() + 2);
+  const endStr = iso(end);
+  return allSagre
+    .filter(s => !candidates.has(s.id) && s.data_inizio && s.data_inizio >= todayStr && s.data_inizio <= endStr)
+    .sort((a, b) => (a.data_inizio || "").localeCompare(b.data_inizio || ""))
+    .slice(0, 6);
+}
+
+// ── Emoji picker ───────────────────────────────────────
+function pickEmoji(text) {
+  const t = (text || "").toLowerCase();
+  if (t.match(/pesce|acciug|baccal|polpo|calamari|gamberi|mare|frutti/)) return "🐟";
+  if (t.match(/fungo|tartufo/))                return "🍄";
+  if (t.match(/vino|verment|sciacchetra/))     return "🍷";
+  if (t.match(/pesto|focaccia|farinata/))      return "🌿";
+  if (t.match(/castagne/))                     return "🌰";
+  if (t.match(/cinghiale|selvaggina/))         return "🐗";
+  if (t.match(/prosciutto|salumi|porchetta|maiale/)) return "🥩";
+  if (t.match(/olio|olive/))                   return "🫒";
+  if (t.match(/dolci|torta|gelato|miele/))     return "🍰";
+  if (t.match(/agnello|coniglio/))             return "🐑";
+  return "🍽️";
+}
+
+// ── Candidate helpers ──────────────────────────────────
+window.toggleCandidate = function(id) {
+  if (candidates.has(id)) candidates.delete(id);
+  else candidates.add(id);
+  saveCands();
+  renderBadge();
+  if (currentView === "agenda") renderAgenda();
+  else if (currentView === "cal") renderCal();
+  else if (currentView === "detail") renderDetail();
+};
+
+function renderBadge() {
+  const badge = document.getElementById("cand-badge");
+  const n = candidates.size;
+  badge.textContent = n;
+  badge.classList.toggle("show", n > 0);
+}
+
+// ── Diary helpers ──────────────────────────────────────
+function isDiaryEntry(eventId) {
+  return diary.some(e => e.eventId === eventId);
+}
+
+function updateDiaryMeta() {
+  const n = diary.length;
+  const cnt = document.getElementById("diary-strip-cnt");
+  const sub = document.getElementById("diary-hdr-sub");
+  const txt = n ? `${n} ${n === 1 ? "ricordo" : "ricordi"}` : "Nessun ricordo ancora";
+  if (cnt) cnt.textContent = txt;
+  if (sub) sub.textContent = `${n} festival ricordati`;
+}
+
+window.addToDiary = function(eventId) {
+  if (isDiaryEntry(eventId)) return;
+  const ev = allSagre.find(s => s.id === eventId);
+  if (!ev) return;
+  diary.unshift({
+    id: `d-${eventId}-${Date.now()}`,
+    eventId,
+    nome:        ev.nome,
+    comune:      ev.comune || "",
+    provincia:   ev.provincia || "",
+    data_inizio: ev.data_inizio || "",
+    rating:      0,
+    notes:       "",
+    added_at:    new Date().toISOString(),
+  });
+  saveDiaryStore();
+  updateDiaryMeta();
+  if (currentView === "detail") renderDetail();
+};
+
+window.setDiaryRating = function(entryId, rating) {
+  const e = diary.find(x => x.id === entryId);
+  if (!e) return;
+  e.rating = e.rating === rating ? 0 : rating; // toggle off if same
+  saveDiaryStore();
+  renderDiaryOpen();
+};
+
+window.saveDiaryNotes = function(entryId, notes) {
+  const e = diary.find(x => x.id === entryId);
+  if (e) { e.notes = notes; saveDiaryStore(); }
+};
+
+// ════════════════════════════════════════════════════════
+// AGENDA VIEW
+// ════════════════════════════════════════════════════════
+function renderAgenda() {
+  const body   = document.getElementById("agenda-body");
+  const saved  = upcomingSaved();
+  const newEvs = upcomingNew();
+  let html = "";
+
+  if (saved.length) {
+    html += `<div class="section-label">Salvati</div>`;
+    html += saved.map(s => agendaItem(s, false)).join("");
   }
 
-  list.innerHTML = candEvents.map(s => `
-    <div class="cand-card${newEventIds.has(s.id) ? " is-new" : ""}">
-      <div class="cand-top">
-        <div class="cand-title">${esc(s.nome)}</div>
-        <button class="btn-rm"
-          onclick="toggleCandidate('${esc(s.id)}')"
-          aria-label="Rimuovi">×</button>
-      </div>
-      ${s.descrizione ? `<div class="cand-sub">${esc(s.descrizione)}</div>` : ""}
-      <div class="cand-rows">
-        <div class="cand-row">
-          <span class="cand-ico">📅</span>
-          <span>${esc(fmtRange(s.data_inizio, s.data_fine))}</span>
-        </div>
-        <div class="cand-row">
-          <span class="cand-ico">📍</span>
-          <span>${esc(locStr(s))}</span>
-        </div>
-        ${s.url ? `<div class="cand-row">
-          <span class="cand-ico">🔗</span>
-          <a class="card-link" href="${esc(s.url)}" target="_blank" rel="noopener">Dettagli</a>
-        </div>` : ""}
-      </div>
-      ${s.autentico ? `<div class="badge-auth">★ Evento Autentico</div>` : ""}
-    </div>`).join("");
+  if (newEvs.length) {
+    html += `<div class="section-label">Da scoprire</div>`;
+    html += newEvs.map(s => agendaItem(s, true)).join("");
+  }
+
+  if (!saved.length && !newEvs.length) {
+    html = `
+      <div class="empty">
+        <div class="empty-ico">🍽️</div>
+        <div class="empty-title">Nessun evento in agenda</div>
+        <div class="empty-sub">Esplora il calendario e salva le sagre a cui vuoi partecipare.</div>
+        <button class="btn-go" onclick="showView('cal')">Vai al calendario →</button>
+      </div>`;
+  }
+
+  body.innerHTML = html;
+  updateDiaryMeta();
 }
 
-// ══════════════════════════════════════════════════════
-// CALENDAR / EXPLORER VIEW
-// ══════════════════════════════════════════════════════
-function renderHeader() {
-  const d = allMode ? today0() : sel;
-  document.getElementById("hdr-num").textContent = d.getDate();
-  document.getElementById("hdr-day").textContent = DAY_FULL[d.getDay()];
-  document.getElementById("hdr-my").textContent  = `${MON_F[d.getMonth()]} ${d.getFullYear()}`;
-  document.getElementById("btn-all").classList.toggle("on", allMode);
-  document.getElementById("week-nav").classList.toggle("dim", allMode);
-
-  const lbl = document.getElementById("sec-lbl");
-  if (allMode)                      lbl.textContent = "Prossimi 2 mesi";
-  else if (sameDay(sel, today0()))  lbl.textContent = "Oggi";
-  else lbl.textContent = `${sel.getDate()} ${MON_F[sel.getMonth()]}`;
+function agendaItem(s, isNew) {
+  const { day, mon } = dayParts(s.data_inizio);
+  const isNewItem = newEventIds.has(s.id);
+  return `
+    <div class="agenda-item${isNewItem ? " is-new-item" : ""}"
+         onclick="window.showDetailGlobal('${esc(s.id)}','agenda')">
+      <div class="date-badge${isNew ? " new-badge" : ""}">
+        <div class="db-day">${day}</div>
+        <div class="db-mon">${mon}</div>
+      </div>
+      <div class="agenda-info">
+        <div class="agenda-name">${esc(s.nome)}</div>
+        <div class="agenda-loc">${esc(locStr(s))}</div>
+      </div>
+      <div class="agenda-dot" style="background:${isNew ? "var(--blue)" : "var(--amber)"}"></div>
+    </div>`;
 }
 
-function renderWeek() {
-  const strip   = document.getElementById("week-strip");
-  strip.innerHTML = "";
-  const evDates = eventDateSet();
+// ════════════════════════════════════════════════════════
+// CALENDAR VIEW
+// ════════════════════════════════════════════════════════
+function renderCal() {
+  renderMonthGrid();
+  renderCalPopup();
+  renderDayEvents();
+}
+
+function renderMonthGrid() {
+  document.getElementById("cal-title").textContent = fmtMonthYear(calMonth);
   const todayStr = iso(today0());
 
-  for (let i = 0; i < 7; i++) {
-    const d    = new Date(wkStart);
-    d.setDate(wkStart.getDate() + i);
-    const dStr = iso(d);
+  // Header row: Mon-first
+  let cells = WD_IT.map(d => `<div class="cal-wd">${d}</div>`).join("");
 
-    const el = document.createElement("div");
-    el.className = [
-      "wk-day",
-      sameDay(d, sel)   ? "is-sel"   : "",
-      dStr === todayStr ? "is-today" : "",
-      evDates.has(dStr) ? "has-ev"   : "",
-    ].join(" ").trim();
+  // Offset: JS getDay() 0=Sun; we want Mon=0
+  const firstDay = new Date(calMonth.getFullYear(), calMonth.getMonth(), 1);
+  let offset = firstDay.getDay() - 1;
+  if (offset < 0) offset = 6;
 
-    el.innerHTML =
-      `<span class="wk-ltr">${DAY_L[d.getDay()]}</span>` +
-      `<span class="wk-num">${d.getDate()}</span>`;
-
-    el.addEventListener("click", () => {
-      sel = new Date(d); allMode = false; renderCalView();
-    });
-    strip.appendChild(el);
+  // Prev-month fill
+  const prevDays = new Date(calMonth.getFullYear(), calMonth.getMonth(), 0).getDate();
+  for (let i = offset - 1; i >= 0; i--) {
+    cells += `<div class="cal-day other-month">${prevDays - i}</div>`;
   }
+
+  // Current month
+  const daysInMonth = new Date(calMonth.getFullYear(), calMonth.getMonth() + 1, 0).getDate();
+  for (let d = 1; d <= daysInMonth; d++) {
+    const ds = `${calMonth.getFullYear()}-${String(calMonth.getMonth() + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
+    const evs     = eventsOn(ds);
+    const hasSaved = evs.some(e => candidates.has(e.id));
+    const hasNew   = evs.some(e => !candidates.has(e.id));
+    const isToday  = ds === todayStr;
+    const isSel    = ds === calSelDay;
+    const isNewEv  = evs.some(e => newEventIds.has(e.id));
+
+    let cls = "cal-day";
+    if (isToday)       cls += " is-today";
+    else if (hasSaved) cls += " ev-orange";
+    else if (hasNew)   cls += " ev-blue";
+    if (isSel && !isToday) cls += " is-sel";
+    if (isNewEv && !isToday) cls += " is-new-cal";
+
+    const click = evs.length ? `onclick="calDayClick('${ds}')"` : "";
+    cells += `<div class="${cls}" ${click}>${d}</div>`;
+  }
+
+  // Next-month fill
+  const total = offset + daysInMonth;
+  const trailing = total % 7 === 0 ? 0 : 7 - (total % 7);
+  for (let d = 1; d <= trailing; d++) {
+    cells += `<div class="cal-day other-month">${d}</div>`;
+  }
+
+  document.getElementById("cal-grid").innerHTML = cells;
 }
 
-function renderExplorer() {
-  const list   = document.getElementById("ev-list");
-  const events = allMode ? eventsWindow() : eventsOn(iso(sel));
+window.calDayClick = function(ds) {
+  calSelDay = calSelDay === ds ? null : ds;
+  renderCal();
+};
 
-  if (!events.length) {
-    list.innerHTML = `
+function renderCalPopup() {
+  const wrap = document.getElementById("cal-popup");
+  if (!calSelDay) { wrap.innerHTML = ""; return; }
+  const evs = eventsOn(calSelDay);
+  if (!evs.length) { wrap.innerHTML = ""; return; }
+
+  const ev    = evs[0];
+  const saved = candidates.has(ev.id);
+  wrap.innerHTML = `
+    <div class="cal-popup">
+      <div class="cal-popup-title">${esc(ev.nome)}</div>
+      <div class="cal-popup-sub">${esc(locStr(ev))} · ${esc(fmtRange(ev.data_inizio, ev.data_fine))}</div>
+      <div class="cal-popup-tags">
+        ${ev.autentico ? `<div class="cal-popup-tag">★ Autentico</div>` : ""}
+        <div class="cal-popup-tag${saved ? "" : " blue"}">${saved ? "Salvato ✓" : "Nuovo"}</div>
+      </div>
+      <div class="cal-popup-link" onclick="window.showDetailGlobal('${esc(ev.id)}','cal')">Vedi dettaglio →</div>
+    </div>`;
+}
+
+function renderDayEvents() {
+  const wrap = document.getElementById("cal-day-events");
+  if (!calSelDay) { wrap.innerHTML = ""; return; }
+  const evs = eventsOn(calSelDay);
+  if (!evs.length) { wrap.innerHTML = ""; return; }
+
+  wrap.innerHTML = evs.map(ev => {
+    const saved = candidates.has(ev.id);
+    return `
+      <div class="cal-ev-card${saved ? "" : " new-ev"}"
+           onclick="window.showDetailGlobal('${esc(ev.id)}','cal')">
+        <div>
+          <div class="cal-ev-name">${esc(ev.nome)}</div>
+          <div class="cal-ev-loc">${esc(locStr(ev))}</div>
+        </div>
+        <div style="font-size:.7rem;color:${saved ? "var(--amber)" : "var(--blue)"}">●</div>
+      </div>`;
+  }).join("");
+}
+
+// ════════════════════════════════════════════════════════
+// EVENT DETAIL VIEW
+// ════════════════════════════════════════════════════════
+window.showDetailGlobal = function(eventId, from) {
+  prevView = from || currentView;
+  detailId = eventId;
+  showView("detail");
+};
+
+function renderDetail() {
+  const ev = allSagre.find(s => s.id === detailId);
+  if (!ev) { showView(prevView); return; }
+
+  const saved   = candidates.has(ev.id);
+  const inDiary = isDiaryEntry(ev.id);
+  const emoji   = pickEmoji(`${ev.nome} ${ev.descrizione || ""}`);
+
+  document.getElementById("detail-back").textContent =
+    `← ${prevView === "cal" ? "Calendario" : "Agenda"}`;
+
+  document.getElementById("detail-content").innerHTML = `
+    <div class="detail-img">
+      <div class="detail-img-emoji">${emoji}</div>
+      <div class="detail-img-lbl">immagine evento</div>
+    </div>
+    <div class="detail-body">
+      <div class="detail-title">${esc(ev.nome)}</div>
+      <div class="detail-meta">
+        📍 ${esc(locStr(ev))}<br>
+        📅 ${esc(fmtRange(ev.data_inizio, ev.data_fine))}
+        ${ev.url ? `<br>🔗 <a href="${esc(ev.url)}" target="_blank" rel="noopener">${esc(ev.url.replace(/^https?:\/\//, ""))}</a>` : ""}
+      </div>
+      ${ev.descrizione ? `<div class="detail-desc">${esc(ev.descrizione)}</div>` : ""}
+      <div class="detail-tags">
+        ${ev.autentico ? `<div class="detail-tag auth">★ Evento Autentico</div>` : ""}
+        ${ev.provincia ? `<div class="detail-tag type">${esc(ev.provincia)}</div>` : ""}
+        <div class="detail-tag food">${esc(ev.fonte || "")}</div>
+      </div>
+      <div class="detail-actions">
+        <button class="btn-save${saved ? " saved" : ""}"
+                onclick="toggleCandidate('${esc(ev.id)}')">
+          ${saved ? "✓ In agenda" : "+ Salva in agenda"}
+        </button>
+        <button class="btn-diary-add${inDiary ? " in-diary" : ""}"
+                onclick="${inDiary ? "" : `addToDiary('${esc(ev.id)}')`}">
+          ${inDiary ? "📓 Aggiunto al diario" : "📓 Aggiungi al diario"}
+        </button>
+      </div>
+    </div>`;
+}
+
+// ════════════════════════════════════════════════════════
+// DIARY VIEW
+// ════════════════════════════════════════════════════════
+function renderDiary() {
+  updateDiaryMeta();
+  if (openDiaryId) { renderDiaryOpen(); return; }
+  renderDiaryList();
+}
+
+function renderDiaryList() {
+  // Restore normal header
+  const hdrWrap = document.getElementById("diary-hdr-wrap");
+  hdrWrap.innerHTML = `
+    <div class="diary-hdr">
+      <div class="diary-hdr-title">My Diary</div>
+      <div class="diary-hdr-sub" id="diary-hdr-sub"></div>
+    </div>`;
+  updateDiaryMeta();
+
+  const body = document.getElementById("diary-body");
+  if (!diary.length) {
+    body.innerHTML = `
       <div class="empty">
-        <div class="ei">🍽️</div>
-        <div class="et">${allMode ? "Nessun evento nei prossimi 2 mesi" : "Nessuna sagra"}</div>
-        <div class="es">${allMode
-          ? "I dati vengono aggiornati ogni notte."
-          : "Nessun evento per questa data.<br>Prova un altro giorno o usa <b>All</b>."
-        }</div>
+        <div class="empty-ico">📓</div>
+        <div class="empty-title">Il tuo diario è vuoto</div>
+        <div class="empty-sub">Apri un evento e aggiungi i tuoi ricordi dopo aver partecipato alla sagra.</div>
       </div>`;
     return;
   }
 
-  list.innerHTML = events.map((s, i) => {
-    const active  = i === 0 && !allMode;
-    const saved   = candidates.has(s.id);
-    const isNew   = newEventIds.has(s.id);
-
+  body.innerHTML = diary.map(entry => {
+    const emoji = pickEmoji(entry.nome);
+    const stars = entry.rating
+      ? "★".repeat(entry.rating) + "☆".repeat(5 - entry.rating)
+      : "☆☆☆☆☆";
     return `
-      <div class="ev-row">
-        <div class="ev-loc">
-          <div class="city">${esc(s.comune || "–")}</div>
-        </div>
-        <div class="ev-card${active ? " active" : ""}${isNew ? " is-new" : ""}">
-          <div class="card-top">
-            <div class="card-title">${esc(s.nome)}</div>
-            <button class="card-bm${saved ? " saved" : ""}"
-              onclick="toggleCandidate('${esc(s.id)}');event.stopPropagation()"
-              aria-label="${saved ? "Rimuovi" : "Salva"}">
-              ${saved ? "✓" : "+"}
-            </button>
-          </div>
-          ${s.descrizione ? `<div class="card-sub">${esc(s.descrizione)}</div>` : ""}
-          <div class="card-rows">
-            <div class="card-row">
-              <span class="card-ico">📅</span>
-              <span>${esc(fmtRange(s.data_inizio, s.data_fine))}</span>
-            </div>
-            <div class="card-row">
-              <span class="card-ico">📍</span>
-              <span>${esc(locStr(s))}</span>
-            </div>
-            ${s.url ? `<div class="card-row">
-              <span class="card-ico">🔗</span>
-              <a class="card-link" href="${esc(s.url)}" target="_blank" rel="noopener"
-                onclick="event.stopPropagation()">Dettagli</a>
-            </div>` : ""}
-          </div>
-          ${s.autentico ? `<div class="badge-auth">★ Evento Autentico</div>` : ""}
+      <div class="diary-row" onclick="openDiaryEntry('${esc(entry.id)}')">
+        <div class="diary-thumb">${emoji}</div>
+        <div class="diary-row-info">
+          <div class="diary-row-name">${esc(entry.nome)}</div>
+          <div class="diary-row-date">${esc(fmtShort(entry.data_inizio))} · ${esc(entry.comune || "–")}</div>
+          <div class="diary-row-stars">${stars}</div>
         </div>
       </div>`;
   }).join("");
 }
 
-function renderCalView() {
-  renderHeader();
-  renderWeek();
-  renderExplorer();
+function renderDiaryOpen() {
+  const entry = diary.find(e => e.id === openDiaryId);
+  if (!entry) { openDiaryId = null; renderDiaryList(); return; }
+
+  // Replace header with dark back-bar
+  const hdrWrap = document.getElementById("diary-hdr-wrap");
+  hdrWrap.innerHTML = `
+    <div class="diary-entry-back" onclick="closeDiaryEntry()">← ${esc(entry.nome)}</div>
+    <div class="diary-entry-img">
+      <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-65%);font-size:44px;opacity:.3">
+        ${pickEmoji(entry.nome)}
+      </div>
+      <div class="diary-entry-img-lbl">${esc(entry.nome)} · ${esc(fmtShort(entry.data_inizio))}</div>
+    </div>`;
+
+  const stars = [1, 2, 3, 4, 5].map(n =>
+    `<span class="star-btn${n <= entry.rating ? " on" : ""}"
+           onclick="setDiaryRating('${esc(entry.id)}',${n})">★</span>`
+  ).join("");
+
+  document.getElementById("diary-body").innerHTML = `
+    <div class="diary-entry-body">
+      <div class="diary-stars-row">${stars}</div>
+      <div class="field-label">Note</div>
+      <textarea class="diary-textarea"
+        oninput="saveDiaryNotes('${esc(entry.id)}',this.value)"
+        placeholder="Le tue impressioni sulla sagra…">${esc(entry.notes)}</textarea>
+      <div class="field-label">Foto</div>
+      <div class="diary-photo-grid">
+        <div class="diary-photo-cell">+</div>
+        <div class="diary-photo-cell">+</div>
+        <div class="diary-photo-cell">+</div>
+        <div class="diary-photo-cell">+</div>
+        <div class="diary-photo-cell">+</div>
+        <div class="diary-photo-cell">+</div>
+      </div>
+    </div>`;
 }
 
-// ── View switcher ──────────────────────────────────────
+window.openDiaryEntry = function(entryId) {
+  openDiaryId = entryId;
+  renderDiary();
+};
+
+window.closeDiaryEntry = function() {
+  openDiaryId = null;
+  renderDiaryList();
+};
+
+// ════════════════════════════════════════════════════════
+// VIEW SWITCHER
+// ════════════════════════════════════════════════════════
 function showView(v) {
   currentView = v;
-  document.getElementById("view-home").classList.toggle("active", v === "home");
-  document.getElementById("view-cal").classList.toggle("active",  v === "cal");
-  document.getElementById("nav-home").classList.toggle("active",  v === "home");
-  document.getElementById("nav-cal").classList.toggle("active",   v === "cal");
-  if (v === "home") renderHome();
-  else renderCalView();
+  ["agenda", "cal", "detail", "diary"].forEach(name => {
+    document.getElementById(`view-${name}`).classList.toggle("active", name === v);
+  });
+  ["agenda", "cal", "diary"].forEach(name => {
+    document.getElementById(`nav-${name}`)?.classList.toggle("active", name === v);
+  });
+
+  if (v === "agenda")       renderAgenda();
+  else if (v === "cal")     renderCal();
+  else if (v === "detail")  renderDetail();
+  else if (v === "diary")   renderDiary();
 }
+window.showView = showView;
 
-// ── Bottom nav ─────────────────────────────────────────
-document.getElementById("nav-home").addEventListener("click", () => showView("home"));
-document.getElementById("nav-cal").addEventListener("click",  () => showView("cal"));
+// ── Nav buttons ────────────────────────────────────────
+document.getElementById("nav-agenda").addEventListener("click", () => showView("agenda"));
+document.getElementById("nav-cal").addEventListener("click",    () => showView("cal"));
+document.getElementById("nav-diary").addEventListener("click",  () => showView("diary"));
+document.getElementById("diary-strip-btn").addEventListener("click", () => showView("diary"));
 
-// ── Explorer controls ──────────────────────────────────
-document.getElementById("btn-today").addEventListener("click", () => {
-  sel = today0(); wkStart = sundayOf(sel); allMode = false; renderCalView();
+document.getElementById("cal-prev").addEventListener("click", () => {
+  calMonth.setMonth(calMonth.getMonth() - 1);
+  calSelDay = null;
+  renderCal();
 });
-document.getElementById("btn-all").addEventListener("click", () => {
-  allMode = !allMode; renderCalView();
+document.getElementById("cal-next").addEventListener("click", () => {
+  calMonth.setMonth(calMonth.getMonth() + 1);
+  calSelDay = null;
+  renderCal();
 });
 
-function shiftWeek(delta) {
-  const dow = sel.getDay();
-  wkStart = new Date(wkStart);
-  wkStart.setDate(wkStart.getDate() + delta * 7);
-  sel = new Date(wkStart);
-  sel.setDate(wkStart.getDate() + dow);
-  allMode = false;
-  renderCalView();
-}
-document.getElementById("btn-prev").addEventListener("click", () => shiftWeek(-1));
-document.getElementById("btn-next").addEventListener("click", () => shiftWeek(+1));
+document.getElementById("detail-back").addEventListener("click", () => showView(prevView));
 
-// ── Init ───────────────────────────────────────────────
+// ── Init ────────────────────────────────────────────────
 async function init() {
   renderBadge();
+  updateDiaryMeta();
+
   try {
     const resp = await fetch("/data/sagre.json");
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
     allSagre = data.sagre || [];
+
     if (data.meta?.scraped_at) {
-      const d = new Date(data.meta.scraped_at);
+      const d   = new Date(data.meta.scraped_at);
       const dd  = String(d.getDate()).padStart(2, "0");
       const mon = MON_S[d.getMonth()];
       const hh  = String(d.getHours()).padStart(2, "0");
@@ -328,26 +532,26 @@ async function init() {
       document.getElementById("last-update").textContent = `↻ ${dd} ${mon} ${hh}:${mm}`;
     }
 
-    // Blue theme if LLM source contributed events
+    // LLM source indicator
     if (allSagre.some(ev => ev.fonte === "llm_liguria")) {
       document.documentElement.classList.add("theme-llm");
     }
 
-    // Detect new events vs previous load
-    const prevIds = new Set(JSON.parse(localStorage.getItem("sagre-seen-ids") || "[]"));
+    // New-event detection vs previous load
+    const prevIds    = new Set(JSON.parse(localStorage.getItem("sagre-seen-ids") || "[]"));
     const currentIds = allSagre.map(ev => ev.id).filter(Boolean);
     if (prevIds.size > 0) {
       newEventIds = new Set(currentIds.filter(id => !prevIds.has(id)));
     }
     localStorage.setItem("sagre-seen-ids", JSON.stringify(currentIds));
 
-    renderHome(); // home is the initial view
+    renderAgenda();
   } catch (err) {
-    document.getElementById("cand-list").innerHTML = `
+    document.getElementById("agenda-body").innerHTML = `
       <div class="empty">
-        <div class="ei">⚠️</div>
-        <div class="et">Errore caricamento dati</div>
-        <div class="es">${esc(err.message)}</div>
+        <div class="empty-ico">⚠️</div>
+        <div class="empty-title">Errore caricamento dati</div>
+        <div class="empty-sub">${esc(err.message)}</div>
       </div>`;
   }
 }
