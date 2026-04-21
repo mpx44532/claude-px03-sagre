@@ -1,27 +1,13 @@
 {
   "meta": {
-    "scraped_at": "2026-04-20T04:50:33Z",
-    "total": 6,
+    "scraped_at": "2026-04-21T04:41:37Z",
+    "total": 5,
     "sources": [
       "scraper.sources.llm_liguria",
       "scraper.sources.mangiareinliguria"
     ]
   },
   "sagre": [
-    {
-      "nome": "Cinque Terre Gran Fondo 2026",
-      "comune": "",
-      "provincia": "SP",
-      "regione": "Liguria",
-      "data_inizio": "2026-04-26",
-      "data_fine": "2026-04-26",
-      "descrizione": "La Gran Fondo delle Cinque Terre, si correràdomenica 26 aprile 2026con due percorsi lungo uno dei più scenografici litorali italiani. Quest’anno ci sarà un unico percorso di 110 km e 1940 m di dislivello. La Granfondo partirà da La Spezia, per affrontare le salite mozzafiato (per la bellezza e per la durezza)-Passo Volastra, prima salita che ci porta sulla terrazza delle Cinque Terre;-Passo Guaitarola dove si lasciano alle spalle le Cinque Terre ma non il panorama;-Passo Castagnola con la quale si abbandona il mare per entrare nella vallata del ritorno;-Passo Valdurasca, collegamento tra entroterra e La Spezia.Info:Cinqueterregranfondo.it",
-      "url": "https://cinqueterregranfondo.it/",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "mangiareinliguria",
-      "id": "cinque-terre-gran-fondo-2026-2026-04-26"
-    },
     {
       "nome": "Oysteria Sarzana 2026: ostriche, muscoli e filiera locale",
       "comune": "Sarzana",
