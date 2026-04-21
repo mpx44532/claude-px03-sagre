@@ -8,16 +8,17 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --g-dark:   #1B4332;
-      --g-mid:    #40916C;
-      --g-accent: #52B788;
-      --g-pale:   #D8F3DC;
-      --g-card:   #EBF7F0;
-      --g-bg:     #F0FBF4;
+      --g-dark:   #054A58;
+      --g-mid:    #0A8A9F;
+      --g-accent: #1EC8DA;
+      --g-pale:   #B2EBF2;
+      --g-card:   #E6F8FA;
+      --g-bg:     #F0FBFC;
+      --sand:     #F2E8D4;
       --white:    #FFFFFF;
-      --text:     #1A1A2E;
-      --text-mid: #4A5568;
-      --text-soft:#9CA3AF;
+      --text:     #142028;
+      --text-mid: #446070;
+      --text-soft:#8AAAB8;
       --r:        20px;
     }
 
@@ -47,7 +48,10 @@
 
     /* Hero */
     .hero {
-      background: var(--g-dark);
+      background:
+        radial-gradient(ellipse at 25% 55%, rgba(30,200,218,.28) 0%, transparent 55%),
+        radial-gradient(ellipse at 75% 20%, rgba(10,138,159,.35) 0%, transparent 50%),
+        linear-gradient(160deg, #032E3A 0%, #054A58 40%, #0A8A9F 80%, #1EC8DA 100%);
       padding: 28px 24px 0;
     }
 
@@ -76,12 +80,33 @@
       height: 170px;
       display: flex; align-items: center; justify-content: center;
     }
+    @keyframes ripple {
+      0%   { transform: scale(1);    opacity: 1; }
+      50%  { transform: scale(1.06); opacity: .7; }
+      100% { transform: scale(1);    opacity: 1; }
+    }
+
     .ha-ring {
       position: absolute; border-radius: 50%;
     }
-    .ha-ring.r1 { width: 160px; height: 160px; background: rgba(255,255,255,.06); }
-    .ha-ring.r2 { width: 120px; height: 120px; background: rgba(255,255,255,.09); }
-    .ha-ring.r3 { width:  88px; height:  88px; background: rgba(255,255,255,.13); }
+    .ha-ring.r1 {
+      width: 160px; height: 160px;
+      background: rgba(30,200,218,.10);
+      border: 1px solid rgba(30,200,218,.25);
+      animation: ripple 3.6s ease-in-out infinite;
+    }
+    .ha-ring.r2 {
+      width: 120px; height: 120px;
+      background: rgba(30,200,218,.13);
+      border: 1px solid rgba(30,200,218,.30);
+      animation: ripple 3.6s ease-in-out infinite .6s;
+    }
+    .ha-ring.r3 {
+      width:  88px; height:  88px;
+      background: rgba(30,200,218,.18);
+      border: 1px solid rgba(30,200,218,.40);
+      animation: ripple 3.6s ease-in-out infinite 1.2s;
+    }
     .ha-main { position: relative; font-size: 60px; filter: drop-shadow(0 6px 16px rgba(0,0,0,.35)); z-index: 1; }
     .ha-fl { position: absolute; font-size: 20px; z-index: 2; }
     .ha-fl.f1 { top: 16px;  left:  28px; }
@@ -93,12 +118,11 @@
     .hero-title h1 { font-size: 1.5rem; font-weight: 800; letter-spacing: -.02em; }
     .hero-title p  { font-size: .82rem; opacity: .72; margin-top: 2px; }
 
-    .hero-shelf {
-      height: 30px;
-      background: var(--white);
-      border-radius: 26px 26px 0 0;
-      margin-top: 18px;
+    .hero-wave {
+      margin-top: 14px;
+      line-height: 0;
     }
+    .hero-wave svg { display: block; width: 100%; height: 42px; }
 
     /* Home body */
     .home-body { padding: 0 24px 96px; }
@@ -111,7 +135,7 @@
     .cand-list { display: flex; flex-direction: column; gap: 12px; margin-top: 14px; }
 
     .cand-card {
-      background: var(--g-accent);
+      background: linear-gradient(135deg, var(--g-dark) 0%, var(--g-mid) 100%);
       border-radius: var(--r);
       padding: 16px;
       position: relative;
@@ -255,7 +279,7 @@
       text-transform: uppercase; letter-spacing: .09em; color: var(--text-soft);
       display: flex; align-items: center; gap: 10px;
     }
-    .sec-lbl::after { content:''; flex:1; height:1px; background:#EEF1EF; }
+    .sec-lbl::after { content:''; flex:1; height:1px; background:#D8EFF2; }
 
     /* Events list (explorer) */
     .ev-list { padding: 0 24px 96px; display: flex; flex-direction: column; gap: 14px; }
@@ -269,10 +293,10 @@
     .ev-card {
       flex: 1; background: var(--g-card);
       border-radius: var(--r); padding: 15px 16px;
-      border: 1px solid #C3E6D0; cursor: pointer;
+      border: 1px solid var(--g-pale); cursor: pointer;
       transition: transform .15s, box-shadow .15s;
     }
-    .ev-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(82,183,136,.18); }
+    .ev-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(10,138,159,.18); }
     .ev-card.active { background: var(--g-accent); border-color: var(--g-accent); }
 
     .card-top {
@@ -353,7 +377,7 @@
       position: fixed; bottom: 0;
       left: 50%; transform: translateX(-50%);
       width: 100%; max-width: 430px;
-      background: var(--white); border-top: 1px solid #EEF1EF;
+      background: var(--white); border-top: 1px solid #D8EFF2;
       padding: 10px 0 env(safe-area-inset-bottom, 14px);
       display: flex; justify-content: space-around; z-index: 100;
     }
@@ -382,14 +406,14 @@
     .nav-btn .badge.show { display: flex; }
     .nav-icon-wrap { position: relative; }
 
-    /* ── LLM blue theme (applied to html element) ────────── */
+    /* ── LLM deep-ocean theme (applied to html element) ─── */
     html.theme-llm {
-      --g-dark:   #1B3A5C;
-      --g-mid:    #2B6CB0;
-      --g-accent: #4299E1;
-      --g-pale:   #BEE3F8;
-      --g-card:   #EBF8FF;
-      --g-bg:     #EFF7FF;
+      --g-dark:   #021E2A;
+      --g-mid:    #055F76;
+      --g-accent: #0BAEC4;
+      --g-pale:   #80D8E8;
+      --g-card:   #D0F1F7;
+      --g-bg:     #E4F8FB;
     }
 
     /* ── New-event golden border ──────────────────────────── */
@@ -431,16 +455,23 @@
         <div class="ha-ring r2"></div>
         <div class="ha-ring r3"></div>
         <div class="ha-main">🍽️</div>
-        <div class="ha-fl f1">🌿</div>
+        <div class="ha-fl f1">🌊</div>
         <div class="ha-fl f2">🫒</div>
-        <div class="ha-fl f3">🥂</div>
-        <div class="ha-fl f4">🌊</div>
+        <div class="ha-fl f3">🦐</div>
+        <div class="ha-fl f4">🌅</div>
       </div>
       <div class="hero-title">
         <h1>Sagre in Liguria</h1>
         <p>Le feste gastronomiche selezionate per te</p>
       </div>
-      <div class="hero-shelf"></div>
+      <div class="hero-wave">
+        <svg viewBox="0 0 430 42" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,18 C50,38 110,4 180,22 C250,40 320,6 390,20 C405,23 418,26 430,20 L430,42 L0,42 Z"
+                fill="white" opacity="0.4"/>
+          <path d="M0,28 C60,10 130,38 210,24 C290,10 360,36 430,22 L430,42 L0,42 Z"
+                fill="white"/>
+        </svg>
+      </div>
     </section>
 
     <div class="home-body">
