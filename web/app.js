@@ -182,12 +182,12 @@ function renderAgenda() {
   let html = "";
 
   if (saved.length) {
-    html += `<div class="section-strip yellow">Salvati</div>`;
+    html += `<div class="section-label">Salvati</div>`;
     html += saved.map(s => agendaItem(s, false)).join("");
   }
 
   if (newEvs.length) {
-    html += `<div class="section-strip blue">Da scoprire</div>`;
+    html += `<div class="section-label red">Da scoprire</div>`;
     html += newEvs.map(s => agendaItem(s, true)).join("");
   }
 
