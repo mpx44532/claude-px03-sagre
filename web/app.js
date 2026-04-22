@@ -182,12 +182,12 @@ function renderAgenda() {
   let html = "";
 
   if (saved.length) {
-    html += `<div class="section-label">Salvati</div>`;
+    html += `<div class="section-strip yellow">Salvati</div>`;
     html += saved.map(s => agendaItem(s, false)).join("");
   }
 
   if (newEvs.length) {
-    html += `<div class="section-label">Da scoprire</div>`;
+    html += `<div class="section-strip blue">Da scoprire</div>`;
     html += newEvs.map(s => agendaItem(s, true)).join("");
   }
 
@@ -211,7 +211,7 @@ function agendaItem(s, isNew) {
   return `
     <div class="agenda-item${isNewItem ? " is-new-item" : ""}"
          onclick="window.showDetailGlobal('${esc(s.id)}','agenda')">
-      <div class="date-badge${isNew ? " new-badge" : ""}">
+      <div class="date-badge${isNew ? " new-b" : " saved"}">
         <div class="db-day">${day}</div>
         <div class="db-mon">${mon}</div>
       </div>
@@ -477,14 +477,20 @@ window.closeDiaryEntry = function() {
 // ════════════════════════════════════════════════════════
 // VIEW SWITCHER
 // ════════════════════════════════════════════════════════
+const SWIPE_VIEWS = ["agenda", "cal", "diary"];
+
 function showView(v) {
   currentView = v;
   ["agenda", "cal", "detail", "diary"].forEach(name => {
-    document.getElementById(`view-${name}`).classList.toggle("active", name === v);
+    const el = document.getElementById(`view-${name}`);
+    const becoming = name === v;
+    el.classList.toggle("active", becoming);
+    if (becoming) { el.classList.add("fade-in"); setTimeout(() => el.classList.remove("fade-in"), 200); }
   });
   ["agenda", "cal", "diary"].forEach(name => {
     document.getElementById(`nav-${name}`)?.classList.toggle("active", name === v);
   });
+  updateSwipeDots(v);
 
   if (v === "agenda")       renderAgenda();
   else if (v === "cal")     renderCal();
@@ -492,6 +498,55 @@ function showView(v) {
   else if (v === "diary")   renderDiary();
 }
 window.showView = showView;
+
+function updateSwipeDots(v) {
+  const idx = SWIPE_VIEWS.indexOf(v);
+  if (idx === -1) return;
+  // Update all three dot sets (one per view)
+  ["", "b", "c"].forEach((sfx, vi) => {
+    [0, 1, 2].forEach(di => {
+      const el = document.getElementById(`dot-${di}${sfx}`);
+      if (el) el.classList.toggle("active", di === idx);
+    });
+  });
+}
+
+// ════════════════════════════════════════════════════════
+// SWIPE GESTURES
+// ════════════════════════════════════════════════════════
+(function initSwipe() {
+  let sx = 0, sy = 0;
+
+  document.addEventListener("touchstart", e => {
+    sx = e.touches[0].clientX;
+    sy = e.touches[0].clientY;
+  }, { passive: true });
+
+  document.addEventListener("touchend", e => {
+    const dx = e.changedTouches[0].clientX - sx;
+    const dy = e.changedTouches[0].clientY - sy;
+    const absDx = Math.abs(dx), absDy = Math.abs(dy);
+    if (Math.max(absDx, absDy) < 48) return; // threshold
+
+    if (absDx > absDy) {
+      // Horizontal swipe → navigate views
+      if (currentView === "detail") return; // no swipe in detail
+      const idx = SWIPE_VIEWS.indexOf(currentView);
+      if (dx < 0 && idx < SWIPE_VIEWS.length - 1) showView(SWIPE_VIEWS[idx + 1]); // left
+      if (dx > 0 && idx > 0)                       showView(SWIPE_VIEWS[idx - 1]); // right
+    } else {
+      // Vertical swipe → change month (calendar only)
+      if (currentView !== "cal") return;
+      if (dy < 0) { // swipe up → next month
+        calMonth.setMonth(calMonth.getMonth() + 1);
+        calSelDay = null; renderCal();
+      } else {      // swipe down → prev month
+        calMonth.setMonth(calMonth.getMonth() - 1);
+        calSelDay = null; renderCal();
+      }
+    }
+  }, { passive: true });
+})();
 
 // ── Nav buttons ────────────────────────────────────────
 document.getElementById("nav-agenda").addEventListener("click", () => showView("agenda"));
