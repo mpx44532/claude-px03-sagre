@@ -13,6 +13,10 @@ claude-px03-sagre/
 │   └── sources/
 │       ├── mangiareinliguria.py   # scraping HTML da mangiareinliguria.it
 │       ├── sagreautentiche.py     # scraping HTML da sagreautentiche.it
+│       ├── lamialiguria.py        # eventi autentici da lamialiguria.it
+│       ├── sagreliguria.py        # directory da sagre.liguria.it
+│       ├── eventiesagre.py        # listing da eventiesagre.it
+│       ├── svdonline.py           # sagre savonesi da svdonline.it
 │       └── llm_liguria.py         # discovery via Claude API (LLM)
 ├── data/sagre.json                # dati aggiornati ogni notte
 ├── web/
@@ -76,9 +80,17 @@ anziché il generico `fondo`.
 ## Sorgenti dati
 
 ### Scraper HTML
-`mangiareinliguria.py` e `sagreautentiche.py` raccolgono eventi da siti
-dedicati agli eventi liguri. Questi siti pubblicano **tutti** gli eventi
-(non solo food), quindi il filtro `merge.py` è essenziale.
+
+| File | URL sorgente | Copertura |
+|------|-------------|-----------|
+| `mangiareinliguria.py` | mangiareinliguria.it | Tutta la Liguria |
+| `sagreautentiche.py` | sagreautentiche.it | Tutta la Liguria |
+| `lamialiguria.py` | lamialiguria.it/2026/03/eventi-autentici-liguria/ | Eventi autentici regionali |
+| `sagreliguria.py` | sagre.liguria.it | Directory sagre liguri |
+| `eventiesagre.py` | eventiesagre.it (Liguria) | Aggregatore nazionale filtrato su Liguria |
+| `svdonline.py` | svdonline.it/eventi-in-provincia-di-savona/sagre/ | Provincia di Savona |
+
+Tutti questi siti possono pubblicare eventi non gastronomici, quindi il filtro `merge.py` è essenziale.
 
 ### Sorgente LLM (`llm_liguria.py`)
 Interroga Claude (Haiku) per i mesi corrente + 2 successivi con il prompt:
