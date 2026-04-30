@@ -10,6 +10,7 @@ let allSagre    = [];
 let candidates  = new Set(JSON.parse(localStorage.getItem("sagre-candidates") || "[]"));
 let diary       = JSON.parse(localStorage.getItem("sagre-diary") || "[]");
 let newEventIds = new Set();
+let fetchLog    = []; // [{ts, type, sources:{fonte:n}, total, newCount, error}]
 
 let currentView  = "agenda"; // agenda | cal | detail | diary
 let prevView     = "agenda"; // for back-nav from detail
@@ -475,19 +476,114 @@ window.closeDiaryEntry = function() {
 };
 
 // ════════════════════════════════════════════════════════
+// LOG VIEW
+// ════════════════════════════════════════════════════════
+function _bySource() {
+  const m = {};
+  for (const ev of allSagre) {
+    const f = ev.fonte || "sconosciuto";
+    if (!m[f]) m[f] = [];
+    m[f].push(ev);
+  }
+  return m;
+}
+
+function _sourceCountMap() {
+  const m = {};
+  for (const ev of allSagre) {
+    const f = ev.fonte || "sconosciuto";
+    m[f] = (m[f] || 0) + 1;
+  }
+  return m;
+}
+
+window.toggleLogSource = function(card) {
+  const list = card.nextElementSibling;
+  if (!list) return;
+  const open = list.classList.toggle("open");
+  card.classList.toggle("open", open);
+};
+
+function renderLog() {
+  const bySource = _bySource();
+  const sources  = Object.entries(bySource).sort((a, b) => b[1].length - a[1].length);
+
+  let html = `<div class="section-label">Sorgenti · ${allSagre.length} eventi totali</div>`;
+
+  if (!sources.length) {
+    html += `<div class="empty"><div class="empty-ico">📋</div>
+      <div class="empty-title">Nessun dato caricato</div>
+      <div class="empty-sub">Avvia un aggiornamento o attendi il cron notturno.</div></div>`;
+  } else {
+    for (const [fonte, evs] of sources) {
+      const zero = evs.length === 0;
+      html += `
+        <div class="log-source-card" onclick="toggleLogSource(this)">
+          <div class="log-source-dot" style="background:${zero ? "var(--gray-400)" : "var(--gold)"}"></div>
+          <div class="log-source-info">
+            <div class="log-source-name">${esc(fonte)}.py</div>
+            <div class="log-source-sub">${evs.length} event${evs.length !== 1 ? "i" : "o"} trovati</div>
+          </div>
+          <span class="log-source-count${zero ? " zero" : ""}">${evs.length}</span>
+        </div>
+        <div class="log-ev-list">
+          ${evs.slice(0, 10).map(ev => `
+            <div class="log-ev-row">
+              <span class="log-ev-name">${esc(ev.nome)}</span>
+              <span class="log-ev-date">${esc(fmtShort(ev.data_inizio))}</span>
+            </div>`).join("")}
+          ${evs.length > 10 ? `<div class="log-ev-more">+${evs.length - 10} altri…</div>` : ""}
+        </div>`;
+    }
+  }
+
+  if (fetchLog.length) {
+    html += `<div class="section-label red">Cronologia fetch</div>`;
+    for (const entry of fetchLog) {
+      const d   = new Date(entry.ts);
+      const ts  = `${String(d.getDate()).padStart(2,"0")} ${MON_S[d.getMonth()]} ${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
+      const srcLine = Object.entries(entry.sources || {})
+        .map(([s, n]) => `${s}: <strong>${n}</strong>`)
+        .join(" · ");
+      html += `
+        <div class="log-entry${entry.error ? " has-error" : ""}">
+          <div class="log-entry-time">${ts}</div>
+          <div class="log-entry-info">
+            <div class="log-entry-type">${entry.type === "init" ? "● Avvio app" : "↻ Aggiornamento"}</div>
+            <div class="log-entry-stats">
+              ${srcLine}
+              ${entry.newCount ? ` · <strong style="color:var(--gold)">${entry.newCount} nuovi</strong>` : ""}
+              ${entry.error ? ` · <span style="color:var(--red)">⚠ ${esc(entry.error)}</span>` : ""}
+            </div>
+          </div>
+        </div>`;
+    }
+  }
+
+  document.getElementById("log-body").innerHTML = html;
+
+  const lastTs = fetchLog.length ? new Date(fetchLog[0].ts) : null;
+  const tStr   = lastTs
+    ? `${String(lastTs.getDate()).padStart(2,"0")} ${MON_S[lastTs.getMonth()]} ${String(lastTs.getHours()).padStart(2,"0")}:${String(lastTs.getMinutes()).padStart(2,"0")}`
+    : "—";
+  const sub = document.getElementById("log-hdr-sub");
+  if (sub) sub.textContent = `${allSagre.length} eventi · ultima fetch ${tStr}`;
+}
+
+// ════════════════════════════════════════════════════════
 // VIEW SWITCHER
 // ════════════════════════════════════════════════════════
-const SWIPE_VIEWS = ["agenda", "cal", "diary"];
+const SWIPE_VIEWS = ["agenda", "cal", "diary", "log"];
 
 function showView(v) {
   currentView = v;
-  ["agenda", "cal", "detail", "diary"].forEach(name => {
+  ["agenda", "cal", "detail", "diary", "log"].forEach(name => {
     const el = document.getElementById(`view-${name}`);
     const becoming = name === v;
     el.classList.toggle("active", becoming);
     if (becoming) { el.classList.add("fade-in"); setTimeout(() => el.classList.remove("fade-in"), 200); }
   });
-  ["agenda", "cal", "diary"].forEach(name => {
+  ["agenda", "cal", "diary", "log"].forEach(name => {
     document.getElementById(`nav-${name}`)?.classList.toggle("active", name === v);
   });
   updateSwipeDots(v);
@@ -496,15 +592,15 @@ function showView(v) {
   else if (v === "cal")     renderCal();
   else if (v === "detail")  renderDetail();
   else if (v === "diary")   renderDiary();
+  else if (v === "log")     renderLog();
 }
 window.showView = showView;
 
 function updateSwipeDots(v) {
   const idx = SWIPE_VIEWS.indexOf(v);
   if (idx === -1) return;
-  // Update all three dot sets (one per view)
-  ["", "b", "c"].forEach((sfx, vi) => {
-    [0, 1, 2].forEach(di => {
+  ["", "b", "c", "d"].forEach(sfx => {
+    [0, 1, 2, 3].forEach(di => {
       const el = document.getElementById(`dot-${di}${sfx}`);
       if (el) el.classList.toggle("active", di === idx);
     });
@@ -552,6 +648,7 @@ function updateSwipeDots(v) {
 document.getElementById("nav-agenda").addEventListener("click", () => showView("agenda"));
 document.getElementById("nav-cal").addEventListener("click",    () => showView("cal"));
 document.getElementById("nav-diary").addEventListener("click",  () => showView("diary"));
+document.getElementById("nav-log").addEventListener("click",    () => showView("log"));
 document.getElementById("diary-strip-btn").addEventListener("click", () => showView("diary"));
 
 document.getElementById("cal-prev").addEventListener("click", () => {
@@ -617,13 +714,17 @@ async function refreshData() {
     if (allSagre.some(ev => ev.fonte === "llm_liguria"))
       document.documentElement.classList.add("theme-llm");
 
+    fetchLog.unshift({ ts: new Date().toISOString(), type: "refresh", sources: _sourceCountMap(), total: allSagre.length, newCount: newEventIds.size, error: null });
+
     if      (currentView === "agenda") renderAgenda();
     else if (currentView === "cal")    renderCal();
     else if (currentView === "diary")  renderDiary();
+    else if (currentView === "log")    renderLog();
 
     const n = newEventIds.size;
     showToast(n > 0 ? `${n} nuov${n === 1 ? "o" : "i"} event${n === 1 ? "o" : "i"} trovat${n === 1 ? "o" : "i"}!` : "Nessun nuovo evento");
   } catch (err) {
+    fetchLog.unshift({ ts: new Date().toISOString(), type: "refresh", sources: {}, total: allSagre.length, newCount: 0, error: err.message });
     showToast("Errore: " + err.message);
   } finally {
     bar.classList.remove("loading");
@@ -690,8 +791,11 @@ async function init() {
     if (prevIds.size > 0) newEventIds = new Set(currentIds.filter(id => !prevIds.has(id)));
     localStorage.setItem("sagre-seen-ids", JSON.stringify(currentIds));
 
+    fetchLog.unshift({ ts: new Date().toISOString(), type: "init", sources: _sourceCountMap(), total: allSagre.length, newCount: newEventIds.size, error: null });
+
     renderAgenda();
   } catch (err) {
+    fetchLog.unshift({ ts: new Date().toISOString(), type: "init", sources: {}, total: 0, newCount: 0, error: err.message });
     document.getElementById("agenda-body").innerHTML = `
       <div class="empty">
         <div class="empty-ico">⚠️</div>

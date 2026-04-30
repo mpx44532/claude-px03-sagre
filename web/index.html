@@ -112,7 +112,7 @@
       width: 5px; height: 5px; border-radius: 50%;
       background: rgba(255,255,255,.35);
     }
-    .swipe-dot.on { background: var(--white); }
+    .swipe-dot.on, .swipe-dot.active { background: var(--white); }
 
     /* ── Shared screen header ────────────────────────── */
     .screen-hdr {
@@ -491,6 +491,67 @@
       transition: background .15s;
     }
     .btn-go:hover { background: var(--red-hover); }
+
+    /* ════════════════════════════════════════════════════
+       LOG VIEW
+    ═════════════════════════════════════════════════════ */
+    #view-log { background: var(--white); }
+
+    .log-hdr {
+      background: var(--dark); color: var(--white);
+      padding: 44px 18px 14px; flex-shrink: 0;
+      border-bottom: 3px solid var(--gold);
+    }
+    .log-hdr-title { font-size: 1.15rem; font-weight: 700; letter-spacing: .02em; }
+    .log-hdr-sub   { font-size: .65rem; font-weight: 600; opacity: .45; margin-top: 3px; letter-spacing: .08em; text-transform: uppercase; }
+
+    .log-scroll { flex: 1; overflow-y: auto; }
+
+    .log-source-card {
+      display: flex; align-items: center; gap: 12px;
+      padding: 11px 18px; border-bottom: 1px solid var(--gray-300);
+      cursor: pointer; transition: background .1s;
+    }
+    .log-source-card:hover { background: var(--gray-100); }
+    .log-source-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; transition: transform .15s; }
+    .log-source-card.open .log-source-dot { transform: scale(1.35); }
+    .log-source-info { flex: 1; min-width: 0; }
+    .log-source-name { font-size: .86rem; font-weight: 700; color: var(--dark); font-family: 'Courier New', monospace; }
+    .log-source-sub  { font-size: .68rem; color: var(--gray-600); margin-top: 1px; }
+    .log-source-count {
+      font-size: .72rem; font-weight: 700; color: var(--white);
+      background: var(--gold); border-radius: 50rem; padding: 2px 9px; flex-shrink: 0;
+    }
+    .log-source-count.zero { background: var(--gray-400); }
+
+    .log-ev-list {
+      display: none; background: var(--gray-100);
+      border-bottom: 1px solid var(--gray-300);
+      padding: 4px 18px 4px 40px;
+    }
+    .log-ev-list.open { display: block; }
+    .log-ev-row {
+      display: flex; justify-content: space-between; align-items: baseline;
+      padding: 5px 0; border-bottom: 1px solid var(--gray-300);
+      font-size: .78rem; color: var(--dark); gap: 8px;
+    }
+    .log-ev-row:last-child { border-bottom: none; }
+    .log-ev-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .log-ev-date { font-size: .68rem; color: var(--gray-600); flex-shrink: 0; }
+    .log-ev-more { padding: 5px 0; font-size: .7rem; color: var(--gray-600); font-style: italic; }
+
+    .log-entry {
+      display: flex; align-items: flex-start; gap: 10px;
+      padding: 10px 18px; border-bottom: 1px solid var(--gray-300);
+    }
+    .log-entry.has-error { background: #fff5f5; }
+    .log-entry-time {
+      font-size: .65rem; font-weight: 700; color: var(--gray-600);
+      white-space: nowrap; padding-top: 2px; min-width: 78px;
+    }
+    .log-entry-info { flex: 1; min-width: 0; }
+    .log-entry-type  { font-size: .82rem; font-weight: 700; color: var(--dark); }
+    .log-entry-stats { font-size: .68rem; color: var(--gray-600); margin-top: 3px; line-height: 1.5; }
   </style>
 </head>
 <body>
@@ -507,6 +568,7 @@
       <div class="swipe-dot on" id="dot-0"></div>
       <div class="swipe-dot" id="dot-1"></div>
       <div class="swipe-dot" id="dot-2"></div>
+      <div class="swipe-dot" id="dot-3"></div>
     </div>
     <div id="pull-bar" class="pull-bar">
       <div class="pull-bar-inner">
@@ -535,6 +597,7 @@
       <div class="swipe-dot" id="dot-0b"></div>
       <div class="swipe-dot on" id="dot-1b"></div>
       <div class="swipe-dot" id="dot-2b"></div>
+      <div class="swipe-dot" id="dot-3b"></div>
     </div>
     <div class="cal-grid-wrap">
       <div class="cal-grid" id="cal-grid"></div>
@@ -574,8 +637,24 @@
       <div class="swipe-dot" id="dot-0c"></div>
       <div class="swipe-dot" id="dot-1c"></div>
       <div class="swipe-dot on" id="dot-2c"></div>
+      <div class="swipe-dot" id="dot-3c"></div>
     </div>
     <div class="diary-scroll" id="diary-body"></div>
+  </div>
+
+  <!-- ═══════════════ LOG ═══════════════ -->
+  <div id="view-log" class="view">
+    <div class="log-hdr">
+      <div class="log-hdr-title">Log Sorgenti</div>
+      <div class="log-hdr-sub" id="log-hdr-sub">caricamento…</div>
+    </div>
+    <div class="swipe-dots" style="background:var(--dark);border-bottom:1px solid rgba(255,255,255,.08);">
+      <div class="swipe-dot" id="dot-0d"></div>
+      <div class="swipe-dot" id="dot-1d"></div>
+      <div class="swipe-dot" id="dot-2d"></div>
+      <div class="swipe-dot on" id="dot-3d"></div>
+    </div>
+    <div class="log-scroll" id="log-body"></div>
   </div>
 
   <!-- ═══════════════ BOTTOM NAV ═══════════════ -->
@@ -590,6 +669,9 @@
     </button>
     <button class="nav-btn" id="nav-diary">
       <div class="nav-ico">📓</div>Diario
+    </button>
+    <button class="nav-btn" id="nav-log">
+      <div class="nav-ico">◈</div>Log
     </button>
   </nav>
 
