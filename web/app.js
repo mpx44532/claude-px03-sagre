@@ -567,37 +567,124 @@ document.getElementById("cal-next").addEventListener("click", () => {
 
 document.getElementById("detail-back").addEventListener("click", () => showView(prevView));
 
+// ── Toast ───────────────────────────────────────────────
+let _toastTimer = null;
+function showToast(msg) {
+  const t = document.getElementById("toast");
+  t.textContent = msg;
+  t.classList.add("show");
+  clearTimeout(_toastTimer);
+  _toastTimer = setTimeout(() => t.classList.remove("show"), 2800);
+}
+
+// ── Data loading ────────────────────────────────────────
+function _setLastUpdate(scrapedAt) {
+  if (!scrapedAt) return;
+  const d   = new Date(scrapedAt);
+  const dd  = String(d.getDate()).padStart(2, "0");
+  const mon = MON_S[d.getMonth()];
+  const hh  = String(d.getHours()).padStart(2, "0");
+  const mm  = String(d.getMinutes()).padStart(2, "0");
+  document.getElementById("last-update").textContent = `↻ ${dd} ${mon} ${hh}:${mm}`;
+}
+
+async function _fetchData(bustCache) {
+  const url = bustCache ? `/data/sagre.json?t=${Date.now()}` : "/data/sagre.json";
+  const resp = await fetch(url);
+  if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+  return resp.json();
+}
+
+async function refreshData() {
+  const bar      = document.getElementById("pull-bar");
+  const pullText = document.getElementById("pull-text");
+  bar.classList.remove("pulling");
+  bar.classList.add("loading");
+  if (pullText) pullText.textContent = "Aggiornamento...";
+
+  try {
+    const data       = await _fetchData(true);
+    const prevIds    = new Set(allSagre.map(ev => ev.id).filter(Boolean));
+    allSagre         = data.sagre || [];
+    const currentIds = allSagre.map(ev => ev.id).filter(Boolean);
+    newEventIds      = new Set(currentIds.filter(id => !prevIds.has(id)));
+    localStorage.setItem("sagre-seen-ids", JSON.stringify(currentIds));
+
+    if (data.meta?.scraped_at) _setLastUpdate(data.meta.scraped_at);
+
+    if (allSagre.some(ev => ev.fonte === "llm_liguria"))
+      document.documentElement.classList.add("theme-llm");
+
+    if      (currentView === "agenda") renderAgenda();
+    else if (currentView === "cal")    renderCal();
+    else if (currentView === "diary")  renderDiary();
+
+    const n = newEventIds.size;
+    showToast(n > 0 ? `${n} nuov${n === 1 ? "o" : "i"} event${n === 1 ? "o" : "i"} trovat${n === 1 ? "o" : "i"}!` : "Nessun nuovo evento");
+  } catch (err) {
+    showToast("Errore: " + err.message);
+  } finally {
+    bar.classList.remove("loading");
+    if (pullText) pullText.textContent = "Tira per aggiornare";
+  }
+}
+
+// ── Pull-to-refresh ─────────────────────────────────────
+(function initPullRefresh() {
+  const agendaBody = document.getElementById("agenda-body");
+  const bar        = document.getElementById("pull-bar");
+  const pullText   = document.getElementById("pull-text");
+  const THRESHOLD  = 62;
+  let startY = 0, canPull = false, pulling = false;
+
+  agendaBody.addEventListener("touchstart", e => {
+    canPull = agendaBody.scrollTop === 0;
+    if (canPull) { startY = e.touches[0].clientY; pulling = false; }
+  }, { passive: true });
+
+  agendaBody.addEventListener("touchmove", e => {
+    if (!canPull) return;
+    const dy = e.touches[0].clientY - startY;
+    if (dy > 12) {
+      pulling = true;
+      bar.classList.add("pulling");
+      pullText.textContent = dy >= THRESHOLD ? "Rilascia!" : "Tira per aggiornare";
+    } else if (!pulling) {
+      bar.classList.remove("pulling");
+    }
+  }, { passive: true });
+
+  agendaBody.addEventListener("touchend", e => {
+    if (!canPull) return;
+    const dy = e.changedTouches[0].clientY - startY;
+    canPull = false;
+    if (dy >= THRESHOLD && pulling) {
+      refreshData();
+    } else {
+      bar.classList.remove("pulling");
+    }
+    pulling = false;
+  }, { passive: true });
+})();
+
 // ── Init ────────────────────────────────────────────────
 async function init() {
   renderBadge();
   updateDiaryMeta();
+  document.getElementById("last-update").addEventListener("click", refreshData);
 
   try {
-    const resp = await fetch("/data/sagre.json");
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const data = await resp.json();
-    allSagre = data.sagre || [];
+    const data = await _fetchData(false);
+    allSagre   = data.sagre || [];
 
-    if (data.meta?.scraped_at) {
-      const d   = new Date(data.meta.scraped_at);
-      const dd  = String(d.getDate()).padStart(2, "0");
-      const mon = MON_S[d.getMonth()];
-      const hh  = String(d.getHours()).padStart(2, "0");
-      const mm  = String(d.getMinutes()).padStart(2, "0");
-      document.getElementById("last-update").textContent = `↻ ${dd} ${mon} ${hh}:${mm}`;
-    }
+    if (data.meta?.scraped_at) _setLastUpdate(data.meta.scraped_at);
 
-    // LLM source indicator
-    if (allSagre.some(ev => ev.fonte === "llm_liguria")) {
+    if (allSagre.some(ev => ev.fonte === "llm_liguria"))
       document.documentElement.classList.add("theme-llm");
-    }
 
-    // New-event detection vs previous load
     const prevIds    = new Set(JSON.parse(localStorage.getItem("sagre-seen-ids") || "[]"));
     const currentIds = allSagre.map(ev => ev.id).filter(Boolean);
-    if (prevIds.size > 0) {
-      newEventIds = new Set(currentIds.filter(id => !prevIds.has(id)));
-    }
+    if (prevIds.size > 0) newEventIds = new Set(currentIds.filter(id => !prevIds.has(id)));
     localStorage.setItem("sagre-seen-ids", JSON.stringify(currentIds));
 
     renderAgenda();
