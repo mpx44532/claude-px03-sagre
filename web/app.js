@@ -598,9 +598,11 @@ async function _fetchData(bustCache) {
 async function refreshData() {
   const bar      = document.getElementById("pull-bar");
   const pullText = document.getElementById("pull-text");
+  const spinner  = document.getElementById("title-spinner");
   bar.classList.remove("pulling");
   bar.classList.add("loading");
   if (pullText) pullText.textContent = "Aggiornamento...";
+  if (spinner)  { spinner.style.display = "inline"; spinner.style.animation = "spin .7s linear infinite"; }
 
   try {
     const data       = await _fetchData(true);
@@ -626,6 +628,7 @@ async function refreshData() {
   } finally {
     bar.classList.remove("loading");
     if (pullText) pullText.textContent = "Tira per aggiornare";
+    if (spinner)  { spinner.style.animation = ""; spinner.style.display = "none"; }
   }
 }
 
@@ -671,7 +674,7 @@ async function refreshData() {
 async function init() {
   renderBadge();
   updateDiaryMeta();
-  document.getElementById("last-update").addEventListener("click", refreshData);
+  document.getElementById("app-title").addEventListener("click", refreshData);
 
   try {
     const data = await _fetchData(false);

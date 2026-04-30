@@ -464,9 +464,13 @@
     .last-update {
       position: absolute; bottom: env(safe-area-inset-bottom, 2px); right: 10px;
       font-size: .46rem; color: var(--gray-600); white-space: nowrap;
-      cursor: pointer; text-decoration: underline dotted;
+      pointer-events: none;
     }
-    .last-update:hover { color: var(--red); }
+    .app-title {
+      cursor: pointer; user-select: none;
+      display: inline-flex; align-items: center; gap: 6px;
+    }
+    .app-title:active { opacity: .75; }
 
     /* ── Empty state ──────────────────────────────────── */
     .empty {
@@ -495,7 +499,7 @@
   <!-- ═══════════════ AGENDA ═══════════════ -->
   <div id="view-agenda" class="view active">
     <div class="screen-hdr">
-      <div class="app-title">Sagre Summer '26</div>
+      <div class="app-title" id="app-title">Sagre Summer '26 <span id="title-spinner" style="font-size:.75em;opacity:.55;display:none;">↻</span></div>
       <div class="screen-sub">Estate · Prossimi eventi</div>
       <div class="llm-tag">✦ AI-enhanced</div>
     </div>
