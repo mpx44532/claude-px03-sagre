@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-04-29T05:19:41Z",
+    "scraped_at": "2026-04-30T05:23:36Z",
     "total": 14,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -19,7 +19,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-01-01",
       "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Fiera del Primo Maggio a Sesta Godano Eventi Feste Edizione 2026 Il 01/05/2026 Liguria Sesta Godano (SP) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari E",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/2026 Al 03/05/2026 Liguria Cogoleto (GE) leggi tutto Eventi E Sagre Regione Liguria Event",
       "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
       "immagine": "",
       "stato": "passato",
@@ -33,10 +33,10 @@
       "regione": "Liguria",
       "data_inizio": "2026-04-30",
       "data_fine": "2026-04-30",
-      "descrizione": "Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/2026 Al 03/05/2026 Liguria Cogoleto (GE) leggi tutto Fiera del Primo Maggio a Sesta Godano Eventi Feste Edizione 2026 Il 01/05/2026 Liguria Sesta Godano (SP) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regional",
+      "descrizione": "Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/2026 Al 03/05/2026 Liguria Cogoleto (GE) leggi tutto Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/2026 Al 03/05/2026 Liguria Cogoleto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/21194915_Sagra+Di+Primavera+a+Cogoleto.html",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "eventiesagre",
       "id": "sagra-di-primavera-a-cogoleto-eventi-sagre-sagra-di-primavera-dal-30-04-2026-al-03-05-2026-liguria-cogoleto-ge-leggi-t-2026-04-30"
     },
@@ -47,7 +47,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-05-01",
       "data_fine": "2026-05-01",
-      "descrizione": "Fiera del Primo Maggio a Sesta Godano Eventi Feste Edizione 2026 Il 01/05/2026 Liguria Sesta Godano (SP) leggi tutto Fiera del Primo Maggio a Sesta Godano Eventi Feste Edizione 2026 Il 01/05/2026 Liguria Sesta Godano (SP) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Lig",
+      "descrizione": "Fiera del Primo Maggio a Sesta Godano Eventi Feste Edizione 2026 Il 01/05/2026 Liguria Sesta Godano (SP) leggi tutto Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/2026 Al 03/05/2026 Liguria Cogoleto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regional",
       "url": "https://www.eventiesagre.it/Eventi_Feste/7499_Fiera+del+Primo+Maggio+a+Sesta+Godano.html",
       "immagine": "",
       "stato": "futuro",
