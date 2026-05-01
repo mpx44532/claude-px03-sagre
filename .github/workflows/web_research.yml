@@ -1,15 +1,15 @@
-name: Web Research – discover sagre URLs
+name: Pipeline – web research + scrape URLs
 
 on:
   schedule:
-    - cron: "30 1 * * *"   # every night at 01:30 UTC (before scrape.yml at 02:00)
+    - cron: "0 2 * * *"   # every night at 02:00 UTC
   workflow_dispatch:        # manual trigger
 
 permissions:
   contents: write
 
 jobs:
-  research:
+  pipeline:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,15 +24,20 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run web research (Step 1)
+      - name: Step 1 – web research (discover URLs)
         run: python scraper/web_research.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
-      - name: Commit & push search_urls.json
+      - name: Step 2 – scrape URLs (extract events)
+        run: python scraper/scrape_urls.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Commit & push updated data
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/search_urls.json
-          git diff --cached --quiet || git commit -m "chore: update search_urls.json [skip ci]"
+          git add data/search_urls.json data/sagre.json
+          git diff --cached --quiet || git commit -m "chore: update data via new pipeline [skip ci]"
           git push
