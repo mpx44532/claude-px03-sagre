@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-04-30T05:23:36Z",
+    "scraped_at": "2026-05-01T05:35:12Z",
     "total": 14,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -19,7 +19,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-01-01",
       "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/2026 Al 03/05/2026 Liguria Cogoleto (GE) leggi tutto Eventi E Sagre Regione Liguria Event",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/2026 Al 03/05/2026 Liguria Cogoleto (GE) leggi tutto Fiera del Primo Maggio a Sesta Godan",
       "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
       "immagine": "",
       "stato": "passato",
@@ -33,10 +33,10 @@
       "regione": "Liguria",
       "data_inizio": "2026-04-30",
       "data_fine": "2026-04-30",
-      "descrizione": "Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/2026 Al 03/05/2026 Liguria Cogoleto (GE) leggi tutto Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/2026 Al 03/05/2026 Liguria Cogoleto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi",
+      "descrizione": "Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/2026 Al 03/05/2026 Liguria Cogoleto (GE) leggi tutto Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/2026 Al 03/05/2026 Liguria Cogoleto (GE) leggi tutto Fiera del Primo Maggio a Sesta Godano Eventi Feste",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/21194915_Sagra+Di+Primavera+a+Cogoleto.html",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "eventiesagre",
       "id": "sagra-di-primavera-a-cogoleto-eventi-sagre-sagra-di-primavera-dal-30-04-2026-al-03-05-2026-liguria-cogoleto-ge-leggi-t-2026-04-30"
     },
@@ -47,10 +47,10 @@
       "regione": "Liguria",
       "data_inizio": "2026-05-01",
       "data_fine": "2026-05-01",
-      "descrizione": "Fiera del Primo Maggio a Sesta Godano Eventi Feste Edizione 2026 Il 01/05/2026 Liguria Sesta Godano (SP) leggi tutto Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/2026 Al 03/05/2026 Liguria Cogoleto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regional",
+      "descrizione": "Fiera del Primo Maggio a Sesta Godano Eventi Feste Edizione 2026 Il 01/05/2026 Liguria Sesta Godano (SP) leggi tutto Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/2026 Al 03/05/2026 Liguria Cogoleto (GE) leggi tutto Fiera del Primo Maggio a Sesta Godano Eventi Feste Edizion",
       "url": "https://www.eventiesagre.it/Eventi_Feste/7499_Fiera+del+Primo+Maggio+a+Sesta+Godano.html",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "eventiesagre",
       "id": "fiera-del-primo-maggio-a-sesta-godano-eventi-feste-edizione-2026-il-01-05-2026-liguria-sesta-godano-sp-leggi-tutto-2026-05-01"
     },
@@ -64,7 +64,7 @@
       "descrizione": "Un weekend di benessere in Liguria, tra ulivi e mare. Il1 maggio 2026, Nuovamente Festival nel borgo medievale di Cervo: attività all’aria aperta, yoga, laboratori e condivisione focalizzati sull’ecosostenibilità e il relax. Non è solo un evento: è un invito a rallentare, respirare e lasciarsi ispirare.Un’occasione per mettersi in contatto con se stessi, riscoprendo il valore del tempo, della natura e del benessere condiviso. Tutto immerso nell’atmosfera rilassata e tra i carruggi poetici del borgo medievale, animato da diversi incontri a tema e laboratori itinere portati dalla Proloco Progetto Cervo. Evento autentico di Regione Liguria 2026.A Nuovamente troverai:mercatino biologico a km. 0, esposizione e vendita di manufatti, opere dell’ingegno, arte dell’intreccio dei vimini e delle palme, giochi di legno di una volta, laboratori di riciclo creativo e di pittura utilizzando i prodotti della terra, arte del tombolo (pizzo a fuselli) metodo tradizionale del ricamo, visite guidate nel Borgo, aperitivi e pranzi a km. 0 presso i bar e i ristoranti, merenda sana a km. 0 con pane e olio, degustazioni di prodotti locali negli esercizi commerciali, passeggiate a passo d’asino nel Parco, camminate ecologiche, conferenze tematiche, concerti e spettacoli con artisti locali. presentazione e dimostrazione del pestun de fave (pesto realizzato con le fave cervesi) marchio DE.CO. di Cervo. Per saperne di più:Facebook.com/prolococervo",
       "url": "https://www.facebook.com/prolococervo",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "nuovamente-festival-a-cervo-cervo-2026-05-01"
     },
