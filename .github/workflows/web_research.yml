@@ -1,4 +1,4 @@
-name: Pipeline – web research + scrape URLs
+name: Pipeline – web research (Claude web_search)
 
 on:
   schedule:
@@ -24,13 +24,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Step 1 – web research (discover URLs)
+      - name: Run web research (search + extract in one pass)
         run: python scraper/web_research.py
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-
-      - name: Step 2 – scrape URLs (extract events)
-        run: python scraper/scrape_urls.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
@@ -38,6 +33,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/search_urls.json data/sagre.json
-          git diff --cached --quiet || git commit -m "chore: update data via new pipeline [skip ci]"
+          git add data/sagre.json data/search_urls.json
+          git diff --cached --quiet || git commit -m "chore: update data via web_research [skip ci]"
           git push
