@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-05-01T05:35:12Z",
+    "scraped_at": "2026-05-02T04:52:34Z",
     "total": 14,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -19,7 +19,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-01-01",
       "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/2026 Al 03/05/2026 Liguria Cogoleto (GE) leggi tutto Fiera del Primo Maggio a Sesta Godan",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto Sagra Di Primavera a Cogoleto Eventi Sagre Sagra",
       "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
       "immagine": "",
       "stato": "passato",
@@ -33,26 +33,12 @@
       "regione": "Liguria",
       "data_inizio": "2026-04-30",
       "data_fine": "2026-04-30",
-      "descrizione": "Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/2026 Al 03/05/2026 Liguria Cogoleto (GE) leggi tutto Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/2026 Al 03/05/2026 Liguria Cogoleto (GE) leggi tutto Fiera del Primo Maggio a Sesta Godano Eventi Feste",
+      "descrizione": "Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/2026 Al 03/05/2026 Liguria Cogoleto (GE) leggi tutto Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/21194915_Sagra+Di+Primavera+a+Cogoleto.html",
       "immagine": "",
       "stato": "passato",
       "fonte": "eventiesagre",
       "id": "sagra-di-primavera-a-cogoleto-eventi-sagre-sagra-di-primavera-dal-30-04-2026-al-03-05-2026-liguria-cogoleto-ge-leggi-t-2026-04-30"
-    },
-    {
-      "nome": "Fiera del Primo Maggio a Sesta Godano Eventi Feste Edizione 2026 Il 01/05/2026 Liguria Sesta Godano (SP) leggi tutto",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-05-01",
-      "data_fine": "2026-05-01",
-      "descrizione": "Fiera del Primo Maggio a Sesta Godano Eventi Feste Edizione 2026 Il 01/05/2026 Liguria Sesta Godano (SP) leggi tutto Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/2026 Al 03/05/2026 Liguria Cogoleto (GE) leggi tutto Fiera del Primo Maggio a Sesta Godano Eventi Feste Edizion",
-      "url": "https://www.eventiesagre.it/Eventi_Feste/7499_Fiera+del+Primo+Maggio+a+Sesta+Godano.html",
-      "immagine": "",
-      "stato": "in corso",
-      "fonte": "eventiesagre",
-      "id": "fiera-del-primo-maggio-a-sesta-godano-eventi-feste-edizione-2026-il-01-05-2026-liguria-sesta-godano-sp-leggi-tutto-2026-05-01"
     },
     {
       "nome": "Nuovamente Festival a Cervo",
@@ -64,7 +50,7 @@
       "descrizione": "Un weekend di benessere in Liguria, tra ulivi e mare. Il1 maggio 2026, Nuovamente Festival nel borgo medievale di Cervo: attività all’aria aperta, yoga, laboratori e condivisione focalizzati sull’ecosostenibilità e il relax. Non è solo un evento: è un invito a rallentare, respirare e lasciarsi ispirare.Un’occasione per mettersi in contatto con se stessi, riscoprendo il valore del tempo, della natura e del benessere condiviso. Tutto immerso nell’atmosfera rilassata e tra i carruggi poetici del borgo medievale, animato da diversi incontri a tema e laboratori itinere portati dalla Proloco Progetto Cervo. Evento autentico di Regione Liguria 2026.A Nuovamente troverai:mercatino biologico a km. 0, esposizione e vendita di manufatti, opere dell’ingegno, arte dell’intreccio dei vimini e delle palme, giochi di legno di una volta, laboratori di riciclo creativo e di pittura utilizzando i prodotti della terra, arte del tombolo (pizzo a fuselli) metodo tradizionale del ricamo, visite guidate nel Borgo, aperitivi e pranzi a km. 0 presso i bar e i ristoranti, merenda sana a km. 0 con pane e olio, degustazioni di prodotti locali negli esercizi commerciali, passeggiate a passo d’asino nel Parco, camminate ecologiche, conferenze tematiche, concerti e spettacoli con artisti locali. presentazione e dimostrazione del pestun de fave (pesto realizzato con le fave cervesi) marchio DE.CO. di Cervo. Per saperne di più:Facebook.com/prolococervo",
       "url": "https://www.facebook.com/prolococervo",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "nuovamente-festival-a-cervo-cervo-2026-05-01"
     },
@@ -78,7 +64,7 @@
       "descrizione": "Taggia capitale dell’olio d’oliva: scopri il suo centro storico, la sua storia, le sue tradizioni. Scopri il tuo tesoro Meditaggiascavenerdì 1 e sabato 2 maggio 2026: l’olio extravergine d’oliva di oliva taggiasca.L’oliva taggiascaIl primo ulivo a Taggia non ricordano nemmeno più chi lo piantò, se i monaci di San Colombano, della vicina isola di Lerino, in Provenza, o i monaci benedettini di Taggia. La prima oliva, il primo olio invece, giunse con i Greci e Romani e fu subito amore: da allora le colline di questo antico borgo medievale risplendono del verde metallico delle olive e i carrugi profumano di sansa: Taggia vive del suo oro, l’olio d’oliva.L’eventoL’evento clou dell’olio è Meditaggiasca – Expo Valle Argentina e Armea che venerdì 1 e sabato 2 maggio 2026 porterà nelle vie storiche del borgo, tra via Soleri e piazza Cavour, stand informativi e promozionali dei comuni, uno spazio riservato alle aziende locali per la vendita dei prodotti e, immancabili, gli show cooking che celebrano l’oliva taggiasca, il Moscatello di Taggia e tutti i prodotti del territorio.Ospiti quest’anno sarà Luca Pappagallo, “cuciniere”, uno dei volti più noti della trasmissione di Antonella Clerici “La prova del cuoco” e Renata Briano, con il racconto della cucina ligure tra tradizione e innovazione. Novità 2026 Street Food delle Pro Loco, con i sapori delle valli Argentina e Armea grazie alla partecipazione dei borghi del territorio.Il programma verrà reso noto a breve.Rivieradeifiori.travel",
       "url": "https://rivieradeifiori.travel",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "meditaggiasca-expo-valle-argentina-e-armea-taggia-non-ricordano-nemmeno-piu-chi-lo-pianto-2026-05-02"
     },
@@ -165,6 +151,20 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "cammini-di-benessere-sul-lungomare-di-san-bartolomeo-2026-05-29"
+    },
+    {
+      "nome": "Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-05-30",
+      "data_fine": "2026-05-30",
+      "descrizione": "Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto Sagra Di Primavera a Cogoleto Eventi Sagre Sagra Di Primavera Dal 30/04/20",
+      "url": "https://www.eventiesagre.it/Eventi_Feste/21195399_Cipresstock+A+Cipressa.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "cipresstock-a-cipressa-eventi-feste-edizione-2026-dal-30-05-2026-al-31-05-2026-liguria-cipressa-im-leggi-tutto-2026-05-30"
     },
     {
       "nome": "I tour di autunno nero a Dolceacqua e Triora",
