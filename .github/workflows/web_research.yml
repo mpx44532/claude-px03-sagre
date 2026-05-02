@@ -1,9 +1,7 @@
 name: Pipeline – web research (Claude web_search)
 
 on:
-  schedule:
-    - cron: "0 2 * * *"   # every night at 02:00 UTC
-  workflow_dispatch:        # manual trigger
+  workflow_dispatch:        # manual trigger only – schedule disabled pending cost review
 
 permissions:
   contents: write
