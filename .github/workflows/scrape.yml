@@ -26,8 +26,6 @@ jobs:
 
       - name: Run scraper
         run: python scraper/scrape.py
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Commit & push updated data
         run: |
