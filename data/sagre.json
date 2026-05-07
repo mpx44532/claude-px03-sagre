@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-05-06T05:31:28Z",
+    "scraped_at": "2026-05-07T05:33:50Z",
     "total": 12,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -14,11 +14,11 @@
     {
       "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
       "comune": "",
-      "provincia": "SV",
+      "provincia": "GE",
       "regione": "Liguria",
       "data_inizio": "2026-01-01",
       "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Sagra dei Sapori Liguri a Boissano Eventi Feste Edizione 2026 Dal 28/05/2026 Al 01/06/2026 Liguria Boissano (SV) leggi tutto Eventi E Sagre Regione Liguria Event",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Festa Della Focaccia D",
       "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
       "immagine": "",
       "stato": "passato",
@@ -66,6 +66,20 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "aromatica-aromi-di-liguria-a-diano-marina-diano-marina-odorano-di-buono-per-la-dodicesima-edizione-di-aromatica-2026-05-10"
+    },
+    {
+      "nome": "Festa Della Focaccia Di Recco Eventi Feste La Sagra Della Focaccia Col Formaggio Tipica Di Recco Il 24/05/2026 Liguria R",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-05-24",
+      "data_fine": "2026-05-24",
+      "descrizione": "Festa Della Focaccia Di Recco Eventi Feste La Sagra Della Focaccia Col Formaggio Tipica Di Recco Il 24/05/2026 Liguria Recco (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Festa Della Focacci",
+      "url": "https://www.eventiesagre.it/Eventi_Feste/638_Festa+Della+Focaccia+Di+Recco.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "festa-della-focaccia-di-recco-eventi-feste-la-sagra-della-focaccia-col-formaggio-tipica-di-recco-il-24-05-2026-liguria-r-2026-05-24"
     },
     {
       "nome": "Italian Oyster Fest 2026: La Spezia celebra l’ostrica italiana",
@@ -124,20 +138,6 @@
       "id": "30-fragolata-di-rossiglione-2026-05-25"
     },
     {
-      "nome": "Sagra dei Sapori Liguri a Boissano Eventi Feste Edizione 2026 Dal 28/05/2026 Al 01/06/2026 Liguria Boissano (SV) leggi t",
-      "comune": "",
-      "provincia": "SV",
-      "regione": "Liguria",
-      "data_inizio": "2026-05-28",
-      "data_fine": "2026-05-28",
-      "descrizione": "Sagra dei Sapori Liguri a Boissano Eventi Feste Edizione 2026 Dal 28/05/2026 Al 01/06/2026 Liguria Boissano (SV) leggi tutto Sagra dei Sapori Liguri a Boissano Eventi Feste Edizione 2026 Dal 28/05/2026 Al 01/06/2026 Liguria Boissano (SV) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi",
-      "url": "https://www.eventiesagre.it/Eventi_Sagre/16149_Sagra+dei+Sapori+Liguri+a+Boissano.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "sagra-dei-sapori-liguri-a-boissano-eventi-feste-edizione-2026-dal-28-05-2026-al-01-06-2026-liguria-boissano-sv-leggi-t-2026-05-28"
-    },
-    {
       "nome": "Cammini di Benessere sul lungomare di San Bartolomeo",
       "comune": "",
       "provincia": "IM",
@@ -154,11 +154,11 @@
     {
       "nome": "Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto",
       "comune": "",
-      "provincia": "SV",
+      "provincia": "GE",
       "regione": "Liguria",
       "data_inizio": "2026-05-30",
       "data_fine": "2026-05-30",
-      "descrizione": "Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto Sagra dei Sapori Liguri a Boissano Eventi Feste Edizione 2026 Dal 28/05/2026 Al 01/06/2026 Liguria Boissano (SV) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In",
+      "descrizione": "Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Festa Della Focaccia Di Recco Eventi Feste La Sa",
       "url": "https://www.eventiesagre.it/Eventi_Feste/21195399_Cipresstock+A+Cipressa.html",
       "immagine": "",
       "stato": "futuro",
