@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-05-07T05:33:50Z",
+    "scraped_at": "2026-05-08T04:55:17Z",
     "total": 12,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -11,20 +11,6 @@
     ]
   },
   "sagre": [
-    {
-      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-01-01",
-      "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Festa Della Focaccia D",
-      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
-      "immagine": "",
-      "stato": "passato",
-      "fonte": "eventiesagre",
-      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
-    },
     {
       "nome": "World Bee Day 2026 a Noli: le api nella storia",
       "comune": "NoliDalle prime testimonianze nel Neolitico",
@@ -74,7 +60,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-05-24",
       "data_fine": "2026-05-24",
-      "descrizione": "Festa Della Focaccia Di Recco Eventi Feste La Sagra Della Focaccia Col Formaggio Tipica Di Recco Il 24/05/2026 Liguria Recco (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Festa Della Focacci",
+      "descrizione": "Festa Della Focaccia Di Recco Eventi Feste La Sagra Della Focaccia Col Formaggio Tipica Di Recco Il 24/05/2026 Liguria Recco (GE) leggi tutto Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Sagra dei Sapori Liguri a Boissano Eventi Sa",
       "url": "https://www.eventiesagre.it/Eventi_Feste/638_Festa+Della+Focaccia+Di+Recco.html",
       "immagine": "",
       "stato": "futuro",
@@ -138,6 +124,34 @@
       "id": "30-fragolata-di-rossiglione-2026-05-25"
     },
     {
+      "nome": "Sagra dei Sapori Liguri a Boissano Eventi Sagre Edizione 2026 Dal 28/05/2026 Al 01/06/2026 Liguria Boissano (SV) leggi t",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-05-28",
+      "data_fine": "2026-05-28",
+      "descrizione": "Sagra dei Sapori Liguri a Boissano Eventi Sagre Edizione 2026 Dal 28/05/2026 Al 01/06/2026 Liguria Boissano (SV) leggi tutto Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Sagra dei Sapori Liguri a Boissano Eventi Sagre Edizione 2026",
+      "url": "https://www.eventiesagre.it/Eventi_Sagre/16149_Sagra+dei+Sapori+Liguri+a+Boissano.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "sagra-dei-sapori-liguri-a-boissano-eventi-sagre-edizione-2026-dal-28-05-2026-al-01-06-2026-liguria-boissano-sv-leggi-t-2026-05-28"
+    },
+    {
+      "nome": "Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-05-29",
+      "data_fine": "2026-05-29",
+      "descrizione": "Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Sagra dei Sapori Liguri a Boissano Eventi Sagre Edizione 2026 Dal 28/05/",
+      "url": "https://www.eventiesagre.it/Eventi_Feste/21016398_Cengio+in+Festa.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "cengio-in-festa-eventi-enogastronomici-edizione-2026-dal-29-05-2026-al-02-06-2026-liguria-cengio-sv-leggi-tutto-2026-05-29"
+    },
+    {
       "nome": "Cammini di Benessere sul lungomare di San Bartolomeo",
       "comune": "",
       "provincia": "IM",
@@ -150,20 +164,6 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "cammini-di-benessere-sul-lungomare-di-san-bartolomeo-2026-05-29"
-    },
-    {
-      "nome": "Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-05-30",
-      "data_fine": "2026-05-30",
-      "descrizione": "Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Festa Della Focaccia Di Recco Eventi Feste La Sa",
-      "url": "https://www.eventiesagre.it/Eventi_Feste/21195399_Cipresstock+A+Cipressa.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "cipresstock-a-cipressa-eventi-feste-edizione-2026-dal-30-05-2026-al-31-05-2026-liguria-cipressa-im-leggi-tutto-2026-05-30"
     },
     {
       "nome": "I tour di autunno nero a Dolceacqua e Triora",
