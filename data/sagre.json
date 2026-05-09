@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-05-08T04:55:17Z",
+    "scraped_at": "2026-05-09T05:23:59Z",
     "total": 12,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -12,6 +12,20 @@
   },
   "sagre": [
     {
+      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-01-01",
+      "data_fine": "2026-01-01",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Sagra dei Sapori Liguri a Boissano Eventi Sagre Edizione 2026 Dal 28/05/2026 Al 01/06/2026 Liguria Boissano (SV) leggi tutto Eventi E Sagre Regione Liguria Event",
+      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "eventiesagre",
+      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
+    },
+    {
       "nome": "World Bee Day 2026 a Noli: le api nella storia",
       "comune": "NoliDalle prime testimonianze nel Neolitico",
       "provincia": "SV",
@@ -21,9 +35,23 @@
       "descrizione": "World Bee Day “Le Api nella Storia”,sabato 9 maggio 2026, anima Noli con la sua 4° edizione: un evento dedicato alle api che sensibilizza sul rapporto millenario tra uomo e natura, tra storia, biodiversità e sostenibilità, nel suggestivo borgo ligure, tra gli eventi in Liguria da non perdere a maggio 2026.Cosa si può fare durante il World Bee Day 2026 a NoliDalle prime testimonianze nel Neolitico, con la raccolta del miele dai favi selvatici, fino alle civiltà antiche, dove le api erano simbolo di sacralità, prosperità e organizzazione, il World Bee Day 2026 propone un percorso esperienziale tra storia, natura e cultura. Nel borgo di Noli, tra carruggi e scorci sul mare, i visitatori possono partecipare a incontri tematici, attività didattiche e laboratori per tutte le età, scoprendo il valore dell’apicoltura e il ruolo fondamentale degli insetti impollinatori. Non mancano degustazioni di miele e momenti di approfondimento sulla sostenibilità ambientale, rendendo l’evento un’occasione perfetta per chi cerca cosa fare in Liguria a maggio 2026, tra cultura, natura e scoperta del territorio. Per maggiori informazioni:Facebook.com",
       "url": "https://www.facebook.com/people/PRO-LOCO-NOLI/100087870649155/",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "world-bee-day-2026-a-noli-le-api-nella-storia-nolidalle-prime-testimonianze-nel-neolitico-2026-05-09"
+    },
+    {
+      "nome": "La Sagra Del Pesce Di Camogli Eventi Sagre Edizione Della Festa Di San Fortunato Il 10/05/2026 Liguria Camogli (GE) legg",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-05-10",
+      "data_fine": "2026-05-10",
+      "descrizione": "La Sagra Del Pesce Di Camogli Eventi Sagre Edizione Della Festa Di San Fortunato Il 10/05/2026 Liguria Camogli (GE) leggi tutto Sagra dei Sapori Liguri a Boissano Eventi Sagre Edizione 2026 Dal 28/05/2026 Al 01/06/2026 Liguria Boissano (SV) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Even",
+      "url": "https://www.eventiesagre.it/Eventi_Sagre/973_La+Sagra+Del+Pesce+Di+Camogli.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "la-sagra-del-pesce-di-camogli-eventi-sagre-edizione-della-festa-di-san-fortunato-il-10-05-2026-liguria-camogli-ge-legg-2026-05-10"
     },
     {
       "nome": "Salta nella località di tuo interesse:",
@@ -52,20 +80,6 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "aromatica-aromi-di-liguria-a-diano-marina-diano-marina-odorano-di-buono-per-la-dodicesima-edizione-di-aromatica-2026-05-10"
-    },
-    {
-      "nome": "Festa Della Focaccia Di Recco Eventi Feste La Sagra Della Focaccia Col Formaggio Tipica Di Recco Il 24/05/2026 Liguria R",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-05-24",
-      "data_fine": "2026-05-24",
-      "descrizione": "Festa Della Focaccia Di Recco Eventi Feste La Sagra Della Focaccia Col Formaggio Tipica Di Recco Il 24/05/2026 Liguria Recco (GE) leggi tutto Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Sagra dei Sapori Liguri a Boissano Eventi Sa",
-      "url": "https://www.eventiesagre.it/Eventi_Feste/638_Festa+Della+Focaccia+Di+Recco.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "festa-della-focaccia-di-recco-eventi-feste-la-sagra-della-focaccia-col-formaggio-tipica-di-recco-il-24-05-2026-liguria-r-2026-05-24"
     },
     {
       "nome": "Italian Oyster Fest 2026: La Spezia celebra l’ostrica italiana",
@@ -130,26 +144,12 @@
       "regione": "Liguria",
       "data_inizio": "2026-05-28",
       "data_fine": "2026-05-28",
-      "descrizione": "Sagra dei Sapori Liguri a Boissano Eventi Sagre Edizione 2026 Dal 28/05/2026 Al 01/06/2026 Liguria Boissano (SV) leggi tutto Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Sagra dei Sapori Liguri a Boissano Eventi Sagre Edizione 2026",
+      "descrizione": "Sagra dei Sapori Liguri a Boissano Eventi Sagre Edizione 2026 Dal 28/05/2026 Al 01/06/2026 Liguria Boissano (SV) leggi tutto Sagra dei Sapori Liguri a Boissano Eventi Sagre Edizione 2026 Dal 28/05/2026 Al 01/06/2026 Liguria Boissano (SV) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/16149_Sagra+dei+Sapori+Liguri+a+Boissano.html",
       "immagine": "",
       "stato": "futuro",
       "fonte": "eventiesagre",
       "id": "sagra-dei-sapori-liguri-a-boissano-eventi-sagre-edizione-2026-dal-28-05-2026-al-01-06-2026-liguria-boissano-sv-leggi-t-2026-05-28"
-    },
-    {
-      "nome": "Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-05-29",
-      "data_fine": "2026-05-29",
-      "descrizione": "Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Sagra dei Sapori Liguri a Boissano Eventi Sagre Edizione 2026 Dal 28/05/",
-      "url": "https://www.eventiesagre.it/Eventi_Feste/21016398_Cengio+in+Festa.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "cengio-in-festa-eventi-enogastronomici-edizione-2026-dal-29-05-2026-al-02-06-2026-liguria-cengio-sv-leggi-tutto-2026-05-29"
     },
     {
       "nome": "Cammini di Benessere sul lungomare di San Bartolomeo",
