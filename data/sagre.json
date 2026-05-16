@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-05-15T05:56:50Z",
+    "scraped_at": "2026-05-16T05:29:16Z",
     "total": 11,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -11,20 +11,6 @@
     ]
   },
   "sagre": [
-    {
-      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-01-01",
-      "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Cengio in Festa Eventi",
-      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
-      "immagine": "",
-      "stato": "passato",
-      "fonte": "eventiesagre",
-      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
-    },
     {
       "nome": "Salta nella località di tuo interesse:",
       "comune": "Imperia",
@@ -38,6 +24,20 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "salta-nella-localita-di-tuo-interesse-imperia-2026-05-17"
+    },
+    {
+      "nome": "Sagra Della Lumaca Eventi Sagre A Segno Lumache E Piatti Locali Dal 22/05/2026 Al 24/05/2026 Liguria Vado Ligure (SV) le",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-05-22",
+      "data_fine": "2026-05-22",
+      "descrizione": "Sagra Della Lumaca Eventi Sagre A Segno Lumache E Piatti Locali Dal 22/05/2026 Al 24/05/2026 Liguria Vado Ligure (SV) leggi tutto Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Mangia E Scioppa La Mangialonga Della Val D'aveto Eventi",
+      "url": "https://www.eventiesagre.it/Eventi_Sagre/7120_Sagra+Della+Lumaca.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "sagra-della-lumaca-eventi-sagre-a-segno-lumache-e-piatti-locali-dal-22-05-2026-al-24-05-2026-liguria-vado-ligure-sv-le-2026-05-22"
     },
     {
       "nome": "Italian Oyster Fest 2026: La Spezia celebra l’ostrica italiana",
@@ -102,7 +102,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-05-29",
       "data_fine": "2026-05-29",
-      "descrizione": "Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Cengio in Festa Eventi Enogastronomici Edizione",
+      "descrizione": "Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Mangia E Scioppa La Mangialonga Della Val D'aveto Eventi Sagre La Mangia",
       "url": "https://www.eventiesagre.it/Eventi_Feste/21016398_Cengio+in+Festa.html",
       "immagine": "",
       "stato": "futuro",
@@ -144,7 +144,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-06-07",
       "data_fine": "2026-06-07",
-      "descrizione": "Mangia E Scioppa La Mangialonga Della Val D'aveto Eventi Sagre La Mangialonga Della Val D'aveto Il 07/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Ceng",
+      "descrizione": "Mangia E Scioppa La Mangialonga Della Val D'aveto Eventi Sagre La Mangialonga Della Val D'aveto Il 07/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Mangia E Scioppa La Mangialon",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/21190375_Mangia+E+Scioppa+La+Mangialonga+Della+Val+D+aveto.html",
       "immagine": "",
       "stato": "futuro",
