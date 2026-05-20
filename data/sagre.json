@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-05-19T06:10:28Z",
-    "total": 11,
+    "scraped_at": "2026-05-20T06:10:37Z",
+    "total": 9,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -11,6 +11,20 @@
     ]
   },
   "sagre": [
+    {
+      "nome": "Sagra Della Lumaca Eventi Sagre A Segno Lumache E Piatti Locali Dal 22/05/2026 Al 24/05/2026 Liguria Vado Ligure (SV) le",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-05-22",
+      "data_fine": "2026-05-22",
+      "descrizione": "Sagra Della Lumaca Eventi Sagre A Segno Lumache E Piatti Locali Dal 22/05/2026 Al 24/05/2026 Liguria Vado Ligure (SV) leggi tutto La Fiera di S. Antonio da Padova a Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 14/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Torneo Dei Campanili Even",
+      "url": "https://www.eventiesagre.it/Eventi_Sagre/7120_Sagra+Della+Lumaca.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "sagra-della-lumaca-eventi-sagre-a-segno-lumache-e-piatti-locali-dal-22-05-2026-al-24-05-2026-liguria-vado-ligure-sv-le-2026-05-22"
+    },
     {
       "nome": "Salta nella località di tuo interesse:",
       "comune": "Imperia",
@@ -82,34 +96,6 @@
       "id": "30-fragolata-di-rossiglione-2026-05-25"
     },
     {
-      "nome": "Sagra dei Sapori Liguri a Boissano Eventi Enogastronomici Edizione 2026 Dal 28/05/2026 Al 01/06/2026 Liguria Boissano (S",
-      "comune": "",
-      "provincia": "SV",
-      "regione": "Liguria",
-      "data_inizio": "2026-05-28",
-      "data_fine": "2026-05-28",
-      "descrizione": "Sagra dei Sapori Liguri a Boissano Eventi Enogastronomici Edizione 2026 Dal 28/05/2026 Al 01/06/2026 Liguria Boissano (SV) leggi tutto Cengio in Festa Eventi Feste Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2",
-      "url": "https://www.eventiesagre.it/Eventi_Sagre/16149_Sagra+dei+Sapori+Liguri+a+Boissano.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "sagra-dei-sapori-liguri-a-boissano-eventi-enogastronomici-edizione-2026-dal-28-05-2026-al-01-06-2026-liguria-boissano-s-2026-05-28"
-    },
-    {
-      "nome": "Cengio in Festa Eventi Feste Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto",
-      "comune": "",
-      "provincia": "SV",
-      "regione": "Liguria",
-      "data_inizio": "2026-05-29",
-      "data_fine": "2026-05-29",
-      "descrizione": "Cengio in Festa Eventi Feste Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Cengio in Festa Eventi Feste Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipre",
-      "url": "https://www.eventiesagre.it/Eventi_Feste/21016398_Cengio+in+Festa.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "cengio-in-festa-eventi-feste-edizione-2026-dal-29-05-2026-al-02-06-2026-liguria-cengio-sv-leggi-tutto-2026-05-29"
-    },
-    {
       "nome": "Cammini di Benessere sul lungomare di San Bartolomeo",
       "comune": "",
       "provincia": "IM",
@@ -122,20 +108,6 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "cammini-di-benessere-sul-lungomare-di-san-bartolomeo-2026-05-29"
-    },
-    {
-      "nome": "Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto",
-      "comune": "",
-      "provincia": "SV",
-      "regione": "Liguria",
-      "data_inizio": "2026-05-30",
-      "data_fine": "2026-05-30",
-      "descrizione": "Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto Cengio in Festa Eventi Feste Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Ligu",
-      "url": "https://www.eventiesagre.it/Eventi_Feste/21195399_Cipresstock+A+Cipressa.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "cipresstock-a-cipressa-eventi-feste-edizione-2026-dal-30-05-2026-al-31-05-2026-liguria-cipressa-im-leggi-tutto-2026-05-30"
     },
     {
       "nome": "Genova Street Food Fest",
