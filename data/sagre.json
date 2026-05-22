@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-05-21T06:13:12Z",
+    "scraped_at": "2026-05-22T06:09:56Z",
     "total": 11,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -11,6 +11,20 @@
     ]
   },
   "sagre": [
+    {
+      "nome": "Sagra Della Lumaca Eventi Sagre A Segno Lumache E Piatti Locali Dal 22/05/2026 Al 24/05/2026 Liguria Vado Ligure (SV) le",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-05-22",
+      "data_fine": "2026-05-22",
+      "descrizione": "Sagra Della Lumaca Eventi Sagre A Segno Lumache E Piatti Locali Dal 22/05/2026 Al 24/05/2026 Liguria Vado Ligure (SV) leggi tutto Mangia E Scioppa La Mangialonga Della Val D'aveto Eventi Sagre La Mangialonga Della Val D'aveto Il 07/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Cengio in Fes",
+      "url": "https://www.eventiesagre.it/Eventi_Sagre/7120_Sagra+Della+Lumaca.html",
+      "immagine": "",
+      "stato": "in corso",
+      "fonte": "eventiesagre",
+      "id": "sagra-della-lumaca-eventi-sagre-a-segno-lumache-e-piatti-locali-dal-22-05-2026-al-24-05-2026-liguria-vado-ligure-sv-le-2026-05-22"
+    },
     {
       "nome": "Salta nella località di tuo interesse:",
       "comune": "Imperia",
@@ -82,18 +96,18 @@
       "id": "30-fragolata-di-rossiglione-2026-05-25"
     },
     {
-      "nome": "Sagra dei Sapori Liguri a Boissano Eventi Enogastronomici Edizione 2026 Dal 28/05/2026 Al 01/06/2026 Liguria Boissano (S",
+      "nome": "Cengio in Festa Eventi Feste Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto",
       "comune": "",
       "provincia": "GE",
       "regione": "Liguria",
-      "data_inizio": "2026-05-28",
-      "data_fine": "2026-05-28",
-      "descrizione": "Sagra dei Sapori Liguri a Boissano Eventi Enogastronomici Edizione 2026 Dal 28/05/2026 Al 01/06/2026 Liguria Boissano (SV) leggi tutto Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto Sagra dei Sapori Liguri a Boissano Eventi Enogastron",
-      "url": "https://www.eventiesagre.it/Eventi_Sagre/16149_Sagra+dei+Sapori+Liguri+a+Boissano.html",
+      "data_inizio": "2026-05-29",
+      "data_fine": "2026-05-29",
+      "descrizione": "Cengio in Festa Eventi Feste Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Mangia E Scioppa La Mangialonga Della Val D'aveto Eventi Sagre La Mangialonga Della Val D'aveto Il 07/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Cengio in Festa Eventi Feste Edizione 2",
+      "url": "https://www.eventiesagre.it/Eventi_Feste/21016398_Cengio+in+Festa.html",
       "immagine": "",
       "stato": "futuro",
       "fonte": "eventiesagre",
-      "id": "sagra-dei-sapori-liguri-a-boissano-eventi-enogastronomici-edizione-2026-dal-28-05-2026-al-01-06-2026-liguria-boissano-s-2026-05-28"
+      "id": "cengio-in-festa-eventi-feste-edizione-2026-dal-29-05-2026-al-02-06-2026-liguria-cengio-sv-leggi-tutto-2026-05-29"
     },
     {
       "nome": "Cammini di Benessere sul lungomare di San Bartolomeo",
@@ -110,20 +124,6 @@
       "id": "cammini-di-benessere-sul-lungomare-di-san-bartolomeo-2026-05-29"
     },
     {
-      "nome": "Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-05-30",
-      "data_fine": "2026-05-30",
-      "descrizione": "Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto Sagra dei Sapori Liguri a Boissano Eventi Enogastronomici Edizione 2026 Da",
-      "url": "https://www.eventiesagre.it/Eventi_Feste/21195399_Cipresstock+A+Cipressa.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "cipresstock-a-cipressa-eventi-feste-edizione-2026-dal-30-05-2026-al-31-05-2026-liguria-cipressa-im-leggi-tutto-2026-05-30"
-    },
-    {
       "nome": "Genova Street Food Fest",
       "comune": "Genova Street Food Fest che celebra la sua decima edizione nella tradizionale location di Piazza delle Feste",
       "provincia": "GE",
@@ -138,6 +138,20 @@
       "id": "genova-street-food-fest-genova-street-food-fest-che-celebra-la-sua-decima-edizione-nella-tradizionale-location-di-piazza-delle-feste-2026-06-02"
     },
     {
+      "nome": "Mangia E Scioppa La Mangialonga Della Val D'aveto Eventi Sagre La Mangialonga Della Val D'aveto Il 07/06/2026 Liguria Sa",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-06-07",
+      "data_fine": "2026-06-07",
+      "descrizione": "Mangia E Scioppa La Mangialonga Della Val D'aveto Eventi Sagre La Mangialonga Della Val D'aveto Il 07/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Mangia E Scioppa La Mangialonga Della Val D'aveto Eventi Sagre La Mangialonga Della Val D'aveto Il 07/06/2026 Liguria Santo Stefano D'aveto (GE",
+      "url": "https://www.eventiesagre.it/Eventi_Sagre/21190375_Mangia+E+Scioppa+La+Mangialonga+Della+Val+D+aveto.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "mangia-e-scioppa-la-mangialonga-della-val-d-aveto-eventi-sagre-la-mangialonga-della-val-d-aveto-il-07-06-2026-liguria-sa-2026-06-07"
+    },
+    {
       "nome": "I tour a Dolceacqua e Triora",
       "comune": "Dolceacqua e Triora",
       "provincia": "IM",
@@ -150,20 +164,6 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "i-tour-a-dolceacqua-e-triora-dolceacqua-e-triora-2026-06-27"
-    },
-    {
-      "nome": "Festa dell'agricoltura e dell'artigianato Eventi Feste Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Sant",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-09-26",
-      "data_fine": "2026-09-26",
-      "descrizione": "Festa dell'agricoltura e dell'artigianato Eventi Feste Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto Sagra dei Sapori Liguri a Boissa",
-      "url": "https://www.eventiesagre.it/Eventi_Fiere/21013550_Festa+dell+agricoltura+e+dell+artigianato.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "festa-dell-agricoltura-e-dell-artigianato-eventi-feste-triathlon-del-boscaiolo-dal-26-09-2026-al-27-09-2026-liguria-sant-2026-09-26"
     }
   ]
 }
