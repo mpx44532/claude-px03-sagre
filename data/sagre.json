@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-05-25T06:37:48Z",
-    "total": 8,
+    "scraped_at": "2026-05-26T06:09:23Z",
+    "total": 11,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -11,6 +11,20 @@
     ]
   },
   "sagre": [
+    {
+      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
+      "comune": "",
+      "provincia": "SV",
+      "regione": "Liguria",
+      "data_inizio": "2026-01-01",
+      "data_fine": "2026-01-01",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Cipresstock A Cipressa Eventi Feste Edizione 20",
+      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "eventiesagre",
+      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
+    },
     {
       "nome": "Salta nella località di tuo interesse:",
       "comune": "Imperia",
@@ -77,9 +91,23 @@
       "descrizione": "Amanti delle fragole, torna con fragore a Rossiglione la sagra che le vede protagoniste! La sagra della fragola è alla sua 30° edizione e si tiene il25 maggio 2026. Per questa golosa edizione sono in programma diversi eventi, esibizioni e gare.nLa sagra delle fragole di Rossiglione porta tra le vie del paese il mercatino di prodotti a km0, con invitanti degustazioni di vino. Ottima occasione per immergersi in questo borgo caratteristico e nell’aria suggestiva della Val Gargassa. Evento autentico di Regione Liguria 2026. Per saperne di più:Facebook.com",
       "url": "https://www.facebook.com/ProLocoRossiglione/",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "30-fragolata-di-rossiglione-2026-05-25"
+    },
+    {
+      "nome": "Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto",
+      "comune": "",
+      "provincia": "SV",
+      "regione": "Liguria",
+      "data_inizio": "2026-05-29",
+      "data_fine": "2026-05-29",
+      "descrizione": "Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/0",
+      "url": "https://www.eventiesagre.it/Eventi_Feste/21016398_Cengio+in+Festa.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "cengio-in-festa-eventi-enogastronomici-edizione-2026-dal-29-05-2026-al-02-06-2026-liguria-cengio-sv-leggi-tutto-2026-05-29"
     },
     {
       "nome": "Cammini di Benessere sul lungomare di San Bartolomeo",
@@ -94,6 +122,20 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "cammini-di-benessere-sul-lungomare-di-san-bartolomeo-2026-05-29"
+    },
+    {
+      "nome": "Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto",
+      "comune": "",
+      "provincia": "SV",
+      "regione": "Liguria",
+      "data_inizio": "2026-05-30",
+      "data_fine": "2026-05-30",
+      "descrizione": "Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05",
+      "url": "https://www.eventiesagre.it/Eventi_Feste/21195399_Cipresstock+A+Cipressa.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "cipresstock-a-cipressa-eventi-feste-edizione-2026-dal-30-05-2026-al-31-05-2026-liguria-cipressa-im-leggi-tutto-2026-05-30"
     },
     {
       "nome": "Genova Street Food Fest",
