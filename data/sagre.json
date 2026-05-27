@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-05-26T06:09:23Z",
-    "total": 11,
+    "scraped_at": "2026-05-27T06:23:26Z",
+    "total": 10,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -11,20 +11,6 @@
     ]
   },
   "sagre": [
-    {
-      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
-      "comune": "",
-      "provincia": "SV",
-      "regione": "Liguria",
-      "data_inizio": "2026-01-01",
-      "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Cipresstock A Cipressa Eventi Feste Edizione 20",
-      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
-      "immagine": "",
-      "stato": "passato",
-      "fonte": "eventiesagre",
-      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
-    },
     {
       "nome": "Salta nella località di tuo interesse:",
       "comune": "Imperia",
@@ -96,20 +82,6 @@
       "id": "30-fragolata-di-rossiglione-2026-05-25"
     },
     {
-      "nome": "Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto",
-      "comune": "",
-      "provincia": "SV",
-      "regione": "Liguria",
-      "data_inizio": "2026-05-29",
-      "data_fine": "2026-05-29",
-      "descrizione": "Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/0",
-      "url": "https://www.eventiesagre.it/Eventi_Feste/21016398_Cengio+in+Festa.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "cengio-in-festa-eventi-enogastronomici-edizione-2026-dal-29-05-2026-al-02-06-2026-liguria-cengio-sv-leggi-tutto-2026-05-29"
-    },
-    {
       "nome": "Cammini di Benessere sul lungomare di San Bartolomeo",
       "comune": "",
       "provincia": "IM",
@@ -124,20 +96,6 @@
       "id": "cammini-di-benessere-sul-lungomare-di-san-bartolomeo-2026-05-29"
     },
     {
-      "nome": "Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto",
-      "comune": "",
-      "provincia": "SV",
-      "regione": "Liguria",
-      "data_inizio": "2026-05-30",
-      "data_fine": "2026-05-30",
-      "descrizione": "Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05/2026 Liguria Cipressa (IM) leggi tutto Cengio in Festa Eventi Enogastronomici Edizione 2026 Dal 29/05/2026 Al 02/06/2026 Liguria Cengio (SV) leggi tutto Cipresstock A Cipressa Eventi Feste Edizione 2026 Dal 30/05/2026 Al 31/05",
-      "url": "https://www.eventiesagre.it/Eventi_Feste/21195399_Cipresstock+A+Cipressa.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "cipresstock-a-cipressa-eventi-feste-edizione-2026-dal-30-05-2026-al-31-05-2026-liguria-cipressa-im-leggi-tutto-2026-05-30"
-    },
-    {
       "nome": "Genova Street Food Fest",
       "comune": "Genova Street Food Fest che celebra la sua decima edizione nella tradizionale location di Piazza delle Feste",
       "provincia": "GE",
@@ -150,6 +108,34 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "genova-street-food-fest-genova-street-food-fest-che-celebra-la-sua-decima-edizione-nella-tradizionale-location-di-piazza-delle-feste-2026-06-02"
+    },
+    {
+      "nome": "Mangia E Scioppa La Mangialonga Della Val D'aveto Eventi Sagre La Mangialonga Della Val D'aveto Il 07/06/2026 Liguria Sa",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-06-07",
+      "data_fine": "2026-06-07",
+      "descrizione": "Mangia E Scioppa La Mangialonga Della Val D'aveto Eventi Sagre La Mangialonga Della Val D'aveto Il 07/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto La Fiera di S. Antonio da Padova a Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 14/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutt",
+      "url": "https://www.eventiesagre.it/Eventi_Sagre/21190375_Mangia+E+Scioppa+La+Mangialonga+Della+Val+D+aveto.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "mangia-e-scioppa-la-mangialonga-della-val-d-aveto-eventi-sagre-la-mangialonga-della-val-d-aveto-il-07-06-2026-liguria-sa-2026-06-07"
+    },
+    {
+      "nome": "La Fiera di S. Antonio da Padova a Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 14/06/2026 Liguria Santo Stefano ",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-06-14",
+      "data_fine": "2026-06-14",
+      "descrizione": "La Fiera di S. Antonio da Padova a Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 14/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto La Fiera di S. Antonio da Padova a Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 14/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Mangia E S",
+      "url": "https://www.eventiesagre.it/Eventi_Fiere/21188163_La+Fiera+di+S+Antonio+da+Padova+a+Santo+Stefano+D+aveto.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "la-fiera-di-s-antonio-da-padova-a-santo-stefano-d-aveto-eventi-fiere-edizione-2026-il-14-06-2026-liguria-santo-stefano-2026-06-14"
     },
     {
       "nome": "I tour a Dolceacqua e Triora",
