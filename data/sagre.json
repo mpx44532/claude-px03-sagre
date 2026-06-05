@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-06-04T06:44:26Z",
-    "total": 15,
+    "scraped_at": "2026-06-05T06:25:11Z",
+    "total": 17,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -12,6 +12,34 @@
     ]
   },
   "sagre": [
+    {
+      "nome": "Eventi Sagre E Feste A Santo Stefano D'aveto Eventi Vari Giugno 2026 Dal 01/06/2026 Al 30/06/2026 Liguria Santo Stefano ",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-06-01",
+      "data_fine": "2026-06-01",
+      "descrizione": "Eventi Sagre E Feste A Santo Stefano D'aveto Eventi Vari Giugno 2026 Dal 01/06/2026 Al 30/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi",
+      "url": "https://www.eventiesagre.it/Eventi_Vari/21154135_Eventi+Sagre+E+Feste+A+Santo+Stefano+D+aveto.html",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "eventiesagre",
+      "id": "eventi-sagre-e-feste-a-santo-stefano-d-aveto-eventi-vari-giugno-2026-dal-01-06-2026-al-30-06-2026-liguria-santo-stefano-2026-06-01"
+    },
+    {
+      "nome": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-06-02",
+      "data_fine": "2026-06-02",
+      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Ge",
+      "url": "https://www.eventiesagre.it/Eventi_Culturali/21195451_La+Genova+Di+Faber.html",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "eventiesagre",
+      "id": "la-genova-di-faber-eventi-culturali-passeggiata-nella-citta-vecchia-sulle-orme-di-fabrizio-de-andre-dal-02-06-2026-al-05-2026-06-02"
+    },
     {
       "nome": "Salta nella località di tuo interesse:",
       "comune": "Imperia",
