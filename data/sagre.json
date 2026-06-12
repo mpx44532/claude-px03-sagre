@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-06-11T06:51:24Z",
-    "total": 10,
+    "scraped_at": "2026-06-12T06:44:07Z",
+    "total": 11,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -19,12 +19,40 @@
       "regione": "Liguria",
       "data_inizio": "2026-01-01",
       "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto La Fiera di S. Antonio da Padova a Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 14/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre R",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto La Tendata Dei Papà Eventi Feste Una Serata Da Ricordare Insieme Il 13/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto La Genova Di Faber Eventi Culturali",
       "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
       "immagine": "",
       "stato": "passato",
       "fonte": "eventiesagre",
       "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
+    },
+    {
+      "nome": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-06-02",
+      "data_fine": "2026-06-02",
+      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto La Tendata Dei Papà Eventi Feste Una Serata Da Ricordare Insieme Il 13/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto La Genova Di",
+      "url": "https://www.eventiesagre.it/Eventi_Culturali/21195451_La+Genova+Di+Faber.html",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "eventiesagre",
+      "id": "la-genova-di-faber-eventi-culturali-passeggiata-nella-citta-vecchia-sulle-orme-di-fabrizio-de-andre-dal-02-06-2026-al-05-2026-06-02"
+    },
+    {
+      "nome": "La Tendata Dei Papà Eventi Feste Una Serata Da Ricordare Insieme Il 13/06/2026 Liguria Santo Stefano D'aveto (GE) leggi ",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-06-13",
+      "data_fine": "2026-06-13",
+      "descrizione": "La Tendata Dei Papà Eventi Feste Una Serata Da Ricordare Insieme Il 13/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto La Tendata Dei Papà Eventi Feste Una Serata Da Ricordare Insieme Il 13/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto La Genova Di Faber Eventi Culturali Passeggiata",
+      "url": "https://www.eventiesagre.it/Eventi_Feste/21195459_La+Tendata+Dei+Papa.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "la-tendata-dei-papa-eventi-feste-una-serata-da-ricordare-insieme-il-13-06-2026-liguria-santo-stefano-d-aveto-ge-leggi-2026-06-13"
     },
     {
       "nome": "Sagre e feste popolari",
@@ -39,20 +67,6 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "sagre-e-feste-popolari-legino-a-savona-2026-06-13"
-    },
-    {
-      "nome": "La Fiera di S. Antonio da Padova a Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 14/06/2026 Liguria Santo Stefano ",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-06-14",
-      "data_fine": "2026-06-14",
-      "descrizione": "La Fiera di S. Antonio da Padova a Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 14/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto La Fiera di S. Antonio da Padova a Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 14/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E S",
-      "url": "https://www.eventiesagre.it/Eventi_Fiere/21188163_La+Fiera+di+S+Antonio+da+Padova+a+Santo+Stefano+D+aveto.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "la-fiera-di-s-antonio-da-padova-a-santo-stefano-d-aveto-eventi-fiere-edizione-2026-il-14-06-2026-liguria-santo-stefano-2026-06-14"
     },
     {
       "nome": "L’ABT, Appennino Bike Tour Festival a Genova",
