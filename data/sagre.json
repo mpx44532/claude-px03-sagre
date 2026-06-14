@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-06-13T06:18:55Z",
-    "total": 10,
+    "scraped_at": "2026-06-14T06:43:09Z",
+    "total": 8,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -13,34 +13,6 @@
   },
   "sagre": [
     {
-      "nome": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-06-02",
-      "data_fine": "2026-06-02",
-      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto La Tendata Dei Papà Eventi Feste Una Serata Da Ricordare Insieme Il 13/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Aveto In Fisa",
-      "url": "https://www.eventiesagre.it/Eventi_Culturali/21195451_La+Genova+Di+Faber.html",
-      "immagine": "",
-      "stato": "passato",
-      "fonte": "eventiesagre",
-      "id": "la-genova-di-faber-eventi-culturali-passeggiata-nella-citta-vecchia-sulle-orme-di-fabrizio-de-andre-dal-02-06-2026-al-05-2026-06-02"
-    },
-    {
-      "nome": "La Tendata Dei Papà Eventi Feste Una Serata Da Ricordare Insieme Il 13/06/2026 Liguria Santo Stefano D'aveto (GE) leggi ",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-06-13",
-      "data_fine": "2026-06-13",
-      "descrizione": "La Tendata Dei Papà Eventi Feste Una Serata Da Ricordare Insieme Il 13/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto La Tendata Dei Papà Eventi Feste Una Serata Da Ricordare Insieme Il 13/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Aveto In Fisa Eventi Musicali Festa Della  Music",
-      "url": "https://www.eventiesagre.it/Eventi_Feste/21195459_La+Tendata+Dei+Papa.html",
-      "immagine": "",
-      "stato": "in corso",
-      "fonte": "eventiesagre",
-      "id": "la-tendata-dei-papa-eventi-feste-una-serata-da-ricordare-insieme-il-13-06-2026-liguria-santo-stefano-d-aveto-ge-leggi-2026-06-13"
-    },
-    {
       "nome": "Sagre e feste popolari",
       "comune": "Albenga nel Teatro Don Pelle della parrocchia di San Giorgio",
       "provincia": "SV",
@@ -50,7 +22,7 @@
       "descrizione": "25° Festival San Giorgio della Canzone in Lingua LigureSapevi che esiste un Festival della Canzone in Lingua Ligure? Si chiama San Giorgio (forse in parallelo con l’altro santo canterino, Sanremo), e si tiene ad Albenga nel Teatro Don Pelle della parrocchia di San Giorgio, il12 e 13 giugno 2026.L’unico festival in Italia dedicato a canzoni inedite in ligure, vedrà circa 20 artisti tra gruppi e solisti sfidarsi con l’obiettivo di valorizzare il patrimonio storico e culturale ligure, avvicinare i giovani alla musica e rinnovare il repertorio con proposte innovative. L’evento ad ingresso libero con inizio alle ore 21.15. Prima del Festival, sarà possibile cenare presso gli stand gastronomici con ricco menù a scelta preparato dagli Amici du Michettin. Info suSangiorgioalbenga.it 70ª Sagra della Lumaca a Vado LigureDal 12 al 14 giugnoa Segno di Vado Ligure la storica 70° edizione della Sagra della Lumaca. Tre serate all’insegna del buon cibo, della tradizione e della convivialità con: lumache fresche, carne alla brace, ottimi vini, specialità locali per tutti i gusti. Venerdì e sabato dalle 19:00 alle 22:30. Domenica anche a pranzo dalle 12:00 alle 14:30.",
       "url": "https://www.sangiorgioalbenga.it",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "sagre-e-feste-popolari-albenga-nel-teatro-don-pelle-della-parrocchia-di-san-giorgio-2026-06-13"
     },
