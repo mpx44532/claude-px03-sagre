@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-06-14T06:43:09Z",
-    "total": 8,
+    "scraped_at": "2026-06-15T07:23:12Z",
+    "total": 11,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -12,6 +12,48 @@
     ]
   },
   "sagre": [
+    {
+      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-01-01",
+      "data_fine": "2026-01-01",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi Sagre E Feste A",
+      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "eventiesagre",
+      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
+    },
+    {
+      "nome": "Eventi Sagre E Feste A Santo Stefano D'aveto Eventi Vari Giugno 2026 Dal 01/06/2026 Al 30/06/2026 Liguria Santo Stefano ",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-06-01",
+      "data_fine": "2026-06-01",
+      "descrizione": "Eventi Sagre E Feste A Santo Stefano D'aveto Eventi Vari Giugno 2026 Dal 01/06/2026 Al 30/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi Sagre E F",
+      "url": "https://www.eventiesagre.it/Eventi_Vari/21154135_Eventi+Sagre+E+Feste+A+Santo+Stefano+D+aveto.html",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "eventiesagre",
+      "id": "eventi-sagre-e-feste-a-santo-stefano-d-aveto-eventi-vari-giugno-2026-dal-01-06-2026-al-30-06-2026-liguria-santo-stefano-2026-06-01"
+    },
+    {
+      "nome": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-06-02",
+      "data_fine": "2026-06-02",
+      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto",
+      "url": "https://www.eventiesagre.it/Eventi_Culturali/21195451_La+Genova+Di+Faber.html",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "eventiesagre",
+      "id": "la-genova-di-faber-eventi-culturali-passeggiata-nella-citta-vecchia-sulle-orme-di-fabrizio-de-andre-dal-02-06-2026-al-05-2026-06-02"
+    },
     {
       "nome": "Sagre e feste popolari",
       "comune": "Albenga nel Teatro Don Pelle della parrocchia di San Giorgio",
