@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-06-18T06:54:21Z",
-    "total": 10,
+    "scraped_at": "2026-06-19T07:08:35Z",
+    "total": 11,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -13,44 +13,16 @@
   },
   "sagre": [
     {
-      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-01-01",
-      "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto La Genova Di Faber Eve",
-      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
-      "immagine": "",
-      "stato": "passato",
-      "fonte": "eventiesagre",
-      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
-    },
-    {
-      "nome": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-06-02",
-      "data_fine": "2026-06-02",
-      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto",
-      "url": "https://www.eventiesagre.it/Eventi_Culturali/21195451_La+Genova+Di+Faber.html",
-      "immagine": "",
-      "stato": "passato",
-      "fonte": "eventiesagre",
-      "id": "la-genova-di-faber-eventi-culturali-passeggiata-nella-citta-vecchia-sulle-orme-di-fabrizio-de-andre-dal-02-06-2026-al-05-2026-06-02"
-    },
-    {
       "nome": "Borgo DiVino in Tour a Celle Ligure Eventi Enogastronomici Vino, Cibo E Musica Si Incontrano Nei Borghi Più Belli Dal 19",
       "comune": "",
       "provincia": "GE",
       "regione": "Liguria",
       "data_inizio": "2026-06-19",
       "data_fine": "2026-06-19",
-      "descrizione": "Borgo DiVino in Tour a Celle Ligure Eventi Enogastronomici Vino, Cibo E Musica Si Incontrano Nei Borghi Più Belli Dal 19/06/2026 Al 21/06/2026 Liguria Celle Ligure (SV) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Lig",
+      "descrizione": "Borgo DiVino in Tour a Celle Ligure Eventi Enogastronomici Vino, Cibo E Musica Si Incontrano Nei Borghi Più Belli Dal 19/06/2026 Al 21/06/2026 Liguria Celle Ligure (SV) leggi tutto La Sagra Della Paella E Sangria A Struppa Eventi Sagre Edizione 2026 Il 20/06/2026 Liguria Genova (GE) leggi tutto Fest",
       "url": "https://www.eventiesagre.it/Eventi_Enogastronomici/21052639_Borgo+DiVino+in+Tour+a+Celle+Ligure.html",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "eventiesagre",
       "id": "borgo-divino-in-tour-a-celle-ligure-eventi-enogastronomici-vino-cibo-e-musica-si-incontrano-nei-borghi-piu-belli-dal-19-2026-06-19"
     },
@@ -64,9 +36,23 @@
       "descrizione": "Venerdì 19 giugno 2026nell’area di Forte Begato a Genova ci sarà la tappa genovese dell’ABT Festival (Appennino Bike Tour Festival) l’evento itinerante nazionale nato per promuovere la mobilità sostenibile, il cicloturismo e la valorizzazione dei borghi dell’entroterra italiano.Che cos’è l’Appennino Bike TourL’Appennino Bike Tour.è la più lunga ciclovia d’Italia: circa 3.100 km , da Altare (SV) ad Alia (PA), che collegano la dorsale appenninica su strade secondarie a basso traffico. Viene suddiviso in 43 tappe ufficiali che attraversano 14 regioni e oltre 300 comuni e ben 26 parchi e riserve naturali. Ad esso è collegato l’ABT Festival l’evento che celebra l’Appennino Bike Tour Festival in giro per l’Italia. In ogni appuntamento c’è un Forum Regionale sullo Sviluppo Sostenibile dell’Appennino, momento istituzionale di riflessione e confronto sulle progettualità e un’Area Promozionale dell’Appennino in cui ci sarà spazio a eventi come talk, convegni, degustazioni e avviamento alla bicicletta per i più piccoli e una pedalata collettiva.La tappa genoveseIl quartier generale dell’ABT Festival a Genova sarà collocato nel Parco delle Mura a Forte Begato in cui si troverà l’Area Promozionale dell’Appennino, che verrà inaugurata il 19 giugno alle 10 e da cui partirà la pedalata alle ore 16.30 (iscrizione gratuita, registrazione partecipanti online a questo LINK). Sarà un viaggio sensoriale tra le fortezze e i sapori della Superba con degustazione finale alla storica Ostaia de Baracche.CLICCA QUIper visionare il programma nei dettagli.",
       "url": "https://viviappennino.com/abt-festival-GENOVA-ge/",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "l-abt-appennino-bike-tour-festival-a-genova-alia-2026-06-19"
+    },
+    {
+      "nome": "La Sagra Della Paella E Sangria A Struppa Eventi Sagre Edizione 2026 Il 20/06/2026 Liguria Genova (GE) leggi tutto",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-06-20",
+      "data_fine": "2026-06-20",
+      "descrizione": "La Sagra Della Paella E Sangria A Struppa Eventi Sagre Edizione 2026 Il 20/06/2026 Liguria Genova (GE) leggi tutto La Sagra Della Paella E Sangria A Struppa Eventi Sagre Edizione 2026 Il 20/06/2026 Liguria Genova (GE) leggi tutto Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del B",
+      "url": "https://www.eventiesagre.it/Eventi_Sagre/21193022_La+Sagra+Della+Paella+E+Sangria+A+Struppa.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "la-sagra-della-paella-e-sangria-a-struppa-eventi-sagre-edizione-2026-il-20-06-2026-liguria-genova-ge-leggi-tutto-2026-06-20"
     },
     {
       "nome": "Sagre e feste popolari",
@@ -111,6 +97,20 @@
       "id": "sagre-e-feste-popolari-san-giovanni-battista-2026-06-21"
     },
     {
+      "nome": "Vado L.-Ritorna la Sagra Stellata dei Piatti LiguriaFood",
+      "comune": "",
+      "provincia": "SV",
+      "regione": "Liguria",
+      "data_inizio": "2026-06-21",
+      "data_fine": "2026-06-21",
+      "descrizione": "Sagre Vado L.-Ritorna la Sagra Stellata dei Piatti LiguriaFood | 20.06. - 21.06.2026 Consigliato da SVD 17|06 - 21|06|2026 Albenga-San Giorgio Sport Show 18|06 - 21|06|2026 Savona-Festa dell’Unità 19|06 - 21|06|2026 Savona-Mercato Europeo 19|06 - 20|06|2026 Giusvalla-Posto da Luppoli 19|06 - 21|06|2",
+      "url": "https://www.svdonline.it/183533/vado-l-ritorna-la-sagra-stellata-dei-piatti-liguriafood/",
+      "immagine": "https://www.savonaintasca.it/app/wp-content/uploads/2026/06/Piatti-Liguri-2026-150x150.jpg",
+      "stato": "futuro",
+      "fonte": "svdonline",
+      "id": "vado-l-ritorna-la-sagra-stellata-dei-piatti-liguriafood-2026-06-21"
+    },
+    {
       "nome": "SUQ Festival – Teatro del Dialogo",
       "comune": "Piazza delle Feste al Porto Antico di Genova",
       "provincia": "GE",
@@ -151,6 +151,20 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "sagre-e-feste-popolari-cadimare-2026-07-11"
+    },
+    {
+      "nome": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Sant",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-09-26",
+      "data_fine": "2026-09-26",
+      "descrizione": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto La Sagra Della Paella E Sangria A Struppa Eventi Sagre Edizione 2026 Il 20/06/2026 Liguria Genova (GE) leggi tutto Festa dell'agricoltura e dell'",
+      "url": "https://www.eventiesagre.it/Eventi_Fiere/21013550_Festa+dell+agricoltura+e+dell+artigianato.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "festa-dell-agricoltura-e-dell-artigianato-eventi-fiere-triathlon-del-boscaiolo-dal-26-09-2026-al-27-09-2026-liguria-sant-2026-09-26"
     }
   ]
 }
