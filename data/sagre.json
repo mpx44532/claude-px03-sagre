@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-06-19T07:08:35Z",
-    "total": 11,
+    "scraped_at": "2026-06-20T06:23:06Z",
+    "total": 10,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -13,18 +13,32 @@
   },
   "sagre": [
     {
-      "nome": "Borgo DiVino in Tour a Celle Ligure Eventi Enogastronomici Vino, Cibo E Musica Si Incontrano Nei Borghi Più Belli Dal 19",
+      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
       "comune": "",
       "provincia": "GE",
       "regione": "Liguria",
-      "data_inizio": "2026-06-19",
-      "data_fine": "2026-06-19",
-      "descrizione": "Borgo DiVino in Tour a Celle Ligure Eventi Enogastronomici Vino, Cibo E Musica Si Incontrano Nei Borghi Più Belli Dal 19/06/2026 Al 21/06/2026 Liguria Celle Ligure (SV) leggi tutto La Sagra Della Paella E Sangria A Struppa Eventi Sagre Edizione 2026 Il 20/06/2026 Liguria Genova (GE) leggi tutto Fest",
-      "url": "https://www.eventiesagre.it/Eventi_Enogastronomici/21052639_Borgo+DiVino+in+Tour+a+Celle+Ligure.html",
+      "data_inizio": "2026-01-01",
+      "data_fine": "2026-01-01",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi Sagre E Feste A Santo Stefano D'aveto Eventi Vari Giugno 2026 Dal 01/06/2026 Al 30/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre R",
+      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "eventiesagre",
-      "id": "borgo-divino-in-tour-a-celle-ligure-eventi-enogastronomici-vino-cibo-e-musica-si-incontrano-nei-borghi-piu-belli-dal-19-2026-06-19"
+      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
+    },
+    {
+      "nome": "Eventi Sagre E Feste A Santo Stefano D'aveto Eventi Vari Giugno 2026 Dal 01/06/2026 Al 30/06/2026 Liguria Santo Stefano ",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-06-01",
+      "data_fine": "2026-06-01",
+      "descrizione": "Eventi Sagre E Feste A Santo Stefano D'aveto Eventi Vari Giugno 2026 Dal 01/06/2026 Al 30/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi Sagre E Feste A Santo Stefano D'aveto Eventi Vari Giugno 2026 Dal 01/06/2026 Al 30/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E S",
+      "url": "https://www.eventiesagre.it/Eventi_Vari/21154135_Eventi+Sagre+E+Feste+A+Santo+Stefano+D+aveto.html",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "eventiesagre",
+      "id": "eventi-sagre-e-feste-a-santo-stefano-d-aveto-eventi-vari-giugno-2026-dal-01-06-2026-al-30-06-2026-liguria-santo-stefano-2026-06-01"
     },
     {
       "nome": "L’ABT, Appennino Bike Tour Festival a Genova",
@@ -36,23 +50,9 @@
       "descrizione": "Venerdì 19 giugno 2026nell’area di Forte Begato a Genova ci sarà la tappa genovese dell’ABT Festival (Appennino Bike Tour Festival) l’evento itinerante nazionale nato per promuovere la mobilità sostenibile, il cicloturismo e la valorizzazione dei borghi dell’entroterra italiano.Che cos’è l’Appennino Bike TourL’Appennino Bike Tour.è la più lunga ciclovia d’Italia: circa 3.100 km , da Altare (SV) ad Alia (PA), che collegano la dorsale appenninica su strade secondarie a basso traffico. Viene suddiviso in 43 tappe ufficiali che attraversano 14 regioni e oltre 300 comuni e ben 26 parchi e riserve naturali. Ad esso è collegato l’ABT Festival l’evento che celebra l’Appennino Bike Tour Festival in giro per l’Italia. In ogni appuntamento c’è un Forum Regionale sullo Sviluppo Sostenibile dell’Appennino, momento istituzionale di riflessione e confronto sulle progettualità e un’Area Promozionale dell’Appennino in cui ci sarà spazio a eventi come talk, convegni, degustazioni e avviamento alla bicicletta per i più piccoli e una pedalata collettiva.La tappa genoveseIl quartier generale dell’ABT Festival a Genova sarà collocato nel Parco delle Mura a Forte Begato in cui si troverà l’Area Promozionale dell’Appennino, che verrà inaugurata il 19 giugno alle 10 e da cui partirà la pedalata alle ore 16.30 (iscrizione gratuita, registrazione partecipanti online a questo LINK). Sarà un viaggio sensoriale tra le fortezze e i sapori della Superba con degustazione finale alla storica Ostaia de Baracche.CLICCA QUIper visionare il programma nei dettagli.",
       "url": "https://viviappennino.com/abt-festival-GENOVA-ge/",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "l-abt-appennino-bike-tour-festival-a-genova-alia-2026-06-19"
-    },
-    {
-      "nome": "La Sagra Della Paella E Sangria A Struppa Eventi Sagre Edizione 2026 Il 20/06/2026 Liguria Genova (GE) leggi tutto",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-06-20",
-      "data_fine": "2026-06-20",
-      "descrizione": "La Sagra Della Paella E Sangria A Struppa Eventi Sagre Edizione 2026 Il 20/06/2026 Liguria Genova (GE) leggi tutto La Sagra Della Paella E Sangria A Struppa Eventi Sagre Edizione 2026 Il 20/06/2026 Liguria Genova (GE) leggi tutto Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del B",
-      "url": "https://www.eventiesagre.it/Eventi_Sagre/21193022_La+Sagra+Della+Paella+E+Sangria+A+Struppa.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "la-sagra-della-paella-e-sangria-a-struppa-eventi-sagre-edizione-2026-il-20-06-2026-liguria-genova-ge-leggi-tutto-2026-06-20"
     },
     {
       "nome": "Sagre e feste popolari",
@@ -64,7 +64,7 @@
       "descrizione": "Festa del Branda e della Cucina Tipica di RezzoUn evento che non celebra un piatto particolare ma ricette e prodotti locali del territorio:sabato 20 giugno 2026a Rezzo c’è la Festa del Branda e della Cucina Tipica. Evento autentico di Regione Liguria 2026. Nato negli anni ’70 ha attraversato diverse denominazioni — dalla Sagra del Brusso alla Sagra dei prodotti tipici — ma è cresciuto fino a rappresentare oggi una delle ricette simbolo della Liguria: il Brandacujun. Accanto a questa specialità, i visitatori possono degustare antipasti tipici con prodotti caseari e agricoli locali, vini DOC e IGT del territorio ed eccellenze come l’aglio di Vessalico e l’olio extravergine d’oliva locale, espressione autentica della tradizione ligure.  L’evento si svolge presso i giardini “La Pagoda”Che cos’è il BrandacujunIl Brandacujùn è uno dei piatti più tipici, storici e gustosi della cucina ligure, in particolare del Ponente ligure. Si tratta di uno stoccafisso mantecato con patate, aglio, prezzemolo e olio extravergine d’oliva, dalla consistenza cremosa ma rustica. Piatto iconico che prende il nome dalla particolare tecnica di preparazione, in cui stoccafisso e patate vengono “brandati”, ovvero mantecati con energia, fino a ottenere una consistenza cremosa e perfettamente amalgamata. Gin nel Borgo a Diano CastelloSabato 20 giugnouna serata tra sapori, musica e atmosfera nel cuore di uno dei Borghi più Belli d’Italia. A Diano Castello, dalle 18.00 alle 24, le vie e le piazze del borgo si trasformeranno in un percorso itinerante dedicato al gin e alle eccellenze gastronomiche, con degustazioni, proposte street food e intrattenimento musicale diffuso",
       "url": "http://www.ineja.it/",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "sagre-e-feste-popolari-san-giovanni-2026-06-20"
     },
@@ -151,20 +151,6 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "sagre-e-feste-popolari-cadimare-2026-07-11"
-    },
-    {
-      "nome": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Sant",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-09-26",
-      "data_fine": "2026-09-26",
-      "descrizione": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto La Sagra Della Paella E Sangria A Struppa Eventi Sagre Edizione 2026 Il 20/06/2026 Liguria Genova (GE) leggi tutto Festa dell'agricoltura e dell'",
-      "url": "https://www.eventiesagre.it/Eventi_Fiere/21013550_Festa+dell+agricoltura+e+dell+artigianato.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "festa-dell-agricoltura-e-dell-artigianato-eventi-fiere-triathlon-del-boscaiolo-dal-26-09-2026-al-27-09-2026-liguria-sant-2026-09-26"
     }
   ]
 }
