@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-06-29T06:50:20Z",
+    "scraped_at": "2026-06-30T06:14:01Z",
     "total": 8,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -13,27 +13,13 @@
   },
   "sagre": [
     {
-      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-01-01",
-      "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Una Barca Nel Bosco Ev",
-      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
-      "immagine": "",
-      "stato": "passato",
-      "fonte": "eventiesagre",
-      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
-    },
-    {
       "nome": "Eventi Sagre E Feste A Santo Stefano D'aveto Eventi Vari Giugno 2026 Dal 01/06/2026 Al 30/06/2026 Liguria Santo Stefano ",
       "comune": "",
       "provincia": "GE",
       "regione": "Liguria",
       "data_inizio": "2026-06-01",
       "data_fine": "2026-06-01",
-      "descrizione": "Eventi Sagre E Feste A Santo Stefano D'aveto Eventi Vari Giugno 2026 Dal 01/06/2026 Al 30/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Una Barca Nel Bo",
+      "descrizione": "Eventi Sagre E Feste A Santo Stefano D'aveto Eventi Vari Giugno 2026 Dal 01/06/2026 Al 30/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi Sagre E Feste A Santo Stefano D'aveto Eventi Vari Giugno 2026 Dal 01/06/2026 Al 30/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Festa Dei",
       "url": "https://www.eventiesagre.it/Eventi_Vari/21154135_Eventi+Sagre+E+Feste+A+Santo+Stefano+D+aveto.html",
       "immagine": "",
       "stato": "passato",
@@ -97,6 +83,20 @@
       "id": "ineja-2026-la-festa-di-san-giovanni-a-imperia-san-giovanni-2026-06-28"
     },
     {
+      "nome": "Festa Dei Giovani Della Val Bisagno Eventi Enogastronomici A Tutta Birra Il 11/07/2026 Liguria Genova (GE) leggi tutto",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-07-11",
+      "data_fine": "2026-07-11",
+      "descrizione": "Festa Dei Giovani Della Val Bisagno Eventi Enogastronomici A Tutta Birra Il 11/07/2026 Liguria Genova (GE) leggi tutto Eventi Sagre E Feste A Santo Stefano D'aveto Eventi Vari Giugno 2026 Dal 01/06/2026 Al 30/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Festa Dei Giovani Della Val Bisagno",
+      "url": "https://www.eventiesagre.it/Eventi_Enogastronomici/21193125_Festa+Dei+Giovani+Della+Val+Bisagno.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "festa-dei-giovani-della-val-bisagno-eventi-enogastronomici-a-tutta-birra-il-11-07-2026-liguria-genova-ge-leggi-tutto-2026-07-11"
+    },
+    {
       "nome": "Sagre e Feste popolari",
       "comune": "Liguria da Bere",
       "provincia": "SP",
@@ -117,7 +117,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-07-23",
       "data_fine": "2026-07-23",
-      "descrizione": "Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Una Barca Nel Bosco Eventi Sagre Quat",
+      "descrizione": "Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto Eventi Sagre E Feste A Santo Stefano D'aveto Eventi Vari Giugno 2026 Dal 01/06/2026 Al 30/06/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Festa Dei Giovani Della Val Bis",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/21195460_Una+Barca+Nel+Bosco.html",
       "immagine": "",
       "stato": "futuro",
