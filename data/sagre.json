@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-07-01T06:35:25Z",
+    "scraped_at": "2026-07-02T06:01:22Z",
     "total": 8,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -13,27 +13,13 @@
   },
   "sagre": [
     {
-      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-01-01",
-      "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Festa Dei Giovani Della Val Bisagno Eventi Enogastronomici A Tutta Birra Il 11/07/2026 Liguria Genova (GE) leggi tutto La Genova Di Faber Eventi Culturali Passeg",
-      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
-      "immagine": "",
-      "stato": "passato",
-      "fonte": "eventiesagre",
-      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
-    },
-    {
       "nome": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05",
       "comune": "",
       "provincia": "GE",
       "regione": "Liguria",
       "data_inizio": "2026-06-02",
       "data_fine": "2026-06-02",
-      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto Festa Dei Giovani Della Val Bisagno Eventi Enogastronomici A Tutta Birra Il 11/07/2026 Liguria Genova (GE) leggi tutto La Genova Di Faber E",
+      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto La Genova Di Fa",
       "url": "https://www.eventiesagre.it/Eventi_Culturali/21195451_La+Genova+Di+Faber.html",
       "immagine": "",
       "stato": "passato",
@@ -97,20 +83,6 @@
       "id": "ineja-2026-la-festa-di-san-giovanni-a-imperia-san-giovanni-2026-06-28"
     },
     {
-      "nome": "Festa Dei Giovani Della Val Bisagno Eventi Enogastronomici A Tutta Birra Il 11/07/2026 Liguria Genova (GE) leggi tutto",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-07-11",
-      "data_fine": "2026-07-11",
-      "descrizione": "Festa Dei Giovani Della Val Bisagno Eventi Enogastronomici A Tutta Birra Il 11/07/2026 Liguria Genova (GE) leggi tutto Festa Dei Giovani Della Val Bisagno Eventi Enogastronomici A Tutta Birra Il 11/07/2026 Liguria Genova (GE) leggi tutto La Genova Di Faber Eventi Culturali Passeggiata Nella Città Ve",
-      "url": "https://www.eventiesagre.it/Eventi_Enogastronomici/21193125_Festa+Dei+Giovani+Della+Val+Bisagno.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "festa-dei-giovani-della-val-bisagno-eventi-enogastronomici-a-tutta-birra-il-11-07-2026-liguria-genova-ge-leggi-tutto-2026-07-11"
-    },
-    {
       "nome": "Sagre e Feste popolari",
       "comune": "Liguria da Bere",
       "provincia": "SP",
@@ -123,6 +95,34 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "sagre-e-feste-popolari-liguria-da-bere-2026-07-11"
+    },
+    {
+      "nome": "Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tu",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-07-23",
+      "data_fine": "2026-07-23",
+      "descrizione": "Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto La Genova Di Faber Eventi Culturali Passeggiata Nell",
+      "url": "https://www.eventiesagre.it/Eventi_Sagre/21195460_Una+Barca+Nel+Bosco.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "una-barca-nel-bosco-eventi-sagre-quattro-giorni-di-solo-pesce-dal-23-07-2026-al-26-07-2026-liguria-mallare-sv-leggi-tu-2026-07-23"
+    },
+    {
+      "nome": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Sant",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-09-26",
+      "data_fine": "2026-09-26",
+      "descrizione": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto La Genova Di Faber Ev",
+      "url": "https://www.eventiesagre.it/Eventi_Fiere/21013550_Festa+dell+agricoltura+e+dell+artigianato.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "festa-dell-agricoltura-e-dell-artigianato-eventi-fiere-triathlon-del-boscaiolo-dal-26-09-2026-al-27-09-2026-liguria-sant-2026-09-26"
     }
   ]
 }
