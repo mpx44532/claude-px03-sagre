@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-07-06T06:38:08Z",
-    "total": 9,
+    "scraped_at": "2026-07-07T06:10:27Z",
+    "total": 12,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -12,6 +12,20 @@
     ]
   },
   "sagre": [
+    {
+      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-01-01",
+      "data_fine": "2026-01-01",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto Festa dell'agricoltura e dell'artigia",
+      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "eventiesagre",
+      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
+    },
     {
       "nome": "42ª Fiera del Commercio e dell’Artigianato a Piana Crixia",
       "comune": "Piana Crixia",
@@ -111,6 +125,20 @@
       "id": "festa-delle-erbe-e-della-lavanda-cosio-d-arroscia-cosio-come-le-rajore-alle-erbe-2026-07-19"
     },
     {
+      "nome": "Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tu",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-07-23",
+      "data_fine": "2026-07-23",
+      "descrizione": "Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto Festa dell'agricoltura e dell'artigianato Eventi Fie",
+      "url": "https://www.eventiesagre.it/Eventi_Sagre/21195460_Una+Barca+Nel+Bosco.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "una-barca-nel-bosco-eventi-sagre-quattro-giorni-di-solo-pesce-dal-23-07-2026-al-26-07-2026-liguria-mallare-sv-leggi-tu-2026-07-23"
+    },
+    {
       "nome": "Pastasciutta Antifascista 2026 a Sant’Olcese",
       "comune": "",
       "provincia": "GE",
@@ -137,6 +165,20 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "salta-nella-localita-di-tuo-interesse-imperia-2026-08-03"
+    },
+    {
+      "nome": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Sant",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-09-26",
+      "data_fine": "2026-09-26",
+      "descrizione": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto Festa dell'agricoltur",
+      "url": "https://www.eventiesagre.it/Eventi_Fiere/21013550_Festa+dell+agricoltura+e+dell+artigianato.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "festa-dell-agricoltura-e-dell-artigianato-eventi-fiere-triathlon-del-boscaiolo-dal-26-09-2026-al-27-09-2026-liguria-sant-2026-09-26"
     }
   ]
 }
