@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-07-09T06:06:59Z",
-    "total": 10,
+    "scraped_at": "2026-07-10T06:05:40Z",
+    "total": 7,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -12,34 +12,6 @@
     ]
   },
   "sagre": [
-    {
-      "nome": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-06-02",
-      "data_fine": "2026-06-02",
-      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto Festa Dei Giovani Della Val Bisagno Eventi Enogastronomici A Tutta Birra Il 11/07/2026 Liguria Genova (GE) leggi tutto Festa dell'agricoltu",
-      "url": "https://www.eventiesagre.it/Eventi_Culturali/21195451_La+Genova+Di+Faber.html",
-      "immagine": "",
-      "stato": "passato",
-      "fonte": "eventiesagre",
-      "id": "la-genova-di-faber-eventi-culturali-passeggiata-nella-citta-vecchia-sulle-orme-di-fabrizio-de-andre-dal-02-06-2026-al-05-2026-06-02"
-    },
-    {
-      "nome": "Festa Dei Giovani Della Val Bisagno Eventi Enogastronomici A Tutta Birra Il 11/07/2026 Liguria Genova (GE) leggi tutto",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-07-11",
-      "data_fine": "2026-07-11",
-      "descrizione": "Festa Dei Giovani Della Val Bisagno Eventi Enogastronomici A Tutta Birra Il 11/07/2026 Liguria Genova (GE) leggi tutto Festa Dei Giovani Della Val Bisagno Eventi Enogastronomici A Tutta Birra Il 11/07/2026 Liguria Genova (GE) leggi tutto Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathl",
-      "url": "https://www.eventiesagre.it/Eventi_Enogastronomici/21193125_Festa+Dei+Giovani+Della+Val+Bisagno.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "festa-dei-giovani-della-val-bisagno-eventi-enogastronomici-a-tutta-birra-il-11-07-2026-liguria-genova-ge-leggi-tutto-2026-07-11"
-    },
     {
       "nome": "Festa gastronomica di Isorelle a Savignone",
       "comune": "Regione Liguria",
@@ -137,20 +109,6 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "salta-nella-localita-di-tuo-interesse-imperia-2026-08-03"
-    },
-    {
-      "nome": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Sant",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-09-26",
-      "data_fine": "2026-09-26",
-      "descrizione": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Festa Dei Giovani Della Val Bisagno Eventi Enogastronomici A Tutta Birra Il 11/07/2026 Liguria Genova (GE) leggi tutto Festa dell'agricoltura e d",
-      "url": "https://www.eventiesagre.it/Eventi_Fiere/21013550_Festa+dell+agricoltura+e+dell+artigianato.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "festa-dell-agricoltura-e-dell-artigianato-eventi-fiere-triathlon-del-boscaiolo-dal-26-09-2026-al-27-09-2026-liguria-sant-2026-09-26"
     }
   ]
 }
