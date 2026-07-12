@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-07-11T05:14:49Z",
-    "total": 11,
+    "scraped_at": "2026-07-12T05:30:20Z",
+    "total": 8,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -13,20 +13,6 @@
   },
   "sagre": [
     {
-      "nome": "La Fragolata Di Bargone Eventi Feste 71ima Edizione - 2026 Dal 11/07/2026 Al 12/07/2026 Liguria Casarza Ligure (GE) legg",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-07-11",
-      "data_fine": "2026-07-11",
-      "descrizione": "La Fragolata Di Bargone Eventi Feste 71ima Edizione - 2026 Dal 11/07/2026 Al 12/07/2026 Liguria Casarza Ligure (GE) leggi tutto Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto Infestiamoci Eventi Spettacolo Festival Degli Ar",
-      "url": "https://www.eventiesagre.it/Eventi_Feste/21195062_La+Fragolata+Di+Bargone.html",
-      "immagine": "",
-      "stato": "in corso",
-      "fonte": "eventiesagre",
-      "id": "la-fragolata-di-bargone-eventi-feste-71ima-edizione-2026-dal-11-07-2026-al-12-07-2026-liguria-casarza-ligure-ge-legg-2026-07-11"
-    },
-    {
       "nome": "Festa gastronomica di Isorelle a Savignone",
       "comune": "Regione Liguria",
       "provincia": "GE",
@@ -36,7 +22,7 @@
       "descrizione": "Tradizionale manifestazione estiva, riconosciuta come Evento Autentico Regione Liguria 2026, che celebra la cucina ligure autentica in programmadal 10 all’11 luglio 2026. Durante l’evento, vengono proposti piatti tipici come ravioli alla genovese, stoccafisso accomodato, cuculli, trippe, carni alla piastra e porchetta, accompagnati da dolci fatti in casa. L’atmosfera è arricchita da giochi, lotterie e musica dal vivo, creando un’occasione di festa e socializzazione per residenti e visitatori. Riconosciuta come Evento Autentico di Regione Liguria, offre tre serate all’aperto a base di cucina tradizionale, musica dal vivo, giochi e lotterie.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "festa-gastronomica-di-isorelle-a-savignone-regione-liguria-2026-07-11"
     },
@@ -50,23 +36,9 @@
       "descrizione": "Sabato 11 luglio 2026:una giornata per famiglie con street food, il ristorante a cura della Pro Loco, mercatini, gonfiabili per bambini, artisti di strada e un’imperdibile gospel night finale. Cuore del Village sarà la centrale piazza Macciò che dalle 14 alle 20 ospiterà l’Area Expo, uno spazio dedicato all’incontro e alla solidarietà in cui conoscere le associazioni in arrivo da tutta Italia e che, alle 17:45, ospiterà il Gospel Talent, rassegna artistica non competitiva dedicata alle creazioni ispirate al Gospel tra dodici performer non professionisti selezionati, tramite bando, attori, poeti, ballerini, cantanti e artisti di ogni tipo. Il clou dell’evento sarà la Gospel Night in piazza Ferralasco a partire dalle 20:30: non un semplice concerto, ma una vera e propria Messa Gospel! Tutti gli eventi sono a ingresso gratuito. Maggiori informazioni sono disponibili sul sito ufficialevillage.ccegenova.it",
       "url": "https://village.ccegenova.it/",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "gospel-village-2026-a-busalla-2026-07-11"
-    },
-    {
-      "nome": "Infestiamoci Eventi Spettacolo Festival Degli Artisti Di Strada Il 12/07/2026 Liguria Santo Stefano D'aveto (GE) leggi t",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-07-12",
-      "data_fine": "2026-07-12",
-      "descrizione": "Infestiamoci Eventi Spettacolo Festival Degli Artisti Di Strada Il 12/07/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto Infestiamoci Eventi Spettacolo Festival Degli Artis",
-      "url": "https://www.eventiesagre.it/Eventi_Spettacolo/21195489_Infestiamoci.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "infestiamoci-eventi-spettacolo-festival-degli-artisti-di-strada-il-12-07-2026-liguria-santo-stefano-d-aveto-ge-leggi-t-2026-07-12"
     },
     {
       "nome": "Sagra della Tira a Cairo Montenotte",
@@ -78,7 +50,7 @@
       "descrizione": "Da giovedì 9 a domenica 12 luglio 2026in Piazza della Vittoria a Cairo Montenotte per quattro serate c’è la Sagra della Tira, un evento molto sentito dai cairesi e non solo; coinvolge infatti avventori provenienti da tutta la Liguria e dal Basso Piemonte. Ad onorare questo piatto rustico, sono stati chiamati artisti di livello internazionale.Che cos’è la tiraLa tira è un cibo tipico della zona di Cairo Montenotte: un panino cotto in forno impastato con la salsiccia. La sua origine come tante cose da queste parti, non può che arrivare dal periodo napoleonico.ProgrammaDalle ore 19 apertura degli stand gastronomici, mentre dalle ore 21 spazio alla musica dal vivo e agli appuntamenti musicali:9 Luglio: The Valley Band e a seguire: DJ SET con Umberto Croce10 Luglio: Balli occitani con: La Péiro Douso (Folk OC)11 Luglio: Tributo 883 con Radio 88.3 – 883 & Max Pezzali live & party SHOW12 Luglio: Night Celebration con Nisha CelebrationInfo suInstagram.com",
       "url": "https://www.instagram.com/p/DZcASKageEH/",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "sagra-della-tira-a-cairo-montenotte-2026-07-12"
     },
@@ -109,20 +81,6 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "festa-delle-erbe-e-della-lavanda-cosio-d-arroscia-cosio-come-le-rajore-alle-erbe-2026-07-19"
-    },
-    {
-      "nome": "Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tu",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-07-23",
-      "data_fine": "2026-07-23",
-      "descrizione": "Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto Infestiamoci Eventi Spettacolo Festival Degli Artist",
-      "url": "https://www.eventiesagre.it/Eventi_Sagre/21195460_Una+Barca+Nel+Bosco.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "una-barca-nel-bosco-eventi-sagre-quattro-giorni-di-solo-pesce-dal-23-07-2026-al-26-07-2026-liguria-mallare-sv-leggi-tu-2026-07-23"
     },
     {
       "nome": "Pastasciutta Antifascista 2026 a Sant’Olcese",
