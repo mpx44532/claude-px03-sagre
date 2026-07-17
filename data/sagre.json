@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-07-16T05:12:19Z",
-    "total": 11,
+    "scraped_at": "2026-07-17T05:15:13Z",
+    "total": 10,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -19,7 +19,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-06-02",
       "data_fine": "2026-06-02",
-      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto Sagra Del Raviolo Eventi Sagre A Sesta Godano Dal 18/07/2026 Al 19/07/2026 Liguria Sesta Godano (SP) leggi tutto Festa dell'agricoltura e d",
+      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Ge",
       "url": "https://www.eventiesagre.it/Eventi_Culturali/21195451_La+Genova+Di+Faber.html",
       "immagine": "",
       "stato": "passato",
@@ -33,7 +33,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-07-18",
       "data_fine": "2026-07-18",
-      "descrizione": "Sagra Del Raviolo Eventi Sagre A Sesta Godano Dal 18/07/2026 Al 19/07/2026 Liguria Sesta Godano (SP) leggi tutto Sagra Del Raviolo Eventi Sagre A Sesta Godano Dal 18/07/2026 Al 19/07/2026 Liguria Sesta Godano (SP) leggi tutto Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Bosca",
+      "descrizione": "Sagra Del Raviolo Eventi Sagre A Sesta Godano Dal 18/07/2026 Al 19/07/2026 Liguria Sesta Godano (SP) leggi tutto La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto Festa dell'agricoltura e d",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/21103656_Sagra+Del+Raviolo.html",
       "immagine": "",
       "stato": "futuro",
@@ -151,20 +151,6 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "festa-della-borgata-delle-grazie-portovenere-2026-07-27"
-    },
-    {
-      "nome": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Sant",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-09-26",
-      "data_fine": "2026-09-26",
-      "descrizione": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Sagra Del Raviolo Eventi Sagre A Sesta Godano Dal 18/07/2026 Al 19/07/2026 Liguria Sesta Godano (SP) leggi tutto Festa dell'agricoltura e dell'ar",
-      "url": "https://www.eventiesagre.it/Eventi_Fiere/21013550_Festa+dell+agricoltura+e+dell+artigianato.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "festa-dell-agricoltura-e-dell-artigianato-eventi-fiere-triathlon-del-boscaiolo-dal-26-09-2026-al-27-09-2026-liguria-sant-2026-09-26"
     }
   ]
 }
