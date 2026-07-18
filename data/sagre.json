@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-07-17T05:15:13Z",
+    "scraped_at": "2026-07-18T04:50:15Z",
     "total": 10,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -13,32 +13,32 @@
   },
   "sagre": [
     {
+      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-01-01",
+      "data_fine": "2026-01-01",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Festa dell'agricoltura",
+      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "eventiesagre",
+      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
+    },
+    {
       "nome": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05",
       "comune": "",
       "provincia": "GE",
       "regione": "Liguria",
       "data_inizio": "2026-06-02",
       "data_fine": "2026-06-02",
-      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Ge",
+      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto",
       "url": "https://www.eventiesagre.it/Eventi_Culturali/21195451_La+Genova+Di+Faber.html",
       "immagine": "",
       "stato": "passato",
       "fonte": "eventiesagre",
       "id": "la-genova-di-faber-eventi-culturali-passeggiata-nella-citta-vecchia-sulle-orme-di-fabrizio-de-andre-dal-02-06-2026-al-05-2026-06-02"
-    },
-    {
-      "nome": "Sagra Del Raviolo Eventi Sagre A Sesta Godano Dal 18/07/2026 Al 19/07/2026 Liguria Sesta Godano (SP) leggi tutto",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-07-18",
-      "data_fine": "2026-07-18",
-      "descrizione": "Sagra Del Raviolo Eventi Sagre A Sesta Godano Dal 18/07/2026 Al 19/07/2026 Liguria Sesta Godano (SP) leggi tutto La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto Festa dell'agricoltura e d",
-      "url": "https://www.eventiesagre.it/Eventi_Sagre/21103656_Sagra+Del+Raviolo.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "sagra-del-raviolo-eventi-sagre-a-sesta-godano-dal-18-07-2026-al-19-07-2026-liguria-sesta-godano-sp-leggi-tutto-2026-07-18"
     },
     {
       "nome": "Sagra della trota di Rezzo",
@@ -50,7 +50,7 @@
       "descrizione": "A Rezzo,sabato 18 luglio 2026c’è la Sagra della trota, tra le più antiche e longeve di tutta la Valle Arroscia, Evento autentico di Regione Liguria 2026. Nel menù tutti piatti tipici liguri, tutti vini DOC e IGT, e ovviamente la regina della festa preparata in tre diverse cotture: piastra, in umido e impanata. Vengono proposti prodotti a km. 0 e tipici come appunto la trota, nonché vini DOC, DOP e IGT. Gli operatori locali collaborano attivamente all’interno degli eventi, espongono e forniscono i loro prodotti. Accanto a questa specialità, i visitatori possono degustare antipasti tipici con prodotti caseari e agricoli locali, vini DOC e IGT del territorio ed eccellenze come l’aglio di Vessalico e l’olio extravergine d’oliva locale, espressione autentica della tradizione ligure.  L’evento si svolge presso i giardini “La Pagoda”. Info:Facebook.com/prolocorezzo",
       "url": "https://www.facebook.com/prolocorezzo",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "sagra-della-trota-di-rezzo-2026-07-18"
     },
