@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-07-21T05:22:03Z",
+    "scraped_at": "2026-07-22T05:20:58Z",
     "total": 12,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -13,18 +13,18 @@
   },
   "sagre": [
     {
-      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
+      "nome": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05",
       "comune": "",
       "provincia": "GE",
       "regione": "Liguria",
-      "data_inizio": "2026-01-01",
-      "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto Festa Sociale Croce D'oro Sciarborasc",
-      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
+      "data_inizio": "2026-06-02",
+      "data_fine": "2026-06-02",
+      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto La Genova Di Fa",
+      "url": "https://www.eventiesagre.it/Eventi_Culturali/21195451_La+Genova+Di+Faber.html",
       "immagine": "",
       "stato": "passato",
       "fonte": "eventiesagre",
-      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
+      "id": "la-genova-di-faber-eventi-culturali-passeggiata-nella-citta-vecchia-sulle-orme-di-fabrizio-de-andre-dal-02-06-2026-al-05-2026-06-02"
     },
     {
       "nome": "Sagra della trota di Rezzo",
@@ -89,26 +89,12 @@
       "regione": "Liguria",
       "data_inizio": "2026-07-23",
       "data_fine": "2026-07-23",
-      "descrizione": "Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto Festa Sociale Croce D'oro Sciarborasca Eventi Feste",
+      "descrizione": "Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto La Genova Di Faber Eventi Culturali Passeggiata Nell",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/21195460_Una+Barca+Nel+Bosco.html",
       "immagine": "",
       "stato": "futuro",
       "fonte": "eventiesagre",
       "id": "una-barca-nel-bosco-eventi-sagre-quattro-giorni-di-solo-pesce-dal-23-07-2026-al-26-07-2026-liguria-mallare-sv-leggi-tu-2026-07-23"
-    },
-    {
-      "nome": "Festa Sociale Croce D'oro Sciarborasca Eventi Feste La Sagra Di Sciarborasca Dal 23/07/2026 Al 26/07/2026 Liguria Cogole",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-07-23",
-      "data_fine": "2026-07-23",
-      "descrizione": "Festa Sociale Croce D'oro Sciarborasca Eventi Feste La Sagra Di Sciarborasca Dal 23/07/2026 Al 26/07/2026 Liguria Cogoleto (GE) leggi tutto Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto Festa Sociale Croce D'oro Sciarboras",
-      "url": "https://www.eventiesagre.it/Eventi_Sagre/21124284_Festa+Sociale+Croce+D+oro+Sciarborasca.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "festa-sociale-croce-d-oro-sciarborasca-eventi-feste-la-sagra-di-sciarborasca-dal-23-07-2026-al-26-07-2026-liguria-cogole-2026-07-23"
     },
     {
       "nome": "Pastasciutta Antifascista 2026 a Sant’Olcese",
@@ -179,6 +165,20 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "festa-della-borgata-delle-grazie-portovenere-2026-07-27"
+    },
+    {
+      "nome": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Sant",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-09-26",
+      "data_fine": "2026-09-26",
+      "descrizione": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Una Barca Nel Bosco Eventi Sagre Quattro Giorni Di Solo Pesce Dal 23/07/2026 Al 26/07/2026 Liguria Mallare (SV) leggi tutto La Genova Di Faber Ev",
+      "url": "https://www.eventiesagre.it/Eventi_Fiere/21013550_Festa+dell+agricoltura+e+dell+artigianato.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "festa-dell-agricoltura-e-dell-artigianato-eventi-fiere-triathlon-del-boscaiolo-dal-26-09-2026-al-27-09-2026-liguria-sant-2026-09-26"
     }
   ]
 }
