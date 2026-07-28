@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-07-27T05:52:26Z",
-    "total": 1,
+    "scraped_at": "2026-07-28T05:16:33Z",
+    "total": 4,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -12,6 +12,20 @@
     ]
   },
   "sagre": [
+    {
+      "nome": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-06-02",
+      "data_fine": "2026-06-02",
+      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto Fest",
+      "url": "https://www.eventiesagre.it/Eventi_Culturali/21195451_La+Genova+Di+Faber.html",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "eventiesagre",
+      "id": "la-genova-di-faber-eventi-culturali-passeggiata-nella-citta-vecchia-sulle-orme-di-fabrizio-de-andre-dal-02-06-2026-al-05-2026-06-02"
+    },
     {
       "nome": "Salta nella località di tuo interesse:",
       "comune": "Imperia",
@@ -25,6 +39,34 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "salta-nella-localita-di-tuo-interesse-imperia-2026-08-03"
+    },
+    {
+      "nome": "La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (S",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-08-13",
+      "data_fine": "2026-08-13",
+      "descrizione": "La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto Festa dell'agricoltura e dell'",
+      "url": "https://www.eventiesagre.it/Eventi_Sagre/21172396_La+Sagra+Della+Lumaca+A+Borgio+Verezzi.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "la-sagra-della-lumaca-a-borgio-verezzi-eventi-sagre-edizione-2026-dal-13-08-2026-al-14-08-2026-liguria-borgio-verezzi-s-2026-08-13"
+    },
+    {
+      "nome": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Sant",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-09-26",
+      "data_fine": "2026-09-26",
+      "descrizione": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto Festa dell",
+      "url": "https://www.eventiesagre.it/Eventi_Fiere/21013550_Festa+dell+agricoltura+e+dell+artigianato.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "festa-dell-agricoltura-e-dell-artigianato-eventi-fiere-triathlon-del-boscaiolo-dal-26-09-2026-al-27-09-2026-liguria-sant-2026-09-26"
     }
   ]
 }
