@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-07-28T05:16:33Z",
+    "scraped_at": "2026-07-29T05:23:31Z",
     "total": 4,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -13,13 +13,27 @@
   },
   "sagre": [
     {
+      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-01-01",
+      "data_fine": "2026-01-01",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto",
+      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "eventiesagre",
+      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
+    },
+    {
       "nome": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05",
       "comune": "",
       "provincia": "GE",
       "regione": "Liguria",
       "data_inizio": "2026-06-02",
       "data_fine": "2026-06-02",
-      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto Fest",
+      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Ge",
       "url": "https://www.eventiesagre.it/Eventi_Culturali/21195451_La+Genova+Di+Faber.html",
       "immagine": "",
       "stato": "passato",
@@ -47,26 +61,12 @@
       "regione": "Liguria",
       "data_inizio": "2026-08-13",
       "data_fine": "2026-08-13",
-      "descrizione": "La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto Festa dell'agricoltura e dell'",
+      "descrizione": "La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto La S",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/21172396_La+Sagra+Della+Lumaca+A+Borgio+Verezzi.html",
       "immagine": "",
       "stato": "futuro",
       "fonte": "eventiesagre",
       "id": "la-sagra-della-lumaca-a-borgio-verezzi-eventi-sagre-edizione-2026-dal-13-08-2026-al-14-08-2026-liguria-borgio-verezzi-s-2026-08-13"
-    },
-    {
-      "nome": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Sant",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-09-26",
-      "data_fine": "2026-09-26",
-      "descrizione": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto Festa dell",
-      "url": "https://www.eventiesagre.it/Eventi_Fiere/21013550_Festa+dell+agricoltura+e+dell+artigianato.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "festa-dell-agricoltura-e-dell-artigianato-eventi-fiere-triathlon-del-boscaiolo-dal-26-09-2026-al-27-09-2026-liguria-sant-2026-09-26"
     }
   ]
 }
