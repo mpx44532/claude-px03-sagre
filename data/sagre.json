@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-08-12T04:08:47Z",
-    "total": 19,
+    "scraped_at": "2026-08-13T04:12:58Z",
+    "total": 17,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -12,20 +12,6 @@
     ]
   },
   "sagre": [
-    {
-      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-01-01",
-      "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto Festa dell'agricoltura e d",
-      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
-      "immagine": "",
-      "stato": "passato",
-      "fonte": "eventiesagre",
-      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
-    },
     {
       "nome": "Sagre e Feste di Agosto",
       "comune": "Diano Castello torna la Festa in Ciassa",
@@ -78,7 +64,7 @@
       "descrizione": "Mercoledì 12 agosto 2026, le vie e le piazze di Santo Stefano d’Aveto si animano con le esibizioni itineranti del Coro La Contrada, che porta la tradizione del canto popolare tra residenti e visitatori.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "giro-delle-piazze-a-santo-stefano-d-aveto-2026-08-12"
     },
@@ -89,10 +75,10 @@
       "regione": "Liguria",
       "data_inizio": "2026-08-13",
       "data_fine": "2026-08-13",
-      "descrizione": "La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto Festa dell'agricoltura e dell'",
+      "descrizione": "La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E S",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/21172396_La+Sagra+Della+Lumaca+A+Borgio+Verezzi.html",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "eventiesagre",
       "id": "la-sagra-della-lumaca-a-borgio-verezzi-eventi-sagre-edizione-2026-dal-13-08-2026-al-14-08-2026-liguria-borgio-verezzi-s-2026-08-13"
     },
@@ -106,7 +92,7 @@
       "descrizione": "11–13 agosto 2026, Piazza Matteotti ospita tre serate dedicate a uno dei piatti simbolo della tradizione ligure: il minestrone alla genovese. Organizzata dalla Croce Verde di Sestri Levante, la sagra è l’occasione ideale per gustare i sapori autentici del territorio in un’atmosfera di festa.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "sagra-del-minestrone-alla-genovese-a-sestri-levante-sestri-levante-2026-08-13"
     },
@@ -263,20 +249,6 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "u-mundantigu-in-valbrevenna-valbrevenna-che-2026-09-06"
-    },
-    {
-      "nome": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Sant",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-09-26",
-      "data_fine": "2026-09-26",
-      "descrizione": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto Festa dell",
-      "url": "https://www.eventiesagre.it/Eventi_Fiere/21013550_Festa+dell+agricoltura+e+dell+artigianato.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "festa-dell-agricoltura-e-dell-artigianato-eventi-fiere-triathlon-del-boscaiolo-dal-26-09-2026-al-27-09-2026-liguria-sant-2026-09-26"
     }
   ]
 }
