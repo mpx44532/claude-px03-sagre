@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-08-13T04:12:58Z",
-    "total": 17,
+    "scraped_at": "2026-08-14T04:10:21Z",
+    "total": 20,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -12,6 +12,34 @@
     ]
   },
   "sagre": [
+    {
+      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-01-01",
+      "data_fine": "2026-01-01",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto La Genova Di Faber Eventi",
+      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "eventiesagre",
+      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
+    },
+    {
+      "nome": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-06-02",
+      "data_fine": "2026-06-02",
+      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto La G",
+      "url": "https://www.eventiesagre.it/Eventi_Culturali/21195451_La+Genova+Di+Faber.html",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "eventiesagre",
+      "id": "la-genova-di-faber-eventi-culturali-passeggiata-nella-citta-vecchia-sulle-orme-di-fabrizio-de-andre-dal-02-06-2026-al-05-2026-06-02"
+    },
     {
       "nome": "Sagre e Feste di Agosto",
       "comune": "Diano Castello torna la Festa in Ciassa",
@@ -75,10 +103,10 @@
       "regione": "Liguria",
       "data_inizio": "2026-08-13",
       "data_fine": "2026-08-13",
-      "descrizione": "La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E S",
+      "descrizione": "La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto La Sagra Della Lumaca A Borgio Verezzi Eventi Sagre Edizione 2026 Dal 13/08/2026 Al 14/08/2026 Liguria Borgio Verezzi (SV) leggi tutto La Genova Di Faber Eventi Cult",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/21172396_La+Sagra+Della+Lumaca+A+Borgio+Verezzi.html",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "eventiesagre",
       "id": "la-sagra-della-lumaca-a-borgio-verezzi-eventi-sagre-edizione-2026-dal-13-08-2026-al-14-08-2026-liguria-borgio-verezzi-s-2026-08-13"
     },
@@ -92,7 +120,7 @@
       "descrizione": "11–13 agosto 2026, Piazza Matteotti ospita tre serate dedicate a uno dei piatti simbolo della tradizione ligure: il minestrone alla genovese. Organizzata dalla Croce Verde di Sestri Levante, la sagra è l’occasione ideale per gustare i sapori autentici del territorio in un’atmosfera di festa.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "sagra-del-minestrone-alla-genovese-a-sestri-levante-sestri-levante-2026-08-13"
     },
@@ -106,7 +134,7 @@
       "descrizione": "La Torta dei Fieschi è una rievocazione storica tra le più antiche e importanti d’Italia e celebra le nozze, avvenute nel 1230, tra il conte Opizzo Fieschi e Bianca De’ Bianchi.Dal 13 al 14 agosto 2026a Cogorno e a Lavagna. I festeggiamenti iniziano già il12 agostoa San Salvatore di Cogorno quando con “MedioEvo nel Borgo” la suggestiva piazza della Basilica dei Fieschi tornerà indietro nel tempo e si popolerà di giullari, falconieri, mercanti e artigiani al lavoro. In serata rappresentazione “D’Oria e Fieschi a confronto” di Lunaria Teatro sulle vicende storiche di Andrea D’Oria.L’Addiu du FantinIl13 agostola festa entra nel vivo con l’Addiu du Fantin: un addio al celibato in chiave medievale durante il quale il conte Opizzo Fieschi  festeggia l’ultimo giorno da celibe prima di convolare a nozze con la bellissima Bianca Dei Bianchi. A San Salvatore di Cogorno la serata si caricherà d’emozione: non appena il Conte Opizzo arriverà a cavallo, verso le 18, si aprirà il banchetto medievale, le danze, le sfide tra gli armigeri.La Torta dei FieschiE finalmente arriva il14 agosto,il momento clou dell’estate di Lavagna: il matrimonio, con la gigantesca Torta di Nozze, 13 quintali di crema e pan di spagna, impossibile resistere. Ma c’è di più: non sarebbe un vero matrimonio se alla fine qualcuno non trovasse l’anima gemella proprio alla festa… ed ecco quindi il gioco delle coppie. Chi desidera partecipare al gioco della torta può comprare i bigliettini colorati (rosa per Lei, azzurro per Lui) con una parola stampata sopra. Dal momento in cui la Contessa taglia la torta e ha inizio il gioco, i partecipanti possono cercare nella piazza il proprio corrispettivo, con il cartoncino con la stessa parola e colore diverso. Quando si trova il proprio partner si può andare insieme al centro della piazza e ritirare le due fette di torta da consumare insieme all’anima gemella che il destino le ha affidato quella sera. Sarà l’occasione per scambiare due parole e chissà. E chi non riuscisse a trovare il bigliettino da accoppiare? Non c’è problema… tutte le pasticcerie lavagnesi sono aperte quella sera per assaggiare questa prelibatezza. Info:Facebook.com/tortadeifieschilavagna",
       "url": "https://www.facebook.com/tortadeifieschilavagna",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "la-torta-dei-fieschi-a-lavagna-lavagna-2026-08-14"
     },
@@ -137,6 +165,20 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "premio-internazionale-fedelta-del-cane-a-camogli-san-rocco-di-camogli-torna-uno-degli-eventi-piu-originali-della-liguria-2026-08-16"
+    },
+    {
+      "nome": "Vado L.-La grande Raviolata a Sant’Ermete",
+      "comune": "Sant",
+      "provincia": "SV",
+      "regione": "Liguria",
+      "data_inizio": "2026-08-16",
+      "data_fine": "2026-08-16",
+      "descrizione": "Sagre Vado L.-La grande Raviolata a Sant’Ermete | 15.08. - 16.08.2026 Consigliato da SVD 13|07 - 26|08|2026 Spotorno-Cabaret e Musica tra Mare e Cielo 10|08 - 14|08|2026 Pietra L.-Sagra del Nostralino a Ranzi 11|08 - 15|08|2026 Albenga-Sagralea 13|08 - 16|08|2026 Albisola S.-August Fest 13|08 - 16|0",
+      "url": "https://www.svdonline.it/184490/vado-l-la-grande-raviolata-a-santermete-2/",
+      "immagine": "https://www.savonaintasca.it/app/wp-content/uploads/2026/08/Raviolata-2026-150x150.jpg",
+      "stato": "futuro",
+      "fonte": "svdonline",
+      "id": "vado-l-la-grande-raviolata-a-sant-ermete-sant-2026-08-16"
     },
     {
       "nome": "Focaccia in Contrada a Santo Stefano d’Aveto",
