@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-08-16T03:00:57Z",
-    "total": 19,
+    "scraped_at": "2026-08-17T03:00:29Z",
+    "total": 18,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -19,7 +19,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-01-01",
       "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto La Genova Di Faber Eve",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto",
       "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
       "immagine": "",
       "stato": "passato",
@@ -33,7 +33,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-06-02",
       "data_fine": "2026-06-02",
-      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto",
+      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Ge",
       "url": "https://www.eventiesagre.it/Eventi_Culturali/21195451_La+Genova+Di+Faber.html",
       "immagine": "",
       "stato": "passato",
@@ -134,7 +134,7 @@
       "descrizione": "14–16 agosto 2026, un appuntamento imperdibile per gli amanti della buona cucina, dove i tradizionali testaieu, serviti con pesto, olio o formaggio, incontrano il sapore intenso dell’asado cotto lentamente. Tre serate dedicate ai sapori genuini della tradizione, tra specialità locali e atmosfera di festa.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "sagra-dei-testaieu-e-asado-a-montedomenico-sestri-levante-2026-08-16"
     },
@@ -148,23 +148,9 @@
       "descrizione": "Domenica 16 agosto 2026, a San Rocco di Camogli torna uno degli eventi più originali della Liguria, dedicato ai cani che si sono distinti per coraggio, fedeltà e amore verso l’uomo. Una cerimonia ricca di emozioni che celebra il legame speciale tra le persone e i loro compagni a quattro zampe.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "premio-internazionale-fedelta-del-cane-a-camogli-san-rocco-di-camogli-torna-uno-degli-eventi-piu-originali-della-liguria-2026-08-16"
-    },
-    {
-      "nome": "Vado L.-La grande Raviolata a Sant’Ermete",
-      "comune": "Sant",
-      "provincia": "SV",
-      "regione": "Liguria",
-      "data_inizio": "2026-08-16",
-      "data_fine": "2026-08-16",
-      "descrizione": "Sagre Vado L.-La grande Raviolata a Sant’Ermete | 15.08. - 16.08.2026 Consigliato da SVD 13|07 - 26|08|2026 Spotorno-Cabaret e Musica tra Mare e Cielo 13|08 - 16|08|2026 Albisola S.-August Fest 13|08 - 16|08|2026 Pallare-Sagra del Lisotto 14|08 - 16|08|2026 Mallare-Buon Sangue Non Mente 14|08 - 16|0",
-      "url": "https://www.svdonline.it/184490/vado-l-la-grande-raviolata-a-santermete-2/",
-      "immagine": "https://www.savonaintasca.it/app/wp-content/uploads/2026/08/Raviolata-2026-150x150.jpg",
-      "stato": "in corso",
-      "fonte": "svdonline",
-      "id": "vado-l-la-grande-raviolata-a-sant-ermete-sant-2026-08-16"
     },
     {
       "nome": "Focaccia in Contrada a Santo Stefano d’Aveto",
@@ -176,7 +162,7 @@
       "descrizione": "Lunedì 17 agosto 2026, una serata dedicata a uno dei simboli della gastronomia ligure con la Focaccia in Contrada. Protagoniste le specialità dei Focacciai del Golfo Paradiso e dell’Enoteca Il Grifo, per un appuntamento all’insegna del gusto e della convivialità.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "focaccia-in-contrada-a-santo-stefano-d-aveto-2026-08-17"
     },
