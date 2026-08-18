@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-08-17T03:00:29Z",
+    "scraped_at": "2026-08-18T02:56:24Z",
     "total": 18,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -19,7 +19,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-01-01",
       "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Festa dell'agricoltura",
       "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
       "immagine": "",
       "stato": "passato",
@@ -33,7 +33,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-06-02",
       "data_fine": "2026-06-02",
-      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Ge",
+      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto",
       "url": "https://www.eventiesagre.it/Eventi_Culturali/21195451_La+Genova+Di+Faber.html",
       "immagine": "",
       "stato": "passato",
@@ -162,7 +162,7 @@
       "descrizione": "Lunedì 17 agosto 2026, una serata dedicata a uno dei simboli della gastronomia ligure con la Focaccia in Contrada. Protagoniste le specialità dei Focacciai del Golfo Paradiso e dell’Enoteca Il Grifo, per un appuntamento all’insegna del gusto e della convivialità.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "focaccia-in-contrada-a-santo-stefano-d-aveto-2026-08-17"
     },
