@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-08-20T02:57:22Z",
-    "total": 15,
+    "scraped_at": "2026-08-21T03:03:34Z",
+    "total": 14,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -19,7 +19,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-01-01",
       "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Sagra Della Salsiccia Di Ceriana Eventi Sagre Soussissa Serianasca Dal 22/08/2026 Al 23/08/2026 Liguria Ceriana (IM) leggi tutto Eventi E Sagre Regione Liguria E",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Sagra",
       "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
       "immagine": "",
       "stato": "passato",
@@ -36,7 +36,7 @@
       "descrizione": "Dal 18 al 21 agosto 2026a Loano la 74ª edizione della Sagra di San Pio X con stand gastronomici, musica dal vivo e, giovedì 21 agosto, la corsa non competitiva Run San Pio. Info:Lamialiguria.it",
       "url": "https://lamialiguria.it/eventi/sagra-san-pio-x-e-run-san-pio-loano/",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "sagra-di-san-pio-x-e-ix-run-san-pio-san-pio-x-con-stand-gastronomici-2026-08-21"
     },
@@ -47,7 +47,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-08-22",
       "data_fine": "2026-08-22",
-      "descrizione": "Sagra Della Salsiccia Di Ceriana Eventi Sagre Soussissa Serianasca Dal 22/08/2026 Al 23/08/2026 Liguria Ceriana (IM) leggi tutto Sagra Della Salsiccia Di Ceriana Eventi Sagre Soussissa Serianasca Dal 22/08/2026 Al 23/08/2026 Liguria Ceriana (IM) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari",
+      "descrizione": "Sagra Della Salsiccia Di Ceriana Eventi Sagre Soussissa Serianasca Dal 22/08/2026 Al 23/08/2026 Liguria Ceriana (IM) leggi tutto Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Sagra Della Sals",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/21036696_Sagra+Della+Salsiccia+Di+Ceriana.html",
       "immagine": "",
       "stato": "futuro",
@@ -207,20 +207,6 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "u-mundantigu-in-valbrevenna-valbrevenna-che-2026-09-06"
-    },
-    {
-      "nome": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Sant",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-09-26",
-      "data_fine": "2026-09-26",
-      "descrizione": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Sagra Della Salsiccia Di Ceriana Eventi Sagre Soussissa Serianasca Dal 22/08/2026 Al 23/08/2026 Liguria Ceriana (IM) leggi tutto Eventi E Sagre R",
-      "url": "https://www.eventiesagre.it/Eventi_Fiere/21013550_Festa+dell+agricoltura+e+dell+artigianato.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "festa-dell-agricoltura-e-dell-artigianato-eventi-fiere-triathlon-del-boscaiolo-dal-26-09-2026-al-27-09-2026-liguria-sant-2026-09-26"
     }
   ]
 }
