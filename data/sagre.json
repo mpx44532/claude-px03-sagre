@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-08-23T03:03:39Z",
-    "total": 15,
+    "scraped_at": "2026-08-24T03:04:03Z",
+    "total": 14,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -19,12 +19,26 @@
       "regione": "Liguria",
       "data_inizio": "2026-01-01",
       "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Sagra Della Salsiccia Di Ceriana Eventi Sagre Soussissa Serianasca Dal 22/08/2026 Al 23/08/2026 Liguria Ceriana (IM) leggi tutto Eventi E Sagre Regione Liguria E",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Festa dell'agricoltura",
       "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
       "immagine": "",
       "stato": "passato",
       "fonte": "eventiesagre",
       "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
+    },
+    {
+      "nome": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-06-02",
+      "data_fine": "2026-06-02",
+      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto",
+      "url": "https://www.eventiesagre.it/Eventi_Culturali/21195451_La+Genova+Di+Faber.html",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "eventiesagre",
+      "id": "la-genova-di-faber-eventi-culturali-passeggiata-nella-citta-vecchia-sulle-orme-di-fabrizio-de-andre-dal-02-06-2026-al-05-2026-06-02"
     },
     {
       "nome": "Sagra di San Pio X e IX Run San Pio",
@@ -39,20 +53,6 @@
       "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "sagra-di-san-pio-x-e-ix-run-san-pio-san-pio-x-con-stand-gastronomici-2026-08-21"
-    },
-    {
-      "nome": "Sagra Della Salsiccia Di Ceriana Eventi Sagre Soussissa Serianasca Dal 22/08/2026 Al 23/08/2026 Liguria Ceriana (IM) leg",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-08-22",
-      "data_fine": "2026-08-22",
-      "descrizione": "Sagra Della Salsiccia Di Ceriana Eventi Sagre Soussissa Serianasca Dal 22/08/2026 Al 23/08/2026 Liguria Ceriana (IM) leggi tutto Sagra Della Salsiccia Di Ceriana Eventi Sagre Soussissa Serianasca Dal 22/08/2026 Al 23/08/2026 Liguria Ceriana (IM) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari",
-      "url": "https://www.eventiesagre.it/Eventi_Sagre/21036696_Sagra+Della+Salsiccia+Di+Ceriana.html",
-      "immagine": "",
-      "stato": "passato",
-      "fonte": "eventiesagre",
-      "id": "sagra-della-salsiccia-di-ceriana-eventi-sagre-soussissa-serianasca-dal-22-08-2026-al-23-08-2026-liguria-ceriana-im-leg-2026-08-22"
     },
     {
       "nome": "Salta nella località di tuo interesse:",
@@ -92,7 +92,7 @@
       "descrizione": "Dal 21 al 23 agosto 2026uno degli eventi più attesi dell’estate nel Levante della Liguria è la Sagra del Fungo a Tavarone in Comune di Maissana. Ogni giorno si possono gustare: tagliatelle al sugo di fungo, polenta al sugo di fungo, risotto ai funghi, funghi fritti, funghi alla paesana con patate, scaloppine ai funghi, salsicce alla brace con patatine, patatine fritte, dolci della sagra (panna cotta e budino al cioccolato) e crostate.Dov’è Tavarone?Tavarone è una tranquilla frazione di circa 150 abitanti situata a 606 metri di altitudine nel comune di Maissana (La Spezia), nell’alta Val di Vara. Immerso nel verde dell’appennino ligure, il borgo è noto come centro di turismo verde, escursionismo e sport all’aria aperta. La Sagra del Fungo a Tavarone  nasce per celebrare il re porcino e valorizzare i fitti boschi di castagni locali, che da sempre rappresentano una storica fonte di sostentamento, tradizione e cultura contadina della montagna ligure. Info:Tavarone.it",
       "url": "https://www.tavarone.it/sagra-del-fungo-tavarone.html",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "53-sagra-del-fungo-a-tavarone-tavarone-in-comune-di-maissana-2026-08-23"
     },
@@ -106,7 +106,7 @@
       "descrizione": "Dal 21 al 23 agosto 2026al Centro Sportivo di Ponzano Superiore nel comune di Santo Stefano di Magra si rinnova l’appuntamento con la storica Sagra della Scherpada, dedicata alla celebre e apprezzata torta di verdure tipica del territorio. Tre serate all’insegna dei sapori della tradizione animate da musica dal vivo. Come la maggioranza dei prodotti della Lunigiana, la Scherpada è di derivazione contadina e fatta con ingredienti molto semplici. Ha la forma di una torta, o di un grosso raviolo. È formata da due strati leggeri di un impasto amalgamato con acqua, farina e sale, che avvolge le erbe coltivate e spontanee dei campi.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "sagra-della-scherpada-2026-08-23"
     },
@@ -120,7 +120,7 @@
       "descrizione": "Dal 21 al 23 agosto 2026, sul lungomare di Marinella di Sarzana, tre giorni dedicati ai sapori del mare con stand gastronomici dove gustare pesce fresco e specialità della tradizione marinara. Un evento che celebra la cucina di mare in un’atmosfera di festa, tra buon cibo, musica e intrattenimento per tutte le età.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "marinella-fish-festival-marinella-di-sarzana-2026-08-23"
     },
@@ -134,7 +134,7 @@
       "descrizione": "La Sagra du Burgu a Bastia d’Albenga,dal 21 al 24 agosto 2026, è un appuntamento imperdibile per gli amanti della cucina ligure autentica. Tra le specialità proposte ci sono i ravioli di borraggine, la focaccia con Bra cruda, la panizza fritta e il coniglio alla ligure, insieme a tante altre prelibatezze locali. Accompagnati da vini selezionati, questi piatti raccontano la tradizione gastronomica della Riviera di Ponente in un’atmosfera festosa e coinvolgente. Un’occasione perfetta per immergersi nei sapori e nelle tradizioni del territorio.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "a-sagra-du-burgu-a-bastia-d-albenga-2026-08-24"
     },
@@ -207,20 +207,6 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "u-mundantigu-in-valbrevenna-valbrevenna-che-2026-09-06"
-    },
-    {
-      "nome": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Sant",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-09-26",
-      "data_fine": "2026-09-26",
-      "descrizione": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Sagra Della Salsiccia Di Ceriana Eventi Sagre Soussissa Serianasca Dal 22/08/2026 Al 23/08/2026 Liguria Ceriana (IM) leggi tutto Eventi E Sagre R",
-      "url": "https://www.eventiesagre.it/Eventi_Fiere/21013550_Festa+dell+agricoltura+e+dell+artigianato.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "festa-dell-agricoltura-e-dell-artigianato-eventi-fiere-triathlon-del-boscaiolo-dal-26-09-2026-al-27-09-2026-liguria-sant-2026-09-26"
     }
   ]
 }
