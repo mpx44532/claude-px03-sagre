@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-08-28T13:54:51Z",
+    "scraped_at": "2026-08-29T08:42:30Z",
     "total": 10,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -19,7 +19,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-01-01",
       "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Festa dell'agricoltura",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto",
       "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
       "immagine": "",
       "stato": "passato",
@@ -33,7 +33,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-06-02",
       "data_fine": "2026-06-02",
-      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto",
+      "descrizione": "La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Genova (GE) leggi tutto La Genova Di Faber Eventi Culturali Passeggiata Nella Città Vecchia Sulle Orme Di Fabrizio De André Dal 02/06/2026 Al 05/09/2026 Liguria Ge",
       "url": "https://www.eventiesagre.it/Eventi_Culturali/21195451_La+Genova+Di+Faber.html",
       "immagine": "",
       "stato": "passato",
@@ -50,7 +50,7 @@
       "descrizione": "La mostra mercato Gli Orti di Pignone si svolge ogni anno durante l’ultimo fine settimana di agosto, il28 e 29 agosto 2026, a Pignone. Nei due giorni dell’evento si potranno trovare ortaggi di stagione, prodotti della Val di Vara o della costa, miele, formaggi, olio, vino, patate, fagioli, farina di mais, cipolle, farina di castagne, originari dei produttori locali secondo un disciplinare che ne garantisce la qualità",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "gli-orti-di-pignone-pignone-2026-08-29"
     },
@@ -64,7 +64,7 @@
       "descrizione": "A Boissano torna la tradizionale Polentata di Fine Stagione,dal 28 al 29 agosto 2026. L’evento celebra la cucina contadina ligure e la sua tradizione popolare. La polenta, piatto tipico della zona, viene proposta in gustose varianti con salsiccia, funghi e formaggi locali. Tra convivialità e sapori autentici, questa festa nel cuore dell’entroterra savonese è l’occasione perfetta per scoprire la tradizione gastronomica ligure in un’atmosfera calda e accogliente.Dov’è Boissano?Boissano è un tipico borgo ligure in provincia di Savona diviso in piccole contrade, sospeso tra il blu del mare di Borghetto Santo Spirito e il verde del Monte Ravinet. Offre panorami stupendi, pace tra gli ulivi e antichi sentieri tutti da camminare.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "la-polentata-di-boissano-fine-stagione-2026-08-29"
     },
