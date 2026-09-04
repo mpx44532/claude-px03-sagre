@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-09-03T06:57:01Z",
+    "scraped_at": "2026-09-04T07:00:59Z",
     "total": 17,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -36,7 +36,7 @@
       "descrizione": "Venerdì 4 Settembre 2026, appuntamento con la guida è alla stazione di Monterosso presso il Cinque Terre Info Point alle ore 17.00. La vostra guida vi accompagnerà lungo un percorso suggestivo per ritrovare le tracce di uno dei più grandi poeti del Novecento, il premio Nobel Eugenio Montale, in un contesto naturale e paesaggistico potente. Il trekking è di livello escursionistico ed è raccomandato l’uso di scarpe da trekking e una buona preparazione fisica. Le escursioni guidate hanno un costo di € 10,00 per persona – Gratuite per i possessori di Cinque Terre Card. Durata del Tour: circa 3 ore. Difficoltà: E – Per escursionisti. Prenotazione obbligatoria visiteguidate@ati5terre.it – Tel. 0187 1857573.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "tour-di-monterosso-cinque-terre-card-2026-09-04"
     },
