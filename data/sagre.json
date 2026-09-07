@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-09-06T06:55:45Z",
+    "scraped_at": "2026-09-07T07:05:28Z",
     "total": 18,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -120,7 +120,7 @@
       "descrizione": "U Mundantigu è la tradizionale festa di Valbrevenna che,domenica 6 settembre 2026, invita a immergersi nelle radici contadine della valle, nel cuore del Parco Naturale Regionale dell’Antola. L’evento valorizza la cultura rurale con un mercatino di prodotti tipici locali come miele, sciroppo di rosa, dolci tradizionali e le celebri patate di montagna. Tra le attrazioni, dimostrazioni artigianali di trebbiatura, lavorazione del legno, costruzione di cestini in castagno e il mestiere del ciabattino rendono viva la storia e l’identità del territorio.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "u-mundantigu-in-valbrevenna-valbrevenna-che-2026-09-06"
     },
@@ -134,7 +134,7 @@
       "descrizione": "Dal 4 al 6 settembre 2026a Pieve Di Teco, EXPO VALLE ARROSCIA dove vi aspettano:– Espositori con le loro eccellenze e i negozi dei suggestivi portici di Corso Ponzoni;– Sfiziosità dell’Isola dei Sapori, perfette da gustare a passeggio;– Ristoranti della Valle si riuniscono in Piazza Carenzi per proporre piatti tipici locali;– Escursioni, passeggiate e visite guidate a Pieve di Teco e dintorni;– Aperture speciali al pubblico dei principali siti artistici e storici di Pieve di Teco;– Laboratori, degustazioni e approfondimenti vi aspettano nell’Area Incontri.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "expo-valle-arroscia-2026-09-06"
     },
