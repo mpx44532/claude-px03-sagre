@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-09-09T07:08:53Z",
-    "total": 10,
+    "scraped_at": "2026-09-10T07:05:19Z",
+    "total": 9,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -13,20 +13,6 @@
   },
   "sagre": [
     {
-      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-01-01",
-      "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Festa dell'agricoltura",
-      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
-      "immagine": "",
-      "stato": "passato",
-      "fonte": "eventiesagre",
-      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
-    },
-    {
       "nome": "Tour di Corniglia",
       "comune": "Corniglia",
       "provincia": "SP",
@@ -36,7 +22,7 @@
       "descrizione": "Mercoledì 9 settembre 2026, appuntamento con la guida è alla stazione di Corniglia, presso il Cinque Terre Info Point e da qui inizierete la visita percorrendo la “Lardarina”, la famosa scalinata di 377 scalini che vi porterà in paese. Qui la vostra guida vi accompagnerà alla scoperta delle bellezze storico, artistico e culturali del borgo. Il tour è di livello semplice in quanto non è prevista la percorrenza di sentieri da trekking. È comunque consigliato un abbigliamento comodo e l’uso di scarpe sportive. Le escursioni guidate hanno un costo di € 10,00 per persona – Gratuite per i possessori di Cinque Terre Card. Prenotazione obbligatoria visiteguidate@ati5terre.it – Tel. 0187 1857573. In condizione di meteo avverse il calendario potrà subire modifiche. Website:Parconazionale5terre.it",
       "url": "https://www.parconazionale5terre.it/man_dettaglio.php?id=137581",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "tour-di-corniglia-corniglia-2026-09-09"
     },
