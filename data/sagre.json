@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-09-18T07:09:08Z",
-    "total": 14,
+    "scraped_at": "2026-09-19T07:06:50Z",
+    "total": 13,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -19,7 +19,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-01-01",
       "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto 19° Sagra del Pesto Eventi Sagre Di Genova Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto Festa dell'agricoltura e dell'artigianato Eventi Fiere Tr",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Festa dell'agricoltura",
       "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
       "immagine": "",
       "stato": "passato",
@@ -103,26 +103,12 @@
       "regione": "Liguria",
       "data_inizio": "2026-09-26",
       "data_fine": "2026-09-26",
-      "descrizione": "19° Sagra del Pesto Eventi Sagre Di Genova Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto 19° Sagra del Pesto Eventi Sagre Di Genova Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/202",
+      "descrizione": "19° Sagra del Pesto Eventi Sagre Di Genova Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Festa dell'agricoltura e dell'artigianato Eventi Fiere Tr",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/21097602_19A+Sagra+del+Pesto.html",
       "immagine": "",
       "stato": "futuro",
       "fonte": "eventiesagre",
       "id": "19-sagra-del-pesto-eventi-sagre-di-genova-dal-26-09-2026-al-27-09-2026-liguria-genova-ge-leggi-tutto-2026-09-26"
-    },
-    {
-      "nome": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Sant",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-09-26",
-      "data_fine": "2026-09-26",
-      "descrizione": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto 19° Sagra del Pesto Eventi Sagre Di Genova Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto Festa dell'agricoltura e dell'artigianato",
-      "url": "https://www.eventiesagre.it/Eventi_Fiere/21013550_Festa+dell+agricoltura+e+dell+artigianato.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "festa-dell-agricoltura-e-dell-artigianato-eventi-fiere-triathlon-del-boscaiolo-dal-26-09-2026-al-27-09-2026-liguria-sant-2026-09-26"
     },
     {
       "nome": "Sport e Adrenalina per Tutti a Borghetto di Vara",
