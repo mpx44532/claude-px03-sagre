@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-09-19T07:06:50Z",
-    "total": 13,
+    "scraped_at": "2026-09-20T07:31:43Z",
+    "total": 14,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -12,20 +12,6 @@
     ]
   },
   "sagre": [
-    {
-      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-01-01",
-      "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Festa dell'agricoltura",
-      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
-      "immagine": "",
-      "stato": "passato",
-      "fonte": "eventiesagre",
-      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
-    },
     {
       "nome": "Pedali nella Notte",
       "comune": "",
@@ -50,7 +36,7 @@
       "descrizione": "Tre giornate di intrattenimento, commercio, produzioni locali e un focus su tradizioni, enogastronomia con stand ogni sera, didattica ambientaletra venerdì 18 e domenica 20 settembre 2026a Pontedecimo per il 27° Expo della Valpolcevera. L’Expo della Valpolcevera è una manifestazione che si svolge da ben 27 anni a Pontedecimo, nell’entroterra di Genova, per celebrare le tradizioni, le eccellenze, la cultura e la storia della Valpolcevera, zona che prende il nome dal torrente Polcevera, storicamente importante per il passaggio di merci e come nodo di comunicazione tra la costa e l’entroterra. Ci sarà un mercato con l’esposizione di prodotti tipici locali, cortei storici, fiere ed eventi culturali e sportivi.Il programmaIl Corteo Storico della Tavola Bronzea è il momento più rappresentativo per l’identità del territorio, atteso ogni anno durante l’Expo, con oltre cento figuranti in abiti d’epoca che sfileranno per le vie del borgo. Oltre il Corteo Storico, saranno allestiti stand per degustazioni di prodotti locali, laboratori per famiglie, spettacoli e tanto altro. Per info su Expo ValpolceveraCLICCA QUI",
       "url": "https://www.ge.camcom.gov.it/it/dal-18-al-20-settembre-27deg-edizione-dell2019expo-val-polcevera",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "l-expo-valpolcevera-pontedecimo-2026-09-20"
     },
@@ -64,7 +50,7 @@
       "descrizione": "Non si può mancare alla Festa del Fungo d’oro di Bardineto. Giunta alla 41ª edizione, sarà il19 e 20 settembre 2026: evento è attesissimo da chi ama la buona cucina e chi ama le prelibatezze autunnali. E’ evento Autentico di Regione Liguria. I due giorni dell’evento saranno molto intensi e ricchi di appuntamenti, mostre, sport, musica e danze per culminare negli stand gastronimici in cui dominerà sua maestà il porcino. Durante la festa vengono premiati il re e la regina dei funghi, ovvero i migliori esemplari di porgini raccolti durante la manifestazine all’interno del Consorzio altopiano bardinetese. Si terrà una fiera del fungo lungo le vie del paese con il Gruppo micologico con mostra e micologo a disposizione per pareri e consulenze sui funghi. Programma e organizzazione a cura di Comune di Bardineto e Nuova Pro loco Bardineto:Facebook.comDov’è Bardineto?Lasciando l’autostrada A10 al casello di Finale Ligure prendi la strada provinciale 459 del Melogno. In pochi chilometri cambia il paesaggio e in venti minuti si arriva a Bardineto. Bardineto si erge su un altipiano boschivo formato da pini, abeti, faggi e betulle.",
       "url": "https://www.facebook.com/nuova.bardineto",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "xxxxi-festa-nazionale-del-fungo-d-oro-di-bardineto-bardineto-2026-09-20"
     },
@@ -78,7 +64,7 @@
       "descrizione": "Quest’anno i festeggiamenti in occasione del 160° anno di morte del Padre santo ma anche dell’800° anno del transito al cielo di S. Francesco d’Assisi e del 20° di S. Carlo Acutis si terranno in occasione della settimana educativa/pastorale del13-20 settembre 2026Il programmaTre santi per riflettere insieme, guidati da alcuni testimoni, su un grande e importante tema che oggi, senza distinzioni, tocca tutti da vicino: l’educazione delle giovani generazioni.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "festa-del-padre-santo-a-camporosso-2026-09-20"
     },
@@ -92,7 +78,7 @@
       "descrizione": "Dal 17 al 20 settembre 2026Sanremo ospita la tappa finale della Sanremo Padel Experience, un appuntamento che porta nel cuore della Riviera di Ponente atleti, giovani promesse e appassionati provenienti da tutta Italia e dall’estero, trasformando Sanremo in un punto di riferimento per il padel internazionale. La Sanremo Padel Experience chiude il suo tour nazionale nella Città dei Fiori, regalando a residenti e visitatori un’esperienza che va oltre la competizione e anima il centro cittadino con incontri, spettacoli e momenti di condivisione. La tappa di Sanremo rappresenta l’appuntamento conclusivo della Sanremo Padel Experience, che nel corso dell’anno ha attraversato quattro città italiane; Perugia, Grosseto, Roma e Torino. Dal 17 al 20 settembre saranno protagonistidue circuiti internazionali ufficiali della Federazione Internazionale Padel: il FIP Promises, dedicato ai giovani talenti, sia maschili sia femminili, delle categorie Under 12, Under 14, Under 16 e Under 18, e il FIP Beyond, il nuovo circuito internazionale riservato ai giocatori e alle giocatrici amatoriali, suddivisi nelle fasce d’età 18-39 anni, Over 40 e Over 50. Per l’occasione, Piazza Cristoforo Colombo si trasformerà in un vero e proprio villaggio a cielo aperto dedicato al padel, grazie all’allestimento di un campo da gioco con tribune per il pubblico e di spazi dedicati alle attività dell’evento. Le competizioni e le iniziative in programma si svolgeranno tra la piazza e il circolo Tennis Padel Academy Sanremo. Per maggiori informazioni visita ilsito ufficialedell’evento!",
       "url": "https://www.sanremopadelexperience.com/",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "sanremo-padel-experience-2026-il-grande-evento-del-padel-internazionale-ponente-atleti-2026-09-20"
     },
@@ -103,12 +89,40 @@
       "regione": "Liguria",
       "data_inizio": "2026-09-26",
       "data_fine": "2026-09-26",
-      "descrizione": "19° Sagra del Pesto Eventi Sagre Di Genova Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Festa dell'agricoltura e dell'artigianato Eventi Fiere Tr",
+      "descrizione": "19° Sagra del Pesto Eventi Sagre Di Genova Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto 19° Sagra del Pesto Eventi Sagre Di Genova Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/202",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/21097602_19A+Sagra+del+Pesto.html",
       "immagine": "",
       "stato": "futuro",
       "fonte": "eventiesagre",
       "id": "19-sagra-del-pesto-eventi-sagre-di-genova-dal-26-09-2026-al-27-09-2026-liguria-genova-ge-leggi-tutto-2026-09-26"
+    },
+    {
+      "nome": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Sant",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-09-26",
+      "data_fine": "2026-09-26",
+      "descrizione": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto 19° Sagra del Pesto Eventi Sagre Di Genova Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto Festa dell'agricoltura e dell'artigianato",
+      "url": "https://www.eventiesagre.it/Eventi_Fiere/21013550_Festa+dell+agricoltura+e+dell+artigianato.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "festa-dell-agricoltura-e-dell-artigianato-eventi-fiere-triathlon-del-boscaiolo-dal-26-09-2026-al-27-09-2026-liguria-sant-2026-09-26"
+    },
+    {
+      "nome": "Sagra Del Pesto A Genova Eventi Sagre Pesto A Non Finire Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-09-26",
+      "data_fine": "2026-09-26",
+      "descrizione": "Sagra Del Pesto A Genova Eventi Sagre Pesto A Non Finire Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto 19° Sagra del Pesto Eventi Sagre Di Genova Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo",
+      "url": "https://www.eventiesagre.it/Eventi_Sagre/21195549_Sagra+Del+Pesto+A+Genova.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "sagra-del-pesto-a-genova-eventi-sagre-pesto-a-non-finire-dal-26-09-2026-al-27-09-2026-liguria-genova-ge-leggi-tutto-2026-09-26"
     },
     {
       "nome": "Sport e Adrenalina per Tutti a Borghetto di Vara",
