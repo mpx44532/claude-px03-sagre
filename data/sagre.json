@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-09-23T07:28:17Z",
-    "total": 17,
+    "scraped_at": "2026-09-24T07:20:23Z",
+    "total": 18,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -13,13 +13,27 @@
   },
   "sagre": [
     {
+      "nome": "Sagra Del Pesto A Genova Eventi Sagre Pesto A Non Finire Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-09-26",
+      "data_fine": "2026-09-26",
+      "descrizione": "Sagra Del Pesto A Genova Eventi Sagre Pesto A Non Finire Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto Sagra Del Pesto A Genova Eventi Sagre Pesto A Non Finire Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto 19° Sagra del Pesto Eventi Sagre Di Genova Dal 26/09/2026 Al 27/",
+      "url": "https://www.eventiesagre.it/Eventi_Sagre/21195549_Sagra+Del+Pesto+A+Genova.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "sagra-del-pesto-a-genova-eventi-sagre-pesto-a-non-finire-dal-26-09-2026-al-27-09-2026-liguria-genova-ge-leggi-tutto-2026-09-26"
+    },
+    {
       "nome": "19° Sagra del Pesto Eventi Sagre Di Genova Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto",
       "comune": "",
       "provincia": "GE",
       "regione": "Liguria",
       "data_inizio": "2026-09-26",
       "data_fine": "2026-09-26",
-      "descrizione": "19° Sagra del Pesto Eventi Sagre Di Genova Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto 19° Sagra del Pesto Eventi Sagre Di Genov",
+      "descrizione": "19° Sagra del Pesto Eventi Sagre Di Genova Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto Sagra Del Pesto A Genova Eventi Sagre Pesto A Non Finire Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto 19° Sagra del Pesto Eventi Sagre Di Genova Dal 26/09/2026 Al 27/09/2026 Liguri",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/21097602_19A+Sagra+del+Pesto.html",
       "immagine": "",
       "stato": "futuro",
@@ -27,18 +41,18 @@
       "id": "19-sagra-del-pesto-eventi-sagre-di-genova-dal-26-09-2026-al-27-09-2026-liguria-genova-ge-leggi-tutto-2026-09-26"
     },
     {
-      "nome": "Sagra Del Pesto A Genova Eventi Sagre Pesto A Non Finire Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto",
+      "nome": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Sant",
       "comune": "",
       "provincia": "GE",
       "regione": "Liguria",
       "data_inizio": "2026-09-26",
       "data_fine": "2026-09-26",
-      "descrizione": "Sagra Del Pesto A Genova Eventi Sagre Pesto A Non Finire Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto 19° Sagra del Pesto Eventi",
-      "url": "https://www.eventiesagre.it/Eventi_Sagre/21195549_Sagra+Del+Pesto+A+Genova.html",
+      "descrizione": "Festa dell'agricoltura e dell'artigianato Eventi Fiere Triathlon Del Boscaiolo Dal 26/09/2026 Al 27/09/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Sagra Del Pesto A Genova Eventi Sagre Pesto A Non Finire Dal 26/09/2026 Al 27/09/2026 Liguria Genova (GE) leggi tutto 19° Sagra del Pesto Eventi",
+      "url": "https://www.eventiesagre.it/Eventi_Fiere/21013550_Festa+dell+agricoltura+e+dell+artigianato.html",
       "immagine": "",
       "stato": "futuro",
       "fonte": "eventiesagre",
-      "id": "sagra-del-pesto-a-genova-eventi-sagre-pesto-a-non-finire-dal-26-09-2026-al-27-09-2026-liguria-genova-ge-leggi-tutto-2026-09-26"
+      "id": "festa-dell-agricoltura-e-dell-artigianato-eventi-fiere-triathlon-del-boscaiolo-dal-26-09-2026-al-27-09-2026-liguria-sant-2026-09-26"
     },
     {
       "nome": "Sport e Adrenalina per Tutti a Borghetto di Vara",
