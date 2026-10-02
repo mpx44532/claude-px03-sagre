@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-10-01T08:27:17Z",
+    "scraped_at": "2026-10-02T08:02:45Z",
     "total": 22,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -36,7 +36,7 @@
       "descrizione": "Giovedì 1 Ottobre 2026Tappe Monterosso F.S. – Monterosso Fegina – Cai 572 – Sella Bagari – Cai 591 – Sant’Antonio al Mesco – Cai 590/SVA – Monterosso Fegina. Ritrovo Monterosso F.S. h. 9:30 – Termine Monterosso Fegina h. 13:00 circa. Il percorso ad anello parte da Monterosso Fegina e risale la valle del torrente omonimo, inoltrandosi nei caratteristici terrazzamenti coltivati a oliveti e vigneti, il sentiero guada senza difficoltà alcuni valletti fino a raggiungere la quota di 380 metri della Sella Bagari. Durante il percorso si attraversano le diverse formazioni rocciose appartenenti alle Unità liguri: gabbri, serpentini e argille a palombini. La Sella Bagari offre notevoli scorci panoramici su entrambe le vallate di Monterosso e di Levanto, è un importante punto d’incrocio di diversi sentieri, nei suoi pressi rimangono testimonianze delle passate esplorazioni minerarie. E’ obbligatorio l’uso di scarpe da trekking. In condizione di meteo avverse il calendario potrà subire modifiche. Le escursioni guidate hanno un costo di € 10,00 per persona – Gratuite per i possessori di Cinque Terre Card. Info Email: visiteguidate@ati5terre.it Info line: 01871857573.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "trekking-monterosso-punta-mesco-monterosso-monterosso-e-di-levanto-2026-10-01"
     },
@@ -50,7 +50,7 @@
       "descrizione": "Venerdì 2 Ottobre 2026Ritrovo: Corniglia Cinque Terre Point Stazione, ore 10.00 – Durata del Tour: circa 3 ore. L’appuntamento con la guida è alla stazione di Corniglia, presso il Cinque Terre Info Point e da qui inizierete la visita percorrendo la “Lardarina”, la famosa scalinata di 377 scalini che vi porterà in paese. Qui la vostra guida vi accompagnerà alla scoperta delle bellezze storico, artistico e culturali del borgo. Il tour è di livello semplice in quanto non è prevista la percorrenza di sentieri da trekking. È comunque consigliato un abbigliamento comodo e l’uso di scarpe sportive. Le escursioni guidate hanno un costo di € 10,00 per persona – Gratuite per i possessori di Cinque Terre Card. Prenotazione obbligatoria visiteguidate@ati5terre.it – Tel. 0187 1857573. In condizione di meteo avverse il calendario potrà subire modifiche. Info Email: visiteguidate@ati5terre.it – Info line: 01871857573.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "tour-di-corniglia-corniglia-2026-10-02"
     },
