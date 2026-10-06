@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-10-05T08:32:08Z",
+    "scraped_at": "2026-10-06T08:40:19Z",
     "total": 22,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -120,7 +120,7 @@
       "descrizione": "Lunedì 5 Ottobre 2026Ritrovo: Vernazza Cinque Terre Point Stazione, ore 16.30 – Durata del Tour: circa 3 ore – Difficoltà: Facile e adatto a tutti. L’appuntamento con la guida è alla stazione di Vernazza, presso il Cinque Terre Info Point. La vostra guida vi porterà alla scoperta di Vernazza e Monterosso spiegando le origini e le caratteristiche dei due borghi per comprenderne i loro punti di contatto e le differenze all’interno di un territorio comune. Lo spostamento da un borgo all’altro verrà effettuato con il treno. È comunque consigliato un abbigliamento comodo e l’uso di scarpe sportive. Le escursioni guidate hanno un costo di € 10,00 per persona. Gratuite per i possessori di Cinque Terre Card. Prenotazione obbligatoria. In condizione di meteo avverse il calendario potrà subire modifiche Info: visiteguidate@ati5terre.it – Tel. 0187 1857573.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "tour-di-vernazza-e-monterosso-vernazza-2026-10-05"
     },
@@ -134,7 +134,7 @@
       "descrizione": "Il Festival Internazionale Mandolinistico arriva alla quarta edizionefino al 6 ottobre 2026con ospiti i grandi nomi del virtuosismo mandolinistico internazionale.Che cos’è il Festival Internazionale MandolinisticoNato da un’idea dei direttori artistici Carlo Aonzo e Rosario Moreno, il Festival ha saputo costruire nel tempo una propria identità distintiva, portando a Savona alcuni tra i più autorevoli interpreti della scena internazionale e contribuendo alla valorizzazione di uno strumento che rappresenta una parte importante del patrimonio culturale italiano, ma che continua ancora oggi a vivere e a rinnovarsi attraverso linguaggi contemporanei, contaminazioni e nuove prospettive artistiche. Info suAccademiamandolino.com",
       "url": "https://www.accademiamandolino.com",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "festival-internazionale-mandolinistico-di-savona-savona-alcuni-tra-i-piu-autorevoli-interpreti-della-scena-internazionale-e-contribuendo-alla-valorizzazione-di-uno-strumento-che-rappresenta-una-parte-importante-del-patrimonio-culturale-italiano-2026-10-06"
     },
