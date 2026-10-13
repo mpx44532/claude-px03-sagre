@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-10-12T08:45:23Z",
-    "total": 30,
+    "scraped_at": "2026-10-13T09:03:49Z",
+    "total": 32,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -19,7 +19,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-01-01",
       "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Sagra Di Autunno a Sciarborasca di Cogoleto Eventi Sagre Sagra Di Autunno Dal 16/10/2026 Al 18/10/2026 Liguria Cogoleto (GE) leggi tutto Eventi E Sagre Regione L",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Sagra Di Autunno a Sci",
       "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
       "immagine": "",
       "stato": "passato",
@@ -131,7 +131,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-10-16",
       "data_fine": "2026-10-16",
-      "descrizione": "Sagra Di Autunno a Sciarborasca di Cogoleto Eventi Sagre Sagra Di Autunno Dal 16/10/2026 Al 18/10/2026 Liguria Cogoleto (GE) leggi tutto Sagra Di Autunno a Sciarborasca di Cogoleto Eventi Sagre Sagra Di Autunno Dal 16/10/2026 Al 18/10/2026 Liguria Cogoleto (GE) leggi tutto Eventi E Sagre Regione Lig",
+      "descrizione": "Sagra Di Autunno a Sciarborasca di Cogoleto Eventi Sagre Sagra Di Autunno Dal 16/10/2026 Al 18/10/2026 Liguria Cogoleto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Sagra Di Autunno a Sciar",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/11650_Sagra+Di+Autunno+a+Sciarborasca+di+Cogoleto.html",
       "immagine": "",
       "stato": "futuro",
@@ -221,6 +221,20 @@
       "stato": "futuro",
       "fonte": "sagreliguria",
       "id": "festa-d-autunno-a-santuario-santuario-2026-10-17"
+    },
+    {
+      "nome": "Sagra di Via Trebi",
+      "comune": "Via Trebi",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-17",
+      "data_fine": "2026-10-17",
+      "descrizione": "GE 🍴 🥩 Sagra di Via Trebi piazza palermo 17/10/2026 Sagra con musica e festeggiamenti, a partire dalle ore 12:00.\n4 squadre di chef amatoriali si sfideranno a colpi di cucina messicana, in una sfida culinaria per decretare il miglior cuoco di Via Trebisonda, accompagnato da fantastici Margaritas mes",
+      "url": "http://www.sagre.liguria.it/event/10813",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "sagreliguria",
+      "id": "sagra-di-via-trebi-via-trebi-2026-10-17"
     },
     {
       "nome": "Quindicesima Festa della Castagna",
@@ -321,6 +335,20 @@
       "id": "18-10-2026-2026-10-18"
     },
     {
+      "nome": "Vado L.-Castagne e focaccette a Sant’Ermete",
+      "comune": "Sant",
+      "provincia": "SV",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-18",
+      "data_fine": "2026-10-18",
+      "descrizione": "Sagre Vado L.-Castagne e focaccette a Sant’Ermete | 18.10.2026 Consigliato da SVD 17|10 - 18|10|2026 Toirano-Ulivissima 18|10|2026 Pontinvrea-Castagnata 18|10|2026 Quiliano-50ª edizione della Festa delle Castagne 18|10|2026 Rialto-Castagnata 18|10|2026 Savona-La CaNstagnata 18|10|2026 Mioglia-Sagra",
+      "url": "https://www.svdonline.it/184985/vado-l-castagne-e-focaccette-a-santermete/",
+      "immagine": "https://www.savonaintasca.it/app/wp-content/uploads/2026/10/S.Ermete-Castagnata-2026-150x150.jpg",
+      "stato": "futuro",
+      "fonte": "svdonline",
+      "id": "vado-l-castagne-e-focaccette-a-sant-ermete-sant-2026-10-18"
+    },
+    {
       "nome": "Tour di Corniglia",
       "comune": "Corniglia",
       "provincia": "SP",
@@ -397,7 +425,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-10-24",
       "data_fine": "2026-10-24",
-      "descrizione": "Xxviii Festival Appennino In Musica Eventi Musicali Bande E Cori Dal 24/10/2026 Al 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Sagra Di Autunno a Sciarborasca di Cogoleto Eventi Sagre Sagra Di Autunno Dal 16/10/2026 Al 18/10/2026 Liguria Cogoleto (GE) leggi tutto Eventi E Sagre Regione",
+      "descrizione": "Xxviii Festival Appennino In Musica Eventi Musicali Bande E Cori Dal 24/10/2026 Al 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Sagra Di Autunno a S",
       "url": "https://www.eventiesagre.it/Eventi_Musicali/21195558_Xxviii+Festival+Appennino+In+Musica.html",
       "immagine": "",
       "stato": "futuro",
