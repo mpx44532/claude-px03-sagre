@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-10-16T06:48:34Z",
-    "total": 31,
+    "scraped_at": "2026-10-17T06:40:37Z",
+    "total": 34,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -13,44 +13,16 @@
   },
   "sagre": [
     {
-      "nome": "Festa d'Autunno a Calizzano",
-      "comune": "Calizzano",
-      "provincia": "SV",
-      "regione": "Liguria",
-      "data_inizio": "2026-10-04",
-      "data_fine": "2026-10-18",
-      "descrizione": "SV Festa d'Autunno a Calizzano calizzano 04/10/2026 - 18/10/2026 Una serie di eventi che si svolgono a Calizzano tra ottobre e dicembre. Il 4 ottobre si terrà una Messa con Corale Alpina Montagne Verdi \"Egidio Gazzano\" seguita da un pranzo sociale presso la Chiesa Parrocchiale e la Commenda. L'11 ot",
-      "url": "http://www.sagre.liguria.it/event/10765",
-      "immagine": "",
-      "stato": "in corso",
-      "fonte": "sagreliguria",
-      "id": "festa-d-autunno-a-calizzano-calizzano-2026-10-04"
-    },
-    {
-      "nome": "04/10/2026 - 18/10/2026",
-      "comune": "",
-      "provincia": "",
-      "regione": "Liguria",
-      "data_inizio": "2026-10-04",
-      "data_fine": "2026-10-18",
-      "descrizione": "04/10/2026 - 18/10/2026",
-      "url": "http://www.sagre.liguria.it/",
-      "immagine": "",
-      "stato": "in corso",
-      "fonte": "sagreliguria",
-      "id": "04-10-2026-18-10-2026-2026-10-04"
-    },
-    {
       "nome": "Sagra Di Autunno a Sciarborasca di Cogoleto Eventi Sagre Sagra Di Autunno Dal 16/10/2026 Al 18/10/2026 Liguria Cogoleto ",
       "comune": "",
       "provincia": "GE",
       "regione": "Liguria",
       "data_inizio": "2026-10-16",
       "data_fine": "2026-10-16",
-      "descrizione": "Sagra Di Autunno a Sciarborasca di Cogoleto Eventi Sagre Sagra Di Autunno Dal 16/10/2026 Al 18/10/2026 Liguria Cogoleto (GE) leggi tutto Xxviii Festival Appennino In Musica Eventi Musicali Bande E Cori Dal 24/10/2026 Al 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Sagra Di Autunno a Sci",
+      "descrizione": "Sagra Di Autunno a Sciarborasca di Cogoleto Eventi Sagre Sagra Di Autunno Dal 16/10/2026 Al 18/10/2026 Liguria Cogoleto (GE) leggi tutto Sagra Di Autunno a Sciarborasca di Cogoleto Eventi Sagre Sagra Di Autunno Dal 16/10/2026 Al 18/10/2026 Liguria Cogoleto (GE) leggi tutto Festa Della Castagna A Cer",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/11650_Sagra+Di+Autunno+a+Sciarborasca+di+Cogoleto.html",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "eventiesagre",
       "id": "sagra-di-autunno-a-sciarborasca-di-cogoleto-eventi-sagre-sagra-di-autunno-dal-16-10-2026-al-18-10-2026-liguria-cogoleto-2026-10-16"
     },
@@ -64,7 +36,7 @@
       "descrizione": "Venerdì 16 Ottobre 2026Durata del Tour: circa 3 ore – Difficoltà: E – Per escursionisti. L’appuntamento con la guida è alla stazione di Levanto presso il Cinque Terre Info Point alle ore 15.15. La guida vi accompagnerà al punto di partenza e verrete dotati di bici con pedalata assistita, caschetto e bottiglietta d’acqua. Partirete salendo senza sforzo, facendo soste in punti panoramici incredibili e sarete circondati da una natura incontaminata. Scoprirete storia e bellezze architettoniche con una vista incredibile sul mare e sul parco nazionale, la guida fornirà informazioni essenziali per aiutarvi a comprendere la natura e le tradizioni di questa regione. A Monterosso è prevista una breve sosta durante la quale potrete effettuare una degustazione di vini locali (facoltativa ed a vostro carico). È importante essere in buone condizioni fisiche, perchè si tratta di un percorso di 24 Km con un dislivello totale di circa 700 metri. Età minima 14 anni. Le escursioni guidate hanno un costo di € 10,00 per persona – Gratuite per i possessori di Cinque Terre Card. Info & prenotazione obbligatoria (max 7 persone): visiteguidate@ati5terre.it – Tel. +39 0187/743500.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "e-bike-tour-levanto-legnaro-monterosso-a-r-cinque-terre-card-2026-10-16"
     },
@@ -92,7 +64,7 @@
       "descrizione": "Sabato 17 Ottobre 2026Tempo di percorrenza: 3 ore 30 minuti – Difficoltà: (E) – Escursionistico. Ritrovo a Vernazza Cinque Terre Point, ore 09.30. Da una parte la costa, placida e rassicurante. Dall’altra l’entroterra, misterioso e ricco di fascino. In mezzo, un sentiero conteso tra questi due poli d’attrazione che dal mare si allontana e al mare ritorna. Troppo forte è il richiamo dell’onda. Da Vernazza a Monterosso, la Via della Terraferma incontra borghi affacciati sul mare e santuari a mezza costa. Il sentiero attraversa i campi coltivati che il lavoro degli esseri umani nei secoli ha modellato nella forma dei terrazzamenti. Punto di partenza è la stazione di Vernazza. Le escursioni guidate hanno un costo di € 10,00 per persona – Gratuite per i possessori di Cinque Terre Card. Info & prenotazione obbligatoria: visiteguidate@ati5terre.it – 01871857573.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "trekking-vernazza-reggio-soviore-monterosso-vernazza-cinque-terre-point-2026-10-17"
     },
@@ -106,7 +78,7 @@
       "descrizione": "GE 🍴 🍷 🎭 🎈 3^ Castagnata del Circolo Arci Vicomorasso vicomorasso 17/10/2026 Il Circolo Arci Vicomorasso organizza la sua 3^ Castagnata. Dalle ore 12:00 sarà possibile pranzare con trofie di castagne al pesto o con la panna, su prenotazione (entro il 15/10 al 348-2723037). Dalle ore 14:30 verranno s",
       "url": "http://www.sagre.liguria.it/event/10793",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "3-castagnata-del-circolo-arci-vicomorasso-terza-categoria-2026-10-17"
     },
@@ -120,23 +92,9 @@
       "descrizione": "17/10/2026",
       "url": "http://www.sagre.liguria.it/",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "17-10-2026-2026-10-17"
-    },
-    {
-      "nome": "Sagra di Via Trebi",
-      "comune": "Via Trebi",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-10-17",
-      "data_fine": "2026-10-17",
-      "descrizione": "GE 🍴 🥩 Sagra di Via Trebi piazza palermo 17/10/2026 Sagra con musica e festeggiamenti, a partire dalle ore 12:00.\n4 squadre di chef amatoriali si sfideranno a colpi di cucina messicana, in una sfida culinaria per decretare il miglior cuoco di Via Trebisonda, accompagnato da fantastici Margaritas mes",
-      "url": "http://www.sagre.liguria.it/event/10813",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "sagreliguria",
-      "id": "sagra-di-via-trebi-via-trebi-2026-10-17"
     },
     {
       "nome": "Quindicesima Festa della Castagna",
@@ -148,7 +106,7 @@
       "descrizione": "SP Quindicesima Festa della Castagna località molino del piano, castelnuovo magra 17/10/2026 - 25/10/2026 La quindicesima edizione della Festa della Castagna si svolge in più giornate nel mese di ottobre, dedicata alle castagne. Scopri di più",
       "url": "http://www.sagre.liguria.it/event/10758",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "quindicesima-festa-della-castagna-2026-10-17"
     },
@@ -162,7 +120,7 @@
       "descrizione": "17/10/2026 - 25/10/2026",
       "url": "http://www.sagre.liguria.it/",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "17-10-2026-25-10-2026-2026-10-17"
     },
@@ -176,9 +134,23 @@
       "descrizione": "SV 🎈 Festa d'Autunno a Santuario piazza santuario 17/10/2026 La 2° edizione della Festa d'Autunno si svolge in Piazza del Santuario a partire dalle 14:30. L'evento, organizzato dall'Associazione Vivi SantuarioSavona con la Scuola d'Infanzia Paritaria \"F. Carlevarini\", offre caldarroste, focaccine de",
       "url": "http://www.sagre.liguria.it/event/10789",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "festa-d-autunno-a-santuario-santuario-2026-10-17"
+    },
+    {
+      "nome": "Sagra di Via Trebi",
+      "comune": "Via Trebi",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-17",
+      "data_fine": "2026-10-17",
+      "descrizione": "GE 🍴 🥩 Sagra di Via Trebi piazza palermo 17/10/2026 Sagra con musica e festeggiamenti, a partire dalle ore 12:00.\n4 squadre di chef amatoriali si sfideranno a colpi di cucina messicana, in una sfida culinaria per decretare il miglior cuoco di Via Trebisonda, accompagnato da fantastici Margaritas mes",
+      "url": "http://www.sagre.liguria.it/event/10813",
+      "immagine": "",
+      "stato": "in corso",
+      "fonte": "sagreliguria",
+      "id": "sagra-di-via-trebi-via-trebi-2026-10-17"
     },
     {
       "nome": "Festa della Castagna",
@@ -190,7 +162,7 @@
       "descrizione": "SV Festa della Castagna carcare 17/10/2026 La Festa della Castagna si terrà a Carcare, in Piazza Sapeto, sabato 17 ottobre 2026 a partire dalle ore 14:00. L'evento è patrocinato dal Comune di Carcare e organizzato dalla Pro Loco locale. È prevista una promozione speciale: spendendo 20€ nei negozi co",
       "url": "http://www.sagre.liguria.it/event/10819",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "festa-della-castagna-carcare-2026-10-17"
     },
@@ -204,7 +176,7 @@
       "descrizione": "17/10/2026 - 17/10/2026",
       "url": "http://www.sagre.liguria.it/",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "17-10-2026-17-10-2026-2026-10-17"
     },
@@ -237,18 +209,18 @@
       "id": "sagra-di-autunno-sciarborasca-2026-10-18"
     },
     {
-      "nome": "Castagnata della Parrocchia di San Giuseppe dei Piani di Ri Chiavari",
-      "comune": "San Giuseppe",
+      "nome": "FESTA D'AUTUNNO",
+      "comune": "",
       "provincia": "GE",
       "regione": "Liguria",
       "data_inizio": "2026-10-18",
       "data_fine": "2026-10-18",
-      "descrizione": "GE 🍷 🎈 🍴 Castagnata della Parrocchia di San Giuseppe dei Piani di Ri Chiavari via piacenza 285, 16043 chiavari 18/10/2026 La Parrocchia di San Giuseppe dei Piani di Ri a Chiavari organizza una castagnata con caldarroste, castagnaccio, dolci e tanti giochi. L'evento inizia dalle ore 15 e prevede anim",
-      "url": "http://www.sagre.liguria.it/event/10814",
+      "descrizione": "GE 🍴 🥩 ♨️ 🍷 🍺 🎈 FESTA D'AUTUNNO acquasanta 18/10/2026 Festa d'Autunno con un ricco menù che include polenta con sugo di salsiccia o formaggi (dalle 12:00), castagnata (dalle 15:00), focaccini farciti, salsiccia e porchetta, cipolle caramellate e patatine fritte disponibili tutto il giorno. Dalle 14:",
+      "url": "http://www.sagre.liguria.it/event/10798",
       "immagine": "",
       "stato": "futuro",
       "fonte": "sagreliguria",
-      "id": "castagnata-della-parrocchia-di-san-giuseppe-dei-piani-di-ri-chiavari-san-giuseppe-2026-10-18"
+      "id": "festa-d-autunno-2026-10-18"
     },
     {
       "nome": "18/10/2026",
@@ -265,32 +237,18 @@
       "id": "18-10-2026-2026-10-18"
     },
     {
-      "nome": "VOBBIA 47ª CASTAGNATA 25ª SAGRA della MOSTARDELLA",
-      "comune": "",
-      "provincia": "GE",
+      "nome": "Castagnata a Leca d'Albenga",
+      "comune": "Leca",
+      "provincia": "SV",
       "regione": "Liguria",
       "data_inizio": "2026-10-18",
       "data_fine": "2026-10-18",
-      "descrizione": "GE VOBBIA 47ª CASTAGNATA 25ª SAGRA della MOSTARDELLA vobbia 18/10/2026 La Pro Loco Vobbia APS organizza la 47ª Castagnata e la 25ª Sagra della Mostardella. L'evento si svolge domenica 18 ottobre, dalle ore 11:00 al tramonto, con distribuzione di castagne a partire dalle 14:30. Saranno disponibili pa",
-      "url": "http://www.sagre.liguria.it/event/10815",
+      "descrizione": "SV Castagnata a Leca d'Albenga via al piemonte, 18/10/2026 Una giornata di festa organizzata dalla Parrocchia Nostra Signora Assunta di Leca d'Albenga. Dalle ore 12:00 sarà disponibile un ricco menù che include Ravioli, Polenta e cinghiale, Tagliatelle ai funghi, Pan fritto, Pulled Pork, Lumache e T",
+      "url": "http://www.sagre.liguria.it/event/10823",
       "immagine": "",
       "stato": "futuro",
       "fonte": "sagreliguria",
-      "id": "vobbia-47-castagnata-25-sagra-della-mostardella-2026-10-18"
-    },
-    {
-      "nome": "FESTA D'AUTUNNO",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-10-18",
-      "data_fine": "2026-10-18",
-      "descrizione": "GE 🍴 🥩 ♨️ 🍷 🍺 🎈 FESTA D'AUTUNNO acquasanta 18/10/2026 Festa d'Autunno con un ricco menù che include polenta con sugo di salsiccia o formaggi (dalle 12:00), castagnata (dalle 15:00), focaccini farciti, salsiccia e porchetta, cipolle caramellate e patatine fritte disponibili tutto il giorno. Dalle 14:",
-      "url": "http://www.sagre.liguria.it/event/10798",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "sagreliguria",
-      "id": "festa-d-autunno-2026-10-18"
+      "id": "castagnata-a-leca-d-albenga-leca-2026-10-18"
     },
     {
       "nome": "Festa d'Autunno",
@@ -305,6 +263,34 @@
       "stato": "futuro",
       "fonte": "sagreliguria",
       "id": "festa-d-autunno-calizzano-2026-10-18"
+    },
+    {
+      "nome": "Castagnata della Parrocchia di San Giuseppe dei Piani di Ri Chiavari",
+      "comune": "San Giuseppe",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-18",
+      "data_fine": "2026-10-18",
+      "descrizione": "GE 🍷 🎈 🍴 Castagnata della Parrocchia di San Giuseppe dei Piani di Ri Chiavari via piacenza 285, 16043 chiavari 18/10/2026 La Parrocchia di San Giuseppe dei Piani di Ri a Chiavari organizza una castagnata con caldarroste, castagnaccio, dolci e tanti giochi. L'evento inizia dalle ore 15 e prevede anim",
+      "url": "http://www.sagre.liguria.it/event/10814",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "sagreliguria",
+      "id": "castagnata-della-parrocchia-di-san-giuseppe-dei-piani-di-ri-chiavari-san-giuseppe-2026-10-18"
+    },
+    {
+      "nome": "VOBBIA 47ª CASTAGNATA 25ª SAGRA della MOSTARDELLA",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-18",
+      "data_fine": "2026-10-18",
+      "descrizione": "GE VOBBIA 47ª CASTAGNATA 25ª SAGRA della MOSTARDELLA vobbia 18/10/2026 La Pro Loco Vobbia APS organizza la 47ª Castagnata e la 25ª Sagra della Mostardella. L'evento si svolge domenica 18 ottobre, dalle ore 11:00 al tramonto, con distribuzione di castagne a partire dalle 14:30. Saranno disponibili pa",
+      "url": "http://www.sagre.liguria.it/event/10815",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "sagreliguria",
+      "id": "vobbia-47-castagnata-25-sagra-della-mostardella-2026-10-18"
     },
     {
       "nome": "Vado L.-Castagne e focaccette a Sant’Ermete",
@@ -397,12 +383,68 @@
       "regione": "Liguria",
       "data_inizio": "2026-10-24",
       "data_fine": "2026-10-24",
-      "descrizione": "Xxviii Festival Appennino In Musica Eventi Musicali Bande E Cori Dal 24/10/2026 Al 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Xxviii Festival Appennino In Musica Eventi Musicali Bande E Cori Dal 24/10/2026 Al 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Sagra Di Autunno a",
+      "descrizione": "Xxviii Festival Appennino In Musica Eventi Musicali Bande E Cori Dal 24/10/2026 Al 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Sagra Di Autunno a Sciarborasca di Cogoleto Eventi Sagre Sagra Di Autunno Dal 16/10/2026 Al 18/10/2026 Liguria Cogoleto (GE) leggi tutto Festa Della Castagna A",
       "url": "https://www.eventiesagre.it/Eventi_Musicali/21195558_Xxviii+Festival+Appennino+In+Musica.html",
       "immagine": "",
       "stato": "futuro",
       "fonte": "eventiesagre",
       "id": "xxviii-festival-appennino-in-musica-eventi-musicali-bande-e-cori-dal-24-10-2026-al-25-10-2026-liguria-santo-stefano-d-av-2026-10-24"
+    },
+    {
+      "nome": "47ª Sagra della Castagna di Rossiglione in concomitanza con la 32ª edizione di Expo Vallestura",
+      "comune": "Rossiglione",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-24",
+      "data_fine": "2026-10-24",
+      "descrizione": "GE 47ª Sagra della Castagna di Rossiglione in concomitanza con la 32ª edizione di Expo Vallestura rossiglione 24/10/2026 La 47ª Sagra della Castagna di Rossiglione offre 30 quintali di castagne cotte nelle tradizionali padelle giganti. L'evento include l'apertura degli stand dell'Expo Vallestura all",
+      "url": "http://www.sagre.liguria.it/event/10779",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "sagreliguria",
+      "id": "47-sagra-della-castagna-di-rossiglione-in-concomitanza-con-la-32-edizione-di-expo-vallestura-rossiglione-2026-10-24"
+    },
+    {
+      "nome": "24/10/2026",
+      "comune": "",
+      "provincia": "",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-24",
+      "data_fine": "2026-10-24",
+      "descrizione": "24/10/2026",
+      "url": "http://www.sagre.liguria.it/",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "sagreliguria",
+      "id": "24-10-2026-2026-10-24"
+    },
+    {
+      "nome": "77° SAGRA della FARINATA P.O.P.",
+      "comune": "Origine Pegliese",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-24",
+      "data_fine": "2026-10-25",
+      "descrizione": "GE 🍴 77° SAGRA della FARINATA P.O.P. largo calasetta, genova 24/10/2026 - 25/10/2026 La 77° Sagra della Farinata P.O.P., che sta per Prodotto di Origine Pegliese, offre farinata servita direttamente dai forni a legna dai nostri 'fainotti'. L'evento si svolge dalle 12.00 alle 20.00. Scopri di più",
+      "url": "http://www.sagre.liguria.it/event/10802",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "sagreliguria",
+      "id": "77-sagra-della-farinata-p-o-p-origine-pegliese-2026-10-24"
+    },
+    {
+      "nome": "24/10/2026 - 25/10/2026",
+      "comune": "",
+      "provincia": "",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-24",
+      "data_fine": "2026-10-25",
+      "descrizione": "24/10/2026 - 25/10/2026",
+      "url": "http://www.sagre.liguria.it/",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "sagreliguria",
+      "id": "24-10-2026-25-10-2026-2026-10-24"
     },
     {
       "nome": "Festa Della Castagna A Ceriana Eventi Sagre Il 25/10/2026 Liguria Ceriana (IM) leggi tutto",
@@ -411,7 +453,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-10-25",
       "data_fine": "2026-10-25",
-      "descrizione": "Festa Della Castagna A Ceriana Eventi Sagre Il 25/10/2026 Liguria Ceriana (IM) leggi tutto Xxviii Festival Appennino In Musica Eventi Musicali Bande E Cori Dal 24/10/2026 Al 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Sagra Di Autunno a Sciarborasca di Cogoleto Eventi Sagre Sagra Di Au",
+      "descrizione": "Festa Della Castagna A Ceriana Eventi Sagre Il 25/10/2026 Liguria Ceriana (IM) leggi tutto Sagra Di Autunno a Sciarborasca di Cogoleto Eventi Sagre Sagra Di Autunno Dal 16/10/2026 Al 18/10/2026 Liguria Cogoleto (GE) leggi tutto Festa Della Castagna A Ceriana Eventi Sagre Il 25/10/2026 Liguria Cerian",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/21195563_Festa+Della+Castagna+A+Ceriana.html",
       "immagine": "",
       "stato": "futuro",
