@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-10-19T07:24:48Z",
-    "total": 21,
+    "scraped_at": "2026-10-20T07:15:45Z",
+    "total": 20,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -92,7 +92,7 @@
       "descrizione": "Lunedì 19 Ottobre 2026Ritrovo: Corniglia Cinque Terre Point Stazione, ore 16.30 – Durata del Tour: circa 3 ore – Difficoltà: Facile e adatto a tutti. L’appuntamento con la guida è alla stazione di Corniglia, presso il Cinque Terre Info Point e da qui inizierete la visita percorrendo la “Lardarina”, la famosa scalinata di 377 scalini che vi porterà in paese. Qui la vostra guida vi accompagnerà alla scoperta delle bellezze storico, artistico e culturali del borgo. Il tour è di livello semplice in quanto non è prevista la percorrenza di sentieri da trekking. È comunque consigliato un abbigliamento comodo e l’uso di scarpe sportive. Le escursioni guidate hanno un costo di € 10,00 per persona – Gratuite per i possessori di Cinque Terre Card. In condizione di meteo avverse il calendario potrà subire modifiche. Prenotazione obbligatoria visiteguidate@ati5terre.it – Tel. 0187 1857573.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "tour-di-corniglia-corniglia-2026-10-19"
     },
@@ -106,37 +106,9 @@
       "descrizione": "Dal 17 al 19 ottobre 2026, la frazione di Rocchetta di Cengio ospita la 22° edizione di Zucca in Piazza, tradizionale evento che celebra una delle verdure più versatili della cucina italiana e gli altri prodotti d’eccellenza della Valle Bormida. La preziosa cucurbita, riconosciuta da una vera e propria carta d’identità che ne testimonia la provenienza e le peculiarità, è stata inoltre incoronata “eccellenza enogastronomica del territorio” dal Premio Piccolo Comune Amico, conferito al Borgo della Zucca di Rocchetta di Cengio.Il programmaSabatosi partirà con l’immancabile rito del ritiro, pesatura, piombatura e registrazione delle zucche di Rocchetta che aprirà l’edizione 2026 di Zucca in Piazza.Domenicavia al Mercato della Terra di Cairo Montenotte, con i produttori di Buone Terre e i diversi presidi liguri animeranno il borgo della riviera delle palme, offrendo ai presenti l’imperdibile occasione di conoscere tecniche e segreti delle diverse coltivazioni. Molte le degustazioni, gli show cooking e altre imperdibili iniziative dedicate a grandi e piccini. Info suFacebook.com",
       "url": "https://www.facebook.com/cengioborgodellazucca",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "zucca-in-piazza-a-rocchetta-di-cengio-zucca-in-piazza-2026-10-19"
-    },
-    {
-      "nome": "Castagnata con focaccette di patate",
-      "comune": "",
-      "provincia": "SV",
-      "regione": "Liguria",
-      "data_inizio": "2026-10-19",
-      "data_fine": "2026-10-19",
-      "descrizione": "SV Castagnata con focaccette di patate corso mazzini 42, albisola superiore 19/10/2026 Il Gruppo Alpini delle Albissoles organizza una Castagnata con focaccette di patate. L'evento si svolge di domenica e inizia alle ore 15:00. In caso di maltempo, l'evento sarà spostato alla domenica successiva. Sc",
-      "url": "http://www.sagre.liguria.it/event/10767",
-      "immagine": "",
-      "stato": "in corso",
-      "fonte": "sagreliguria",
-      "id": "castagnata-con-focaccette-di-patate-2026-10-19"
-    },
-    {
-      "nome": "19/10/2026",
-      "comune": "",
-      "provincia": "",
-      "regione": "Liguria",
-      "data_inizio": "2026-10-19",
-      "data_fine": "2026-10-19",
-      "descrizione": "19/10/2026",
-      "url": "http://www.sagre.liguria.it/",
-      "immagine": "",
-      "stato": "in corso",
-      "fonte": "sagreliguria",
-      "id": "19-10-2026-2026-10-19"
     },
     {
       "nome": "Tour di Vernazza e Monterosso",
@@ -148,7 +120,7 @@
       "descrizione": "Martedì 20 Ottobre 2026Ritrovo: Vernazza Cinque Terre Point Stazione, ore 9.30 – Durata del Tour: circa 3 ore – Difficoltà: Facile e adatto a tutti. L’appuntamento con la guida è alla stazione di Vernazza, presso il Cinque Terre Info Point. La vostra guida vi porterà alla scoperta di Vernazza e Monterosso spiegando le origini e le caratteristiche dei due borghi per comprenderne i loro punti di contatto e le differenze all’interno di un territorio comune. Lo spostamento da un borgo all’altro verrà effettuato con il treno. È comunque consigliato un abbigliamento comodo e l’uso di scarpe sportive. Le escursioni guidate hanno un costo di € 10,00 per persona – Gratuite per i possessori di Cinque Terre Card. In condizione di meteo avverse il calendario potrà subire modifiche. Prenotazione obbligatoria su visiteguidate@ati5terre.it – Tel. 0187 1857573.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "mangiareinliguria",
       "id": "tour-di-vernazza-e-monterosso-vernazza-2026-10-20"
     },
@@ -291,6 +263,20 @@
       "stato": "futuro",
       "fonte": "sagreliguria",
       "id": "25-10-2026-25-10-2026-2026-10-25"
+    },
+    {
+      "nome": "Vado L.-Castagne e focaccette a Sant’Ermete",
+      "comune": "Sant",
+      "provincia": "SV",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-25",
+      "data_fine": "2026-10-25",
+      "descrizione": "Sagre Vado L.-Castagne e focaccette a Sant’Ermete | 25.10.2026 Consigliato da SVD 25|10|2026 Savona-La CaNstagnata 25|10|2026 Vado L.-Castagne e focaccette a Sant’Ermete 25|10|2026 Cadibona-Festa d’autunno e Castagnata",
+      "url": "https://www.svdonline.it/184985/vado-l-castagne-e-focaccette-a-santermete/",
+      "immagine": "https://www.savonaintasca.it/app/wp-content/uploads/2026/10/S.Ermete-Castagnata-2026-rinviata-150x150.jpg",
+      "stato": "futuro",
+      "fonte": "svdonline",
+      "id": "vado-l-castagne-e-focaccette-a-sant-ermete-sant-2026-10-25"
     },
     {
       "nome": "Salta nella località di tuo interesse:",
