@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-10-20T07:15:45Z",
+    "scraped_at": "2026-10-21T07:11:55Z",
     "total": 20,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -120,7 +120,7 @@
       "descrizione": "Martedì 20 Ottobre 2026Ritrovo: Vernazza Cinque Terre Point Stazione, ore 9.30 – Durata del Tour: circa 3 ore – Difficoltà: Facile e adatto a tutti. L’appuntamento con la guida è alla stazione di Vernazza, presso il Cinque Terre Info Point. La vostra guida vi porterà alla scoperta di Vernazza e Monterosso spiegando le origini e le caratteristiche dei due borghi per comprenderne i loro punti di contatto e le differenze all’interno di un territorio comune. Lo spostamento da un borgo all’altro verrà effettuato con il treno. È comunque consigliato un abbigliamento comodo e l’uso di scarpe sportive. Le escursioni guidate hanno un costo di € 10,00 per persona – Gratuite per i possessori di Cinque Terre Card. In condizione di meteo avverse il calendario potrà subire modifiche. Prenotazione obbligatoria su visiteguidate@ati5terre.it – Tel. 0187 1857573.",
       "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
       "immagine": "",
-      "stato": "in corso",
+      "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "tour-di-vernazza-e-monterosso-vernazza-2026-10-20"
     },
