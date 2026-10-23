@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-10-22T07:13:39Z",
-    "total": 20,
+    "scraped_at": "2026-10-23T07:05:35Z",
+    "total": 26,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -12,6 +12,20 @@
     ]
   },
   "sagre": [
+    {
+      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-01-01",
+      "data_fine": "2026-01-01",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Transumanza A Santo Stefano D'aveto Eventi Folklore Tradizioni Il 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi",
+      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "eventiesagre",
+      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
+    },
     {
       "nome": "E-Bike Tour Levanto – Legnaro – Monterosso A/R",
       "comune": "Cinque Terre Card",
@@ -181,6 +195,48 @@
       "id": "24-10-2026-25-10-2026-2026-10-24"
     },
     {
+      "nome": "Festa de Rustie e Frisceu",
+      "comune": "Ruta",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-24",
+      "data_fine": "2026-10-24",
+      "descrizione": "GE Festa de Rustie e Frisceu ruta di camogli 24/10/2026 Il Comitato festeggiamenti Ruta organizza la Festa de Rustie e Frisceu, un evento che offre castagne e frittelle. Per i più piccoli, è previsto un laboratorio per adornare le zucche, dalle 14:30 alle 17:30, per il quale è consigliata la prenota",
+      "url": "http://www.sagre.liguria.it/event/10825",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "sagreliguria",
+      "id": "festa-de-rustie-e-frisceu-ruta-2026-10-24"
+    },
+    {
+      "nome": "Transumanza A Santo Stefano D'aveto Eventi Folklore Tradizioni Il 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tu",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-25",
+      "data_fine": "2026-10-25",
+      "descrizione": "Transumanza A Santo Stefano D'aveto Eventi Folklore Tradizioni Il 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Transumanza A Santo Stefano D'aveto Eventi Folklore Tradizioni Il 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Re",
+      "url": "https://www.eventiesagre.it/Eventi_Folklore/21195569_Transumanza+A+Santo+Stefano+D+aveto.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "transumanza-a-santo-stefano-d-aveto-eventi-folklore-tradizioni-il-25-10-2026-liguria-santo-stefano-d-aveto-ge-leggi-tu-2026-10-25"
+    },
+    {
+      "nome": "Festa Della Castagna A Ceriana Eventi Sagre Il 25/10/2026 Liguria Ceriana (IM) leggi tutto",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-25",
+      "data_fine": "2026-10-25",
+      "descrizione": "Festa Della Castagna A Ceriana Eventi Sagre Il 25/10/2026 Liguria Ceriana (IM) leggi tutto Transumanza A Santo Stefano D'aveto Eventi Folklore Tradizioni Il 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mes",
+      "url": "https://www.eventiesagre.it/Eventi_Sagre/21195563_Festa+Della+Castagna+A+Ceriana.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "festa-della-castagna-a-ceriana-eventi-sagre-il-25-10-2026-liguria-ceriana-im-leggi-tutto-2026-10-25"
+    },
+    {
       "nome": "Sagra della Farinata di Genova Pegli",
       "comune": "Pegli è una delle occasioni più interessanti per scoprire la farinata",
       "provincia": "GE",
@@ -195,18 +251,18 @@
       "id": "sagra-della-farinata-di-genova-pegli-pegli-e-una-delle-occasioni-piu-interessanti-per-scoprire-la-farinata-2026-10-25"
     },
     {
-      "nome": "Sagra del Subricco di Dego e Castagnata",
+      "nome": "Sagra del Subricco di Dego e Castagnata - 6^ Edizione 2026",
       "comune": "Dego",
       "provincia": "SV",
       "regione": "Liguria",
       "data_inizio": "2026-10-25",
       "data_fine": "2026-10-25",
-      "descrizione": "SV Sagra del Subricco di Dego e Castagnata dego 25/10/2026 La 6^ edizione della Sagra del Subricco e Castagnata di Dego si svolge in Piazza E. Botta. L'evento inizia alle 9:00 con le iscrizioni alla FUN-RUN del SUBRICCO (camminata 5 km o corsa 10 km) con partenza alle 10:00, il cui ricavato di 10€ a",
-      "url": "http://www.sagre.liguria.it/event/10818",
+      "descrizione": "SV Sagra del Subricco di Dego e Castagnata - 6^ Edizione 2026 piazza botta, dego 25/10/2026 La Sagra del Subricco di Dego e Castagnata, giunta alla 6^ edizione, si svolge domenica 25 ottobre in Piazza E. Botta. La giornata inizia alle ore 9:00 con le iscrizioni alla FUN-RUN del SUBRICCO (camminata d",
+      "url": "http://www.sagre.liguria.it/event/10826",
       "immagine": "",
       "stato": "futuro",
       "fonte": "sagreliguria",
-      "id": "sagra-del-subricco-di-dego-e-castagnata-dego-2026-10-25"
+      "id": "sagra-del-subricco-di-dego-e-castagnata-6-edizione-2026-dego-2026-10-25"
     },
     {
       "nome": "25/10/2026",
@@ -221,6 +277,34 @@
       "stato": "futuro",
       "fonte": "sagreliguria",
       "id": "25-10-2026-2026-10-25"
+    },
+    {
+      "nome": "Castagnata degli Alpini a Torriglia",
+      "comune": "Torriglia",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-25",
+      "data_fine": "2026-10-25",
+      "descrizione": "GE 🍴 💃 Castagnata degli Alpini a Torriglia torriglietta, torriglia 25/10/2026 Torriglia prosegue nei festeggiamenti autunnali con la Castagnata a cura del Gruppo Alpini di Torriglia. Appuntamento domenica 25 ottobre 2026 a partire dalle ore 14 presso la Torriglietta con caldarroste, vin brulé e foca",
+      "url": "http://www.sagre.liguria.it/event/10827",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "sagreliguria",
+      "id": "castagnata-degli-alpini-a-torriglia-torriglia-2026-10-25"
+    },
+    {
+      "nome": "Sagra del Subricco di Dego e Castagnata",
+      "comune": "Dego",
+      "provincia": "SV",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-25",
+      "data_fine": "2026-10-25",
+      "descrizione": "SV Sagra del Subricco di Dego e Castagnata dego 25/10/2026 La 6^ edizione della Sagra del Subricco e Castagnata di Dego si svolge in Piazza E. Botta. L'evento inizia alle 9:00 con le iscrizioni alla FUN-RUN del SUBRICCO (camminata 5 km o corsa 10 km) con partenza alle 10:00, il cui ricavato di 10€ a",
+      "url": "http://www.sagre.liguria.it/event/10818",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "sagreliguria",
+      "id": "sagra-del-subricco-di-dego-e-castagnata-dego-2026-10-25"
     },
     {
       "nome": "Ceriana Festa della Castagna \"Festa de Rustìe\"",
