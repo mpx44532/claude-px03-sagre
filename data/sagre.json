@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-10-23T07:05:35Z",
-    "total": 26,
+    "scraped_at": "2026-10-24T06:56:52Z",
+    "total": 27,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -12,20 +12,6 @@
     ]
   },
   "sagre": [
-    {
-      "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-01-01",
-      "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Transumanza A Santo Stefano D'aveto Eventi Folklore Tradizioni Il 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi",
-      "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
-      "immagine": "",
-      "stato": "passato",
-      "fonte": "eventiesagre",
-      "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
-    },
     {
       "nome": "E-Bike Tour Levanto – Legnaro – Monterosso A/R",
       "comune": "Cinque Terre Card",
@@ -148,7 +134,7 @@
       "descrizione": "GE 47ª Sagra della Castagna di Rossiglione in concomitanza con la 32ª edizione di Expo Vallestura rossiglione 24/10/2026 La 47ª Sagra della Castagna di Rossiglione offre 30 quintali di castagne cotte nelle tradizionali padelle giganti. L'evento include l'apertura degli stand dell'Expo Vallestura all",
       "url": "http://www.sagre.liguria.it/event/10779",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "47-sagra-della-castagna-di-rossiglione-in-concomitanza-con-la-32-edizione-di-expo-vallestura-rossiglione-2026-10-24"
     },
@@ -162,7 +148,7 @@
       "descrizione": "24/10/2026",
       "url": "http://www.sagre.liguria.it/",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "24-10-2026-2026-10-24"
     },
@@ -176,7 +162,7 @@
       "descrizione": "GE 🍴 77° SAGRA della FARINATA P.O.P. largo calasetta, genova 24/10/2026 - 25/10/2026 La 77° Sagra della Farinata P.O.P., che sta per Prodotto di Origine Pegliese, offre farinata servita direttamente dai forni a legna dai nostri 'fainotti'. L'evento si svolge dalle 12.00 alle 20.00. Scopri di più",
       "url": "http://www.sagre.liguria.it/event/10802",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "77-sagra-della-farinata-p-o-p-origine-pegliese-2026-10-24"
     },
@@ -190,7 +176,7 @@
       "descrizione": "24/10/2026 - 25/10/2026",
       "url": "http://www.sagre.liguria.it/",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "24-10-2026-25-10-2026-2026-10-24"
     },
@@ -204,23 +190,9 @@
       "descrizione": "GE Festa de Rustie e Frisceu ruta di camogli 24/10/2026 Il Comitato festeggiamenti Ruta organizza la Festa de Rustie e Frisceu, un evento che offre castagne e frittelle. Per i più piccoli, è previsto un laboratorio per adornare le zucche, dalle 14:30 alle 17:30, per il quale è consigliata la prenota",
       "url": "http://www.sagre.liguria.it/event/10825",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "festa-de-rustie-e-frisceu-ruta-2026-10-24"
-    },
-    {
-      "nome": "Transumanza A Santo Stefano D'aveto Eventi Folklore Tradizioni Il 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tu",
-      "comune": "",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-10-25",
-      "data_fine": "2026-10-25",
-      "descrizione": "Transumanza A Santo Stefano D'aveto Eventi Folklore Tradizioni Il 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Transumanza A Santo Stefano D'aveto Eventi Folklore Tradizioni Il 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Re",
-      "url": "https://www.eventiesagre.it/Eventi_Folklore/21195569_Transumanza+A+Santo+Stefano+D+aveto.html",
-      "immagine": "",
-      "stato": "futuro",
-      "fonte": "eventiesagre",
-      "id": "transumanza-a-santo-stefano-d-aveto-eventi-folklore-tradizioni-il-25-10-2026-liguria-santo-stefano-d-aveto-ge-leggi-tu-2026-10-25"
     },
     {
       "nome": "Festa Della Castagna A Ceriana Eventi Sagre Il 25/10/2026 Liguria Ceriana (IM) leggi tutto",
@@ -229,12 +201,26 @@
       "regione": "Liguria",
       "data_inizio": "2026-10-25",
       "data_fine": "2026-10-25",
-      "descrizione": "Festa Della Castagna A Ceriana Eventi Sagre Il 25/10/2026 Liguria Ceriana (IM) leggi tutto Transumanza A Santo Stefano D'aveto Eventi Folklore Tradizioni Il 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mes",
+      "descrizione": "Festa Della Castagna A Ceriana Eventi Sagre Il 25/10/2026 Liguria Ceriana (IM) leggi tutto Festa Della Castagna A Ceriana Eventi Sagre Il 25/10/2026 Liguria Ceriana (IM) leggi tutto Transumanza A Santo Stefano D'aveto Eventi Folklore Tradizioni Il 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi",
       "url": "https://www.eventiesagre.it/Eventi_Sagre/21195563_Festa+Della+Castagna+A+Ceriana.html",
       "immagine": "",
       "stato": "futuro",
       "fonte": "eventiesagre",
       "id": "festa-della-castagna-a-ceriana-eventi-sagre-il-25-10-2026-liguria-ceriana-im-leggi-tutto-2026-10-25"
+    },
+    {
+      "nome": "Transumanza A Santo Stefano D'aveto Eventi Folklore Tradizioni Il 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tu",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-25",
+      "data_fine": "2026-10-25",
+      "descrizione": "Transumanza A Santo Stefano D'aveto Eventi Folklore Tradizioni Il 25/10/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Festa Della Castagna A Ceriana Eventi Sagre Il 25/10/2026 Liguria Ceriana (IM) leggi tutto Transumanza A Santo Stefano D'aveto Eventi Folklore Tradizioni Il 25/10/2026 Liguria",
+      "url": "https://www.eventiesagre.it/Eventi_Folklore/21195569_Transumanza+A+Santo+Stefano+D+aveto.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "transumanza-a-santo-stefano-d-aveto-eventi-folklore-tradizioni-il-25-10-2026-liguria-santo-stefano-d-aveto-ge-leggi-tu-2026-10-25"
     },
     {
       "nome": "Sagra della Farinata di Genova Pegli",
@@ -361,6 +347,34 @@
       "stato": "futuro",
       "fonte": "svdonline",
       "id": "vado-l-castagne-e-focaccette-a-sant-ermete-sant-2026-10-25"
+    },
+    {
+      "nome": "Castagnata",
+      "comune": "Halloween",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-31",
+      "data_fine": "2026-11-01",
+      "descrizione": "GE 🍴 🥩 💃 🎸 🎈 Castagnata neirone 31/10/2026 - 01/11/2026 🌰🎃 DOLCETTO O SCHERZETTO? MA A NEIRONE…c'è anche la CASTAGNATA! 🎃🌰\n\nIl 31 profumi e i sapori della nostra cucina: trofie di castagne, funghi fritti, salsicce, polenta con sugo, crauti dolci e tante altre bontà tutte da gustare! E dopo aver riem",
+      "url": "http://www.sagre.liguria.it/event/10822",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "sagreliguria",
+      "id": "castagnata-halloween-2026-10-31"
+    },
+    {
+      "nome": "31/10/2026 - 01/11/2026",
+      "comune": "",
+      "provincia": "",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-31",
+      "data_fine": "2026-11-01",
+      "descrizione": "31/10/2026 - 01/11/2026",
+      "url": "http://www.sagre.liguria.it/",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "sagreliguria",
+      "id": "31-10-2026-01-11-2026-2026-10-31"
     },
     {
       "nome": "Salta nella località di tuo interesse:",
