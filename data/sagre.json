@@ -1,10 +1,11 @@
 {
   "meta": {
-    "scraped_at": "2026-10-29T08:09:10Z",
-    "total": 10,
+    "scraped_at": "2026-10-30T08:12:14Z",
+    "total": 15,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
+      "scraper.sources.mangiareinliguria",
       "scraper.sources.sagreautentiche",
       "scraper.sources.sagreliguria",
       "scraper.sources.svdonline"
@@ -24,6 +25,48 @@
       "stato": "passato",
       "fonte": "eventiesagre",
       "id": "eventi-e-sagre-regione-liguria-eventi-vari-eventi-regionali-in-liguria-divisi-per-mese-dal-01-01-2026-al-31-12-2026-ligu-2026-01-01"
+    },
+    {
+      "nome": "Tour di Corniglia",
+      "comune": "Corniglia",
+      "provincia": "SP",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-19",
+      "data_fine": "2026-10-19",
+      "descrizione": "Lunedì 19 Ottobre 2026Ritrovo: Corniglia Cinque Terre Point Stazione, ore 16.30 – Durata del Tour: circa 3 ore – Difficoltà: Facile e adatto a tutti. L’appuntamento con la guida è alla stazione di Corniglia, presso il Cinque Terre Info Point e da qui inizierete la visita percorrendo la “Lardarina”, la famosa scalinata di 377 scalini che vi porterà in paese. Qui la vostra guida vi accompagnerà alla scoperta delle bellezze storico, artistico e culturali del borgo. Il tour è di livello semplice in quanto non è prevista la percorrenza di sentieri da trekking. È comunque consigliato un abbigliamento comodo e l’uso di scarpe sportive. Le escursioni guidate hanno un costo di € 10,00 per persona – Gratuite per i possessori di Cinque Terre Card. In condizione di meteo avverse il calendario potrà subire modifiche. Prenotazione obbligatoria visiteguidate@ati5terre.it – Tel. 0187 1857573.",
+      "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "mangiareinliguria",
+      "id": "tour-di-corniglia-corniglia-2026-10-19"
+    },
+    {
+      "nome": "Zucca in Piazza a Rocchetta di Cengio",
+      "comune": "Zucca in Piazza",
+      "provincia": "SV",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-19",
+      "data_fine": "2026-10-19",
+      "descrizione": "Dal 17 al 19 ottobre 2026, la frazione di Rocchetta di Cengio ospita la 22° edizione di Zucca in Piazza, tradizionale evento che celebra una delle verdure più versatili della cucina italiana e gli altri prodotti d’eccellenza della Valle Bormida. La preziosa cucurbita, riconosciuta da una vera e propria carta d’identità che ne testimonia la provenienza e le peculiarità, è stata inoltre incoronata “eccellenza enogastronomica del territorio” dal Premio Piccolo Comune Amico, conferito al Borgo della Zucca di Rocchetta di Cengio.Il programmaSabatosi partirà con l’immancabile rito del ritiro, pesatura, piombatura e registrazione delle zucche di Rocchetta che aprirà l’edizione 2026 di Zucca in Piazza.Domenicavia al Mercato della Terra di Cairo Montenotte, con i produttori di Buone Terre e i diversi presidi liguri animeranno il borgo della riviera delle palme, offrendo ai presenti l’imperdibile occasione di conoscere tecniche e segreti delle diverse coltivazioni. Molte le degustazioni, gli show cooking e altre imperdibili iniziative dedicate a grandi e piccini. Info suFacebook.com",
+      "url": "https://www.facebook.com/cengioborgodellazucca",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "mangiareinliguria",
+      "id": "zucca-in-piazza-a-rocchetta-di-cengio-zucca-in-piazza-2026-10-19"
+    },
+    {
+      "nome": "Tour di Vernazza e Monterosso",
+      "comune": "Vernazza",
+      "provincia": "SP",
+      "regione": "Liguria",
+      "data_inizio": "2026-10-20",
+      "data_fine": "2026-10-20",
+      "descrizione": "Martedì 20 Ottobre 2026Ritrovo: Vernazza Cinque Terre Point Stazione, ore 9.30 – Durata del Tour: circa 3 ore – Difficoltà: Facile e adatto a tutti. L’appuntamento con la guida è alla stazione di Vernazza, presso il Cinque Terre Info Point. La vostra guida vi porterà alla scoperta di Vernazza e Monterosso spiegando le origini e le caratteristiche dei due borghi per comprenderne i loro punti di contatto e le differenze all’interno di un territorio comune. Lo spostamento da un borgo all’altro verrà effettuato con il treno. È comunque consigliato un abbigliamento comodo e l’uso di scarpe sportive. Le escursioni guidate hanno un costo di € 10,00 per persona – Gratuite per i possessori di Cinque Terre Card. In condizione di meteo avverse il calendario potrà subire modifiche. Prenotazione obbligatoria su visiteguidate@ati5terre.it – Tel. 0187 1857573.",
+      "url": "https://www.mangiareinliguria.it/eventi-sagre-liguri/sagre-eventi-in-liguria",
+      "immagine": "",
+      "stato": "passato",
+      "fonte": "mangiareinliguria",
+      "id": "tour-di-vernazza-e-monterosso-vernazza-2026-10-20"
     },
     {
       "nome": "Castagnata",
@@ -150,6 +193,34 @@
       "stato": "futuro",
       "fonte": "sagreliguria",
       "id": "01-11-2026-01-11-2026-2026-11-01"
+    },
+    {
+      "nome": "Olioliva: assaggia l’olio nuovo a Imperia",
+      "comune": "",
+      "provincia": "IM",
+      "regione": "Liguria",
+      "data_inizio": "2026-11-08",
+      "data_fine": "2026-11-08",
+      "descrizione": "Olioliva a Imperiadal 6 all’8 novembre 2026è uno degli appuntamenti più attesi dell’autunno ligure, dedicato a uno dei prodotti enogastronomici che sono ambasciatori della Liguria:l’olio extra vergine di oliva appena franto. Olioliva si svolge annualmente, all’inizio di novembre, nel centro storico di Imperia Oneglia per celebrare l’oro del ponente ligure, l’olio d’oliva appena franto. Quest’anno la manifestazione arriva alla sua 26° edizione.Cos’è Olioliva a Imperia?Dal 6 all’8 novembre 2026 le strade del centro di Oneglia saranno invase dal profumo piccante e balsamico dell’olio e negli stand e nelle bancarelle con prodotti alimentari tipici, si potrà assaggiare il nettare delle colline imperiesi. Olioliva ha saputo raccontare l’identità di un’area attraverso l’olivicoltura, unendo radici storiche e visione innovativa. La grande festa dell’olio nuovo e delle eccellenze liguri trasforma ogni anno Imperia in un vivace palcoscenico, dedicato ai sapori e alle tradizioni locali.Il programmaTre giorni di degustazioni; assaggi; visite a oliveti, frantoi e aziende agricole del territorio; laboratori creativi e di cucina; convegni e incontri; workshop; tour dell’entroterra e tanti altri eventi collaterali. Al centro la preziosa Oliva Taggiasca ligure, simbolo di qualità, tradizione e identità del territorio, che ha recentemente ottenuto il marchio IGP. Ad Imperia una ricca selezione di prodotti tipici, tradizioni e sapori provenienti da tutto il territorio regionale.Facebook.com/OliolivaImperia",
+      "url": "https://www.facebook.com/OliolivaImperia",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "mangiareinliguria",
+      "id": "olioliva-assaggia-l-olio-nuovo-a-imperia-2026-11-08"
+    },
+    {
+      "nome": "Salta nella località di tuo interesse:",
+      "comune": "Imperia",
+      "provincia": "",
+      "regione": "Liguria",
+      "data_inizio": "2026-12-08",
+      "data_fine": "2026-12-08",
+      "descrizione": "Provincia di Genova–Provincia della Spezia–Provincia di Savona–Provincia di Imperia Appuntamenti a Genova e ProvinciaGenova, 10 cose da non perdere assolutamente“OPEN DAY IN ITS TURISMO LIGURIA A CHIAVAARI”Conoscere le professioni del turismo attraverso l’esperienza diretta, interattiva e 4.0: ecco la formula magica di ITS Turismo Liguria chelunedì 2 novembre, alle ore 14:00, apre le porte della sede formativa di Chiavari, in Salita Gianelli 6, per un open day dedicato a chi sta valutando l’iscrizione a uno dei suoi corsi biennali di alta formazione. Non una presentazione tradizionale, ma un pomeriggio costruito attorno ad attività laboratoriali ad alto contenuto tecnologico. Infatti, i partecipanti potranno lavorare in piccoli gruppi insieme a docenti e tutor, sperimentare i contenuti dei percorsi e comprendere concretamente che cosa significa frequentare un ITS dedicato al turismo del futuro: dalla realtà aumentata con i visori, ai progetti guidati dalla AI fino al poter “toccare con mano” le nuove attrezzature tecnologiche e i laboratori dedicati al benessere e alle attività di degustazione.Il programma prevede una breve introduzione del team di ITS che illustrerà la visione dell’Istituto, le prospettive del settore turistico in Liguria e i tre percorsi biennali aperti alle iscrizioni:●\tEvent Manager, dedicato all’organizzazione, progettazione e alla gestione di eventi●\tFood & Beverage Manager, focalizzato sulla ristorazione e sulla gestione della sala●\tGestore di strutture turistico-ricettive, dedicato all’ospitalità e alla gestione operativa delle strutture.Durante il pomeriggio, lo staff dell’ITS sarà a disposizione per rispondere alle domande su programmi, durata dei corsi, stage, diploma finale e sbocchi professionali e per assistere gli interessati nella procedura di iscrizione. Inoltre, sarà possibile interagire con professionisti ed esperti del settore che racconteranno le esigenze del mercato turistico in generale e del comparto specifico ligure, spunti diretti da cui parte la creazione dei corsi di ITS Turismo Liguria. Sarà inoltre possibile provare il quiz di orientamento, uno strumento per esplorare i propri interessi e orientarsi tra i percorsi proposti in maniera autonoma e interattiva.L’ingresso è gratuito. Per partecipare è possibile iscriversi attraverso ilModulo di iscrizione“Wild Horsewatching”Proseguono gli appuntamenti domenicali con le escursioni guidate di Wild Horsewatching per osservare da vicino i cavalli selvaggi del Parco dell’Aveto: un’esperienza unica in Italia. Dettagli e calendario completo suUnamontagnadiaccoglienza.it. Info e prenotazioni: Tel. 347 3819 395 – icavalliselvaggidellaveto@gmail.com“World Press Photo Exhibition 2026 a Genova”La World Press Photo Exhibition 2026 arriva a Genova e sarà ospitata negli spazi del Palazzo Ducalefino all’8 dicembre 2026. Una mostra internazionale di fotogiornalismo e fotografia documentaria che, attraverso immagini reali e potenti, racconta i temi più urgenti del nostro tempo.Cos’è la World Press Photo ExhibitionLa World Press Photo Exhibition è una delle più importanti mostre internazionali dedicate al fotogiornalismo e alla fotografia documentaria, un appuntamento imperdibile per chi visita Genova e desidera scoprire il mondo attraverso immagini autentiche e potenti. Non è solo una mostra, ma un vero e proprio viaggio visivo tra storie, volti e realtà che raccontano il nostro tempo, invitando a fermarsi, osservare e riflettere. Per maggiori informazioni:Worldpressphoto.org“Recco Sup Wave Contest 2026”Dal 1 ottobre al 30 novembre 2026il Recco Sup Wave Contest porta sulla costa del Golfo Paradiso una disciplina spettacolare, dove tecnica, equilibrio e capacità di leggere il mare si incontrano in una sfida tutta da vivere sulla costa ligure. Valido per il Campionato Italiano di Categoria di SUP Surfing 2026, la competizione porta sulla costa ligure gli specialisti della disciplina, che si sfideranno sulle onde mettendo alla prova tecnica, equilibrio e controllo della tavola. Il SUP Surfing unisce infatti gli elementi del surf all’utilizzo della pagaia, dando vita a una disciplina dinamica e spettacolare. Per il pubblico, l’appuntamento rappresenta anche un’occasione per vivere il mare di Recco e scoprire il territorio del Golfo Paradiso, tra sport, spiagge e panorami del Levante ligure. Per maggiori info!:Facebook.com“58° edizione del Premio Paganini”Ottobre Paganini è la grande rassegna culturale diffusa ideata dal Comune di Genova per celebrare la figura, la storia e l’eredità artistica di Niccolò Paganini. L’evento si svolgedal 2 ottobre all’8 novembre 2026, segnando l’evoluzione dello storico Paganini Genova Festival in un progetto stabile e continuativo finalizzato a valorizzare il legame indissolubile tra la città ed il celebre violinista.Che cos’è Ottobre PaganiniOttobre Paganini è un festival diffuso sul territorio. Gli appuntamenti superano i confini dei teatri tradizionali del centro storico per toccare diversi quartieri di Genova, raggiungendo il Ponente cittadino fino ad aree come il Teatro Verdi di Sestri Ponente ed il Teatro Akropolis.Il programmaIl programma include concerti, masterclass di livello internazionale, percorsi di approfondimento e incontri dedicati alla formazione artistica. Le performance musicali e le attività educative sono affiancate da flash mob, laboratori ludici per bambini ed happening itineranti nelle piazze o nelle stazioni ferroviarie.In cartellone:– Concerti dei tre vincitori del Premio Paganini: Kevin Zhu (2018), Giuseppe Gibboni (2021) e Giovanni Angeleri (1997).– Esecuzione integrale per chitarra delle 38 Sonate per chitarra sola di Paganini, divisa in quattro serate– Itinerari suggestivi nei luoghi del musicistaInfo:Visitgenoa.itAppuntamenti a La Spezia e ProvinciaLe più belle località turistiche da visitare in provincia della Spezia“Tour di Corniglia”Lunedì 19 Ottobre 2026Ritrovo: Corniglia Cinque Terre Point Stazione, ore 16.30 – Durata del Tour: circa 3 ore – Difficoltà: Facile e adatto a tutti. L’appuntamento con la guida è alla stazione di Corniglia, presso il Cinque Terre Info Point e da qui inizierete la visita percorrendo la “Lardarina”, la famosa scalinata di 377 scalini che vi porterà in paese. Qui la vostra guida vi accompagnerà alla scoperta delle bellezze storico, artistico e culturali del borgo. Il tour è di livello semplice in quanto non è prevista la percorrenza di sentieri da trekking. È comunque consigliato un abbigliamento comodo e l’uso di scarpe sportive. Le escursioni guidate hanno un costo di € 10,00 per persona – Gratuite per i possessori di Cinque Terre Card. In condizione di meteo avverse il calendario potrà subire modifiche. Prenotazione obbligatoria visiteguidate@ati5terre.it – Tel. 0187 1857573.“Tour di Vernazza e Monterosso”Martedì 20 Ottobre 2026Ritrovo: Vernazza Cinque Terre Point Stazione, ore 9.30 – Durata del Tour: circa 3 ore – Difficoltà: Facile e adatto a tutti. L’appuntamento con la guida è alla stazione di Vernazza, presso il Cinque Terre Info Point. La vostra guida vi porterà alla scoperta di Vernazza e Monterosso spiegando le origini e le caratteristiche dei due borghi per comprenderne i loro punti di contatto e le differenze all’interno di un territorio comune. Lo spostamento da un borgo all’altro verrà effettuato con il treno. È comunque consigliato un abbigliamento comodo e l’uso di scarpe sportive. Le escursioni guidate hanno un costo di € 10,00 per persona – Gratuite per i possessori di Cinque Terre Card. In condizione di meteo avverse il calendario potrà subire modifiche. Prenotazione obbligatoria su visiteguidate@ati5terre.it – Tel. 0187 1857573.Appuntamenti a Savona e ProvinciaLe più belle località turistiche da visitare in provincia di Savona“Zucca in Piazza a Rocchetta di Cengio”Dal 17 al 19 ottobre 2026, la frazione di Rocchetta di Cengio ospita la 22° edizione di Zucca in Piazza, tradizionale evento che celebra una delle verdure più versatili della cucina italiana e gli altri prodotti d’eccellenza della Valle Bormida. La preziosa cucurbita, riconosciuta da una vera e propria carta d’identità che ne testimonia la provenienza e le peculiarità, è stata inoltre incoronata “eccellenza enogastronomica del territorio” dal Premio Piccolo Comune Amico, conferito al Borgo della Zucca di Rocchetta di Cengio.Il programmaSabatosi partirà con l’immancabile rito del ritiro, pesatura, piombatura e registrazione delle zucche di Rocchetta che aprirà l’edizione 2026 di Zucca in Piazza.Domenicavia al Mercato della Terra di Cairo Montenotte, con i produttori di Buone Terre e i diversi presidi liguri animeranno il borgo della riviera delle palme, offrendo ai presenti l’imperdibile occasione di conoscere tecniche e segreti delle diverse coltivazioni. Molte le degustazioni, gli show cooking e altre imperdibili iniziative dedicate a grandi e piccini. Info suFacebook.comAppuntamenti a Imperia e ProvinciaLe più belle località turistiche da visitare in provincia di Imperia“Premio Tenco: la grande musica d’autore a Sanremo”Dal 21 al 24 ottobre 2026la 48ª edizione del Premio Tenco porta la grande musica d’autore al Teatro Ariston di Sanremo, riconfermando la sede del Premio Tenco, la Rassegna italiana della Canzone d’Autore dedicata a Luigi Tenco, il cantautore scomparso tragicamente durante il Festival del 1967. Resta aggiornato suClubtenco.it“Olioliva: assaggia l’olio nuovo a Imperia”Olioliva a Imperiadal 6 all’8 novembre 2026è uno degli appuntamenti più attesi dell’autunno ligure, dedicato a uno dei prodotti enogastronomici che sono ambasciatori della Liguria:l’olio extra vergine di oliva appena franto. Olioliva si svolge annualmente, all’inizio di novembre, nel centro storico di Imperia Oneglia per celebrare l’oro del ponente ligure, l’olio d’oliva appena franto. Quest’anno la manifestazione arriva alla sua 26° edizione.Cos’è Olioliva a Imperia?Dal 6 all’8 novembre 2026 le strade del centro di Oneglia saranno invase dal profumo piccante e balsamico dell’olio e negli stand e nelle bancarelle con prodotti alimentari tipici, si potrà assaggiare il nettare delle colline imperiesi. Olioliva ha saputo raccontare l’identità di un’area attraverso l’olivicoltura, unendo radici storiche e visione innovativa. La grande festa dell’olio nuovo e delle eccellenze liguri trasforma ogni anno Imperia in un vivace palcoscenico, dedicato ai sapori e alle tradizioni locali.Il programmaTre giorni di degustazioni; assaggi; visite a oliveti, frantoi e aziende agricole del territorio; laboratori creativi e di cucina; convegni e incontri; workshop; tour dell’entroterra e tanti altri eventi collaterali. Al centro la preziosa Oliva Taggiasca ligure, simbolo di qualità, tradizione e identità del territorio, che ha recentemente ottenuto il marchio IGP. Ad Imperia una ricca selezione di prodotti tipici, tradizioni e sapori provenienti da tutto il territorio regionale.Facebook.com/OliolivaImperia",
+      "url": "#genova",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "mangiareinliguria",
+      "id": "salta-nella-localita-di-tuo-interesse-imperia-2026-12-08"
     }
   ]
 }
