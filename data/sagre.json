@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-10-30T08:12:14Z",
-    "total": 15,
+    "scraped_at": "2026-10-31T08:05:08Z",
+    "total": 16,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -78,7 +78,7 @@
       "descrizione": "GE 🍴 🥩 💃 🎸 🎈 Castagnata neirone 31/10/2026 - 01/11/2026 🌰🎃 DOLCETTO O SCHERZETTO? MA A NEIRONE…c'è anche la CASTAGNATA! 🎃🌰\n\nIl 31 profumi e i sapori della nostra cucina: trofie di castagne, funghi fritti, salsicce, polenta con sugo, crauti dolci e tante altre bontà tutte da gustare! E dopo aver riem",
       "url": "http://www.sagre.liguria.it/event/10822",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "castagnata-halloween-2026-10-31"
     },
@@ -92,7 +92,7 @@
       "descrizione": "31/10/2026 - 01/11/2026",
       "url": "http://www.sagre.liguria.it/",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "31-10-2026-01-11-2026-2026-10-31"
     },
@@ -106,7 +106,7 @@
       "descrizione": "IM Halloween a Costarainera costarainera 31/10/2026 Evento di Halloween a Costarainera che si svolge il 31 ottobre. La giornata inizia alle 12:00 con l'apertura degli stand di street food e dalle 14:00 con giochi gonfiabili gratuiti per tutti i bambini. Alle 16:00 è previsto un ritrovo in piazza con",
       "url": "http://www.sagre.liguria.it/event/10835",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "halloween-a-costarainera-costarainera-2026-10-31"
     },
@@ -120,7 +120,7 @@
       "descrizione": "31/10/2026",
       "url": "http://www.sagre.liguria.it/",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "31-10-2026-2026-10-31"
     },
@@ -134,7 +134,7 @@
       "descrizione": "GE 🍴 🥩 🍷 💃 NEIRONE CASTAGNATA neirone 31/10/2026 - 01/11/2026 La Castagnata di Neirone si tiene il 31 ottobre e il 1 novembre. Gli stand gastronomici aprono alle 12:30 entrambi i giorni, offrendo specialità come trofie di castagne, funghi fritti, salsicce, crauti e patatine, torte. Il sabato si aggi",
       "url": "http://www.sagre.liguria.it/event/10836",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "neirone-castagnata-neirone-2026-10-31"
     },
@@ -148,7 +148,7 @@
       "descrizione": "GE Castagnata di Halloween piazza settembrini, genova (sampierdarena) 31/10/2026 Una castagnata a tema Halloween con caldarroste, vin brulé, focaccia con crema di cioccolato, mercatini e musica. L'evento si svolge dalle ore 15:00 alle ore 19:00. Scopri di più",
       "url": "http://www.sagre.liguria.it/event/10837",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "castagnata-di-halloween-halloween-2026-10-31"
     },
@@ -162,7 +162,7 @@
       "descrizione": "GE 31 OTTOBRE IN VILLA BORZINO villa borzino, busalla 31/10/2026 Evento di Halloween con cena a buffet al costo di 30€ (prenotazione obbligatoria), stanze dell'orrore, DJ set e drink. L'evento inizia alle ore 20:30 ed è riservato ai soli maggiorenni. Le prenotazioni si effettuano tramite Eventbrite",
       "url": "http://www.sagre.liguria.it/event/10838",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "31-ottobre-in-villa-borzino-halloween-2026-10-31"
     },
@@ -176,7 +176,7 @@
       "descrizione": "31/10/2026 - 31/10/2026",
       "url": "http://www.sagre.liguria.it/",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "31-10-2026-31-10-2026-2026-10-31"
     },
@@ -193,6 +193,20 @@
       "stato": "futuro",
       "fonte": "sagreliguria",
       "id": "01-11-2026-01-11-2026-2026-11-01"
+    },
+    {
+      "nome": "07/11/2026 - 15/11/2026",
+      "comune": "",
+      "provincia": "",
+      "regione": "Liguria",
+      "data_inizio": "2026-11-07",
+      "data_fine": "2026-11-15",
+      "descrizione": "07/11/2026 - 15/11/2026",
+      "url": "http://www.sagre.liguria.it/",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "sagreliguria",
+      "id": "07-11-2026-15-11-2026-2026-11-07"
     },
     {
       "nome": "Olioliva: assaggia l’olio nuovo a Imperia",
