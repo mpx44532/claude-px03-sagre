@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-10-31T08:05:08Z",
-    "total": 16,
+    "scraped_at": "2026-11-01T08:51:15Z",
+    "total": 11,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -97,34 +97,6 @@
       "id": "31-10-2026-01-11-2026-2026-10-31"
     },
     {
-      "nome": "Halloween a Costarainera",
-      "comune": "Costarainera",
-      "provincia": "IM",
-      "regione": "Liguria",
-      "data_inizio": "2026-10-31",
-      "data_fine": "2026-10-31",
-      "descrizione": "IM Halloween a Costarainera costarainera 31/10/2026 Evento di Halloween a Costarainera che si svolge il 31 ottobre. La giornata inizia alle 12:00 con l'apertura degli stand di street food e dalle 14:00 con giochi gonfiabili gratuiti per tutti i bambini. Alle 16:00 è previsto un ritrovo in piazza con",
-      "url": "http://www.sagre.liguria.it/event/10835",
-      "immagine": "",
-      "stato": "in corso",
-      "fonte": "sagreliguria",
-      "id": "halloween-a-costarainera-costarainera-2026-10-31"
-    },
-    {
-      "nome": "31/10/2026",
-      "comune": "",
-      "provincia": "",
-      "regione": "Liguria",
-      "data_inizio": "2026-10-31",
-      "data_fine": "2026-10-31",
-      "descrizione": "31/10/2026",
-      "url": "http://www.sagre.liguria.it/",
-      "immagine": "",
-      "stato": "in corso",
-      "fonte": "sagreliguria",
-      "id": "31-10-2026-2026-10-31"
-    },
-    {
       "nome": "NEIRONE CASTAGNATA",
       "comune": "Neirone",
       "provincia": "GE",
@@ -139,48 +111,6 @@
       "id": "neirone-castagnata-neirone-2026-10-31"
     },
     {
-      "nome": "Castagnata di Halloween",
-      "comune": "Halloween",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-10-31",
-      "data_fine": "2026-10-31",
-      "descrizione": "GE Castagnata di Halloween piazza settembrini, genova (sampierdarena) 31/10/2026 Una castagnata a tema Halloween con caldarroste, vin brulé, focaccia con crema di cioccolato, mercatini e musica. L'evento si svolge dalle ore 15:00 alle ore 19:00. Scopri di più",
-      "url": "http://www.sagre.liguria.it/event/10837",
-      "immagine": "",
-      "stato": "in corso",
-      "fonte": "sagreliguria",
-      "id": "castagnata-di-halloween-halloween-2026-10-31"
-    },
-    {
-      "nome": "31 OTTOBRE IN VILLA BORZINO",
-      "comune": "Halloween",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-10-31",
-      "data_fine": "2026-10-31",
-      "descrizione": "GE 31 OTTOBRE IN VILLA BORZINO villa borzino, busalla 31/10/2026 Evento di Halloween con cena a buffet al costo di 30€ (prenotazione obbligatoria), stanze dell'orrore, DJ set e drink. L'evento inizia alle ore 20:30 ed è riservato ai soli maggiorenni. Le prenotazioni si effettuano tramite Eventbrite",
-      "url": "http://www.sagre.liguria.it/event/10838",
-      "immagine": "",
-      "stato": "in corso",
-      "fonte": "sagreliguria",
-      "id": "31-ottobre-in-villa-borzino-halloween-2026-10-31"
-    },
-    {
-      "nome": "31/10/2026 - 31/10/2026",
-      "comune": "",
-      "provincia": "",
-      "regione": "Liguria",
-      "data_inizio": "2026-10-31",
-      "data_fine": "2026-10-31",
-      "descrizione": "31/10/2026 - 31/10/2026",
-      "url": "http://www.sagre.liguria.it/",
-      "immagine": "",
-      "stato": "in corso",
-      "fonte": "sagreliguria",
-      "id": "31-10-2026-31-10-2026-2026-10-31"
-    },
-    {
       "nome": "01/11/2026 - 01/11/2026",
       "comune": "",
       "provincia": "",
@@ -190,7 +120,7 @@
       "descrizione": "01/11/2026 - 01/11/2026",
       "url": "http://www.sagre.liguria.it/",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "01-11-2026-01-11-2026-2026-11-01"
     },
