@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-11-01T08:51:15Z",
-    "total": 11,
+    "scraped_at": "2026-11-02T08:58:36Z",
+    "total": 7,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -67,62 +67,6 @@
       "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "tour-di-vernazza-e-monterosso-vernazza-2026-10-20"
-    },
-    {
-      "nome": "Castagnata",
-      "comune": "Halloween",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-10-31",
-      "data_fine": "2026-11-01",
-      "descrizione": "GE 🍴 🥩 💃 🎸 🎈 Castagnata neirone 31/10/2026 - 01/11/2026 🌰🎃 DOLCETTO O SCHERZETTO? MA A NEIRONE…c'è anche la CASTAGNATA! 🎃🌰\n\nIl 31 profumi e i sapori della nostra cucina: trofie di castagne, funghi fritti, salsicce, polenta con sugo, crauti dolci e tante altre bontà tutte da gustare! E dopo aver riem",
-      "url": "http://www.sagre.liguria.it/event/10822",
-      "immagine": "",
-      "stato": "in corso",
-      "fonte": "sagreliguria",
-      "id": "castagnata-halloween-2026-10-31"
-    },
-    {
-      "nome": "31/10/2026 - 01/11/2026",
-      "comune": "",
-      "provincia": "",
-      "regione": "Liguria",
-      "data_inizio": "2026-10-31",
-      "data_fine": "2026-11-01",
-      "descrizione": "31/10/2026 - 01/11/2026",
-      "url": "http://www.sagre.liguria.it/",
-      "immagine": "",
-      "stato": "in corso",
-      "fonte": "sagreliguria",
-      "id": "31-10-2026-01-11-2026-2026-10-31"
-    },
-    {
-      "nome": "NEIRONE CASTAGNATA",
-      "comune": "Neirone",
-      "provincia": "GE",
-      "regione": "Liguria",
-      "data_inizio": "2026-10-31",
-      "data_fine": "2026-11-01",
-      "descrizione": "GE 🍴 🥩 🍷 💃 NEIRONE CASTAGNATA neirone 31/10/2026 - 01/11/2026 La Castagnata di Neirone si tiene il 31 ottobre e il 1 novembre. Gli stand gastronomici aprono alle 12:30 entrambi i giorni, offrendo specialità come trofie di castagne, funghi fritti, salsicce, crauti e patatine, torte. Il sabato si aggi",
-      "url": "http://www.sagre.liguria.it/event/10836",
-      "immagine": "",
-      "stato": "in corso",
-      "fonte": "sagreliguria",
-      "id": "neirone-castagnata-neirone-2026-10-31"
-    },
-    {
-      "nome": "01/11/2026 - 01/11/2026",
-      "comune": "",
-      "provincia": "",
-      "regione": "Liguria",
-      "data_inizio": "2026-11-01",
-      "data_fine": "2026-11-01",
-      "descrizione": "01/11/2026 - 01/11/2026",
-      "url": "http://www.sagre.liguria.it/",
-      "immagine": "",
-      "stato": "in corso",
-      "fonte": "sagreliguria",
-      "id": "01-11-2026-01-11-2026-2026-11-01"
     },
     {
       "nome": "07/11/2026 - 15/11/2026",
