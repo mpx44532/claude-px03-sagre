@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-11-05T09:05:37Z",
-    "total": 7,
+    "scraped_at": "2026-11-06T08:59:18Z",
+    "total": 9,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -15,11 +15,11 @@
     {
       "nome": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Ligu",
       "comune": "",
-      "provincia": "",
+      "provincia": "GE",
       "regione": "Liguria",
       "data_inizio": "2026-01-01",
       "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto La Fiera Di San Damaso A Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 13/12/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Lig",
       "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
       "immagine": "",
       "stato": "passato",
@@ -97,6 +97,20 @@
       "id": "olioliva-assaggia-l-olio-nuovo-a-imperia-2026-11-08"
     },
     {
+      "nome": "Natale A Santo Eventi Vari Ed. 2026 Dal 05/12/2026 Al 06/01/2027 Liguria Santo Stefano D'aveto (GE) leggi tutto",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-12-05",
+      "data_fine": "2026-12-05",
+      "descrizione": "Natale A Santo Eventi Vari Ed. 2026 Dal 05/12/2026 Al 06/01/2027 Liguria Santo Stefano D'aveto (GE) leggi tutto La Fiera Di San Damaso A Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 13/12/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Reg",
+      "url": "https://www.eventiesagre.it/Eventi_Vari/21195575_Natale+A+Santo.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "natale-a-santo-eventi-vari-ed-2026-dal-05-12-2026-al-06-01-2027-liguria-santo-stefano-d-aveto-ge-leggi-tutto-2026-12-05"
+    },
+    {
       "nome": "Salta nella località di tuo interesse:",
       "comune": "Imperia",
       "provincia": "",
@@ -109,6 +123,20 @@
       "stato": "futuro",
       "fonte": "mangiareinliguria",
       "id": "salta-nella-localita-di-tuo-interesse-imperia-2026-12-08"
+    },
+    {
+      "nome": "La Fiera Di San Damaso A Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 13/12/2026 Liguria Santo Stefano D'aveto (G",
+      "comune": "",
+      "provincia": "GE",
+      "regione": "Liguria",
+      "data_inizio": "2026-12-13",
+      "data_fine": "2026-12-13",
+      "descrizione": "La Fiera Di San Damaso A Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 13/12/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto La Fiera Di San Damaso A Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 13/12/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Liguria",
+      "url": "https://www.eventiesagre.it/Eventi_Fiere/21188170_La+Fiera+Di+San+Damaso+A+Santo+Stefano+D+aveto.html",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "eventiesagre",
+      "id": "la-fiera-di-san-damaso-a-santo-stefano-d-aveto-eventi-fiere-edizione-2026-il-13-12-2026-liguria-santo-stefano-d-aveto-g-2026-12-13"
     }
   ]
 }
