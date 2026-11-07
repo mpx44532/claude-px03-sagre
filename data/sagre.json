@@ -1,6 +1,6 @@
 {
   "meta": {
-    "scraped_at": "2026-11-06T08:59:18Z",
+    "scraped_at": "2026-11-07T08:27:52Z",
     "total": 9,
     "sources": [
       "scraper.sources.eventiesagre",
@@ -19,7 +19,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-01-01",
       "data_fine": "2026-01-01",
-      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto La Fiera Di San Damaso A Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 13/12/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Lig",
+      "descrizione": "Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divisi Per Mese Dal 01/01/2026 Al 31/12/2026 Liguria () leggi tutto Natale A Santo Eventi Vari Ed. 2026 Dal 05/12/2026 Al 06/01/2027 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi",
       "url": "https://www.eventiesagre.it/Eventi_Vari/21150970_Eventi+E+Sagre+Regione+Liguria.html",
       "immagine": "",
       "stato": "passato",
@@ -78,7 +78,7 @@
       "descrizione": "07/11/2026 - 15/11/2026",
       "url": "http://www.sagre.liguria.it/",
       "immagine": "",
-      "stato": "futuro",
+      "stato": "in corso",
       "fonte": "sagreliguria",
       "id": "07-11-2026-15-11-2026-2026-11-07"
     },
@@ -103,7 +103,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-12-05",
       "data_fine": "2026-12-05",
-      "descrizione": "Natale A Santo Eventi Vari Ed. 2026 Dal 05/12/2026 Al 06/01/2027 Liguria Santo Stefano D'aveto (GE) leggi tutto La Fiera Di San Damaso A Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 13/12/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Reg",
+      "descrizione": "Natale A Santo Eventi Vari Ed. 2026 Dal 05/12/2026 Al 06/01/2027 Liguria Santo Stefano D'aveto (GE) leggi tutto Natale A Santo Eventi Vari Ed. 2026 Dal 05/12/2026 Al 06/01/2027 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Regionali In Liguria Divis",
       "url": "https://www.eventiesagre.it/Eventi_Vari/21195575_Natale+A+Santo.html",
       "immagine": "",
       "stato": "futuro",
@@ -131,7 +131,7 @@
       "regione": "Liguria",
       "data_inizio": "2026-12-13",
       "data_fine": "2026-12-13",
-      "descrizione": "La Fiera Di San Damaso A Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 13/12/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto La Fiera Di San Damaso A Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 13/12/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Liguria",
+      "descrizione": "La Fiera Di San Damaso A Santo Stefano D'aveto Eventi Fiere Edizione 2026 Il 13/12/2026 Liguria Santo Stefano D'aveto (GE) leggi tutto Natale A Santo Eventi Vari Ed. 2026 Dal 05/12/2026 Al 06/01/2027 Liguria Santo Stefano D'aveto (GE) leggi tutto Eventi E Sagre Regione Liguria Eventi Vari Eventi Reg",
       "url": "https://www.eventiesagre.it/Eventi_Fiere/21188170_La+Fiera+Di+San+Damaso+A+Santo+Stefano+D+aveto.html",
       "immagine": "",
       "stato": "futuro",
