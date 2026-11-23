@@ -1,7 +1,7 @@
 {
   "meta": {
-    "scraped_at": "2026-11-22T09:27:24Z",
-    "total": 5,
+    "scraped_at": "2026-11-23T10:24:54Z",
+    "total": 6,
     "sources": [
       "scraper.sources.eventiesagre",
       "scraper.sources.lamialiguria",
@@ -39,6 +39,20 @@
       "stato": "passato",
       "fonte": "mangiareinliguria",
       "id": "trekking-escursioni-ed-eventi-outdoor-zucca-in-piazza-2026-11-15"
+    },
+    {
+      "nome": "29/11/2026 - 29/11/2026",
+      "comune": "",
+      "provincia": "",
+      "regione": "Liguria",
+      "data_inizio": "2026-11-29",
+      "data_fine": "2026-11-29",
+      "descrizione": "29/11/2026 - 29/11/2026",
+      "url": "http://www.sagre.liguria.it/",
+      "immagine": "",
+      "stato": "futuro",
+      "fonte": "sagreliguria",
+      "id": "29-11-2026-29-11-2026-2026-11-29"
     },
     {
       "nome": "Salta nella località di tuo interesse:",
